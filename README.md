@@ -11,5 +11,5 @@ coding brothers only
 | :--------: | :----------------------------------------------------------- | --------------- | --------------------------- |
 | 10/08/2021 |                                                              |                 |                             |
 | 10/09/2021 |                                                              |                 |                             |
-| 10/10/2021 | [Rotate Image](./new/10-10-2021/yyf2.java)<br />[Top K Frequent Elements](./new/10-10-2021/yyf1.java) |                 |                             |
+| 10/10/2021 | [Rotate Image](./new/10-10-2021/yyf2.java)   [:pencil2:](https://leetcode.com/problems/rotate-image/)<br />[Top K Frequent Elements](./new/10-10-2021/yyf1.java)  [:pager:](https://leetcode.com/problems/top-k-frequent-elements/) |                 |                             |
 
