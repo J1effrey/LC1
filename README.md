@@ -1,9 +1,11 @@
-# LC1
-coding brothers only
+# Leetcode
+owned by coding brothers
 
 <div align="left">
 <img src="https://img.shields.io/badge/LC-Java-green?style=plastic&logo=appveyor">
 </div>
+
+
 ## Top Interviewed Questions
 
 - [21.Merge Two Sorted Lists](./new/2021/10/9/yyf-lc21.java) [:airplane:](https://leetcode.com/problems/merge-two-sorted-lists)
