@@ -19,5 +19,4 @@ Best Solutions:
 - [ Longest Consecutive Sequence](./new/2021/10/11/wf-lc128.java) [:alien:](https://leetcode.com/problems/longest-consecutive-sequence)
 - [Copy List with Random Pointer](./new/2021/10/11/wf-lc138.java)  [:ambulance:](https://leetcode.com/problems/copy-list-with-random-pointer)
 - [Gas Station](./new/2021/10/11/jian-lc134.java)  [:amphora:](https://leetcode.com/problems/gas-station)
-  - 
 
