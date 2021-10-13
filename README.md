@@ -1,5 +1,5 @@
 # LC1
-owned by coding brothers
+owned by coding brothers 🥇
 
 ==problem with star(*) before means previously solved problem==
 
