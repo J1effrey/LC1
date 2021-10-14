@@ -29,4 +29,11 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [*41. First Missing Positive](./old/2021/10/12/wf-lc41.java)
 - [*22. Generate Parentheses](./old/2021/10/12/yyf-lc22.java)
 - [*23. Merge k Sorted Lists](./old/2021/10/12/yyf-lc22.java)
+- [*208. Implement Trie (Prefix Tree)](./old/2021/10/13/yyf-lc208.java)
+- [*239. Sliding Window Maximum](./old/2021/10/13/yyf-lc208.java)
+- [*33. Search in Rotated Sorted Array](./old/2021/10/13/wf-lc33.java)
+- [*11. Container With Most Water](./old/2021/10/13/jian-lc11.java)
+- [44. Wildcard Matching](./new/2021/10/13/wf-lc44-dfs.java)  [:anchor:](https://leetcode.com/problems/wildcard-matching)
+- [142. Linked List Cycle II](./new/2021/10/13/jian-lc142.java) [:anger:](https://leetcode.com/problems/linked-list-cycle-ii)
+- [287. Find the Duplicate Number](./new/2021/10/13/jian-lc287.java)  [:angry:](https://leetcode.com/problems/find-the-duplicate-number)
 
