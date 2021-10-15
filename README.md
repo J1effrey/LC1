@@ -1,9 +1,9 @@
 # LC1
 owned by coding brothers 🥇
 
-__problem with star(*) before means previously solved problem__
-__emoji after every problem links to its original problem in Leetcode__
-__:star: => importance__
+__problem with star(*) before means previously solved problem__<br/>
+__emoji after every problem links to its original problem in Leetcode__<br/>
+__:star: => importance__<br/>
 
 <div align="left">
 <img src="https://img.shields.io/badge/LC-Java-green?style=plastic&logo=appveyor">
