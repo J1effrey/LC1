@@ -50,4 +50,8 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [341. Flatten Nested List Iterator](new/2021/10/16/wf-lc341.java)   [:aquarius:](https://leetcode.com/problems/flatten-nested-list-iterator)
 - [162. Find Peak Element](new/2021/10/16/wf-lc162.java)    [:aries:](https://leetcode.com/problems/find-peak-element)
 - [140. Word Break II](new/2021/10/16/jian-lc140-bfs.java)    [:arrow_backward:](https://leetcode.com/problems/word-break-ii)
+- [149. Max Points on a Line](new/2021/10/17/jian-lc149.java)  [:arrow_double_down:](https://leetcode.com/problems/max-points-on-a-line)
+- [125. Valid Palindrome](new/2021/10/17/yyf-lc125.java)   [:arrow_double_up:](https://leetcode.com/problems/valid-palindrome)
+- [412. Fizz Buzz](new/2021/10/17/yyf-lc412.java)   [:arrow_down:](https://leetcode.com/problems/fizz-buzz)
+- [79. Word Search](old/2021/10/17/wf-lc79.java)  [:arrow_down_small:](https://leetcode.com/problems/word-search)
 
