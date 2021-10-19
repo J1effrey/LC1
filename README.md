@@ -54,4 +54,9 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [125. Valid Palindrome](new/2021/10/17/yyf-lc125.java)   [:arrow_double_up:](https://leetcode.com/problems/valid-palindrome)
 - [412. Fizz Buzz](new/2021/10/17/yyf-lc412.java)   [:arrow_down:](https://leetcode.com/problems/fizz-buzz)
 - [79. Word Search](old/2021/10/17/wf-lc79.java)  [:arrow_down_small:](https://leetcode.com/problems/word-search)
+- [34. Find First and Last Position of Element in Sorted Array](new/2021/10/18/wf-lc34.java)  [:arrow_forward:](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
+- [88. Merge Sorted Array](new/2021/10/18/wf-lc88.java)  [:arrow_heading_down:](https://leetcode.com/problems/merge-sorted-array)
+- [155. Min Stack](new/2021/10/18/yyf-lc155.java)  [:arrow_heading_up:](https://leetcode.com/problems/min-stack)
+- [46. Permutations](new/2021/10/18/yyf-lc46.java )  [:arrow_left:](https://leetcode.com/problems/permutations)
+- [36. Valid Sudoku](new/2021/10/18/jian-lc36.java)  [:arrow_lower_left:](https://leetcode.com/problems/valid-sudoku)
 
