@@ -12,7 +12,7 @@ __:star: => importance__<br/>
 ## Top Interviewed Questions
 
 - [21.Merge Two Sorted Lists](./new/2021/10/9/yyf-lc21.java) [:airplane:](https://leetcode.com/problems/merge-two-sorted-lists)
-- [269.Alien Dictionary](./new/2021/10/9/wf-lc269.java) [:aerial_tramway:](https://leetcode.com/problems/alien-dictionary)  
+- [269.Alien Dictionary](./new/2021/10/9/wf-lc269.java) [:aerial_tramway:](https://leetcode.com/problems/alien-dictionary)   
 - [91.Decode Ways](./new/2021/10/9/jian-lc91.java)[​ :accept:](https://leetcode.com/problems/decode-ways)
 - [48.Rotate Image](./new/2021/10/10/yyf-lc48.java)   [:pencil2:](https://leetcode.com/problems/rotate-image/)
 - [347.Top K Frequent Elements](./new/2021/10/10/yyf-lc347.java)  [:pager:](https://leetcode.com/problems/top-k-frequent-elements/)
@@ -41,7 +41,7 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [*238. Product of Array Except Self](./old/2021/10/14/jian-lc238.java)
 - [*212. Word Search II](./old/2021/10/14/wf-lc212.java)  ​(:star::star::star:)
 - [1804. Implement Trie II (Prefix Tree)](./old/2021/10/14/yyf-lc1804.java)  [:anguished:](https://leetcode.com/problems/implement-trie-ii-prefix-tree)
-- [*210. Course Schedule II](old/2021/10/15/yyf-lc210.java)
+- [*210. Course Schedule II](old/2021/10/15/yyf-lc210.java)  
 - [*227. Basic Calculator II](old/2021/10/15/wf-lc227.java)
 - [*13. Roman to Integer](old/2021/10/15/wf-lc13.java)
 - [*139. Word Break](old/2021/10/15/jian-lc139-bfs.java)
@@ -57,6 +57,6 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [34. Find First and Last Position of Element in Sorted Array](new/2021/10/18/wf-lc34.java)  [:arrow_forward:](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
 - [88. Merge Sorted Array](new/2021/10/18/wf-lc88.java)  [:arrow_heading_down:](https://leetcode.com/problems/merge-sorted-array)
 - [155. Min Stack](new/2021/10/18/yyf-lc155.java)  [:arrow_heading_up:](https://leetcode.com/problems/min-stack)
-- [46. Permutations](new/2021/10/18/yyf-lc46.java )  [:arrow_left:](https://leetcode.com/problems/permutations)
+- [46. Permutations](new/2021/10/18/yyf-lc46.java )  [:arrow_left:](https://leetcode.com/problems/permutations)  (:star::star::star:)
 - [36. Valid Sudoku](new/2021/10/18/jian-lc36.java)  [:arrow_lower_left:](https://leetcode.com/problems/valid-sudoku)
 
