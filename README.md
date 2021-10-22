@@ -63,4 +63,9 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [38. Count and Say](new/2021/10/20/wf-lc38.java)   [:arrow_right:](https://leetcode.com/problems/count-and-say)
 - [169. Majority Element](new/2021/10/20/yyf-lc169.java)    [:arrow_right_hook:](https://leetcode.com/problems/majority-element)
 - [234. Palindrome Linked List](new/2021/10/20/yyf-lc234.java)   [:arrow_up:](https://leetcode.com/problems/palindrome-linked-list)
+- [*772. Basic Calculator III](old/2021/10/21/wf-lc772.java)   [:arrow_up_down:](https://leetcode.com/problems/basic-calculator-iii)  (:star::star::star:)
+- [*76. Minimum Window Substring](old/2021/10/21/yyf-lc76.java)   [:arrow_up_small:](https://leetcode.com/problems/minimum-window-substring)
+- [*50. Pow(x, n)](old/2021/10/22/wf-l50.java)   [:arrow_upper_left:](https://leetcode.com/problems/powx-n)
+- [*289. Game of Life](old/2021/10/22/yyf-lc289.java)    [:arrow_upper_right:](https://leetcode.com/problems/game-of-life)
+- [*322. Coin Change](old/2021/10/22/jian-lc322.java)    [:arrows_clockwise:](https://leetcode.com/problems/coin-change)
 
