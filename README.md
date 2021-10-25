@@ -68,4 +68,8 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [*50. Pow(x, n)](old/2021/10/22/wf-l50.java)   [:arrow_upper_left:](https://leetcode.com/problems/powx-n)
 - [*289. Game of Life](old/2021/10/22/yyf-lc289.java)    [:arrow_upper_right:](https://leetcode.com/problems/game-of-life)
 - [*322. Coin Change](old/2021/10/22/jian-lc322.java)    [:arrows_clockwise:](https://leetcode.com/problems/coin-change)
+- [84.Largest Rectangle in Histogram](old/2021/10/22/jian-lc84.java)    [:artificial_satellite:](https://leetcode.com/problems/largest-rectangle-in-histogram)     (:star::star::star:)
+- [103. Binary Tree Zigzag Level Order Traversal ](new/2021/10/24/jian-lc103.java )  [:arrows_counterclockwise:](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)
+- [198. House Robber](new/2021/10/24/wf-lc198.java)    [:art:](https://leetcode.com/problems/house-robber)
+- [329. Longest Increasing Path in a Matrix](new/2021/10/24/yyf-lc329.java)   [ :articulated_lorry:](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)
 
