@@ -72,4 +72,9 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [103. Binary Tree Zigzag Level Order Traversal ](new/2021/10/24/jian-lc103.java )  [:arrows_counterclockwise:](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)
 - [198. House Robber](new/2021/10/24/wf-lc198.java)    [:art:](https://leetcode.com/problems/house-robber)
 - [329. Longest Increasing Path in a Matrix](new/2021/10/24/yyf-lc329.java)   [ :articulated_lorry:](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)
+- [269. Alien Dictionary](old/2021/10/25/jian-lc269.java)    [:asterisk:](https://leetcode.com/problems/alien-dictionary)
+- [91. Decode Ways](old/2021/10/25/yyf-lc91.java)    [:astonished:](https://leetcode.com/problems/decode-ways)
+- [218. The Skyline Problem](new/2021/10/25/yyf-lc218.java)   [:athletic_shoe:](https://leetcode.com/problems/the-skyline-problem)
+- [206. Reverse Linked List](new/2021/10/25/jian-lc206.java)   [:atm:](https://leetcode.com/problems/reverse-linked-list)
+- [387. First Unique Character in a String](new/2021/10/25/jian-lc387.java)   [:atom_symbol:](https://leetcode.com/problems/first-unique-character-in-a-string)
 
