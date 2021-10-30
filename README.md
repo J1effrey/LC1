@@ -19,12 +19,16 @@ __:star: => importance__<br/>
 - [79.Word Search](new/2021/10/04/yyf-lc79.java)   [:diamond_shape_with_a_dot_inside:](https://leetcode.com/problems/word-search)
 - [*20.Valid Parentheses](old/2021/10/05/yyf-lc20.java)   [:fishing_pole_and_fish:](https://leetcode.com/problems/valid-parentheses)
 - [772.Basic Calculator III](new/2021/10/06/yyf-lc772.java)   [:earth_africa:](https://leetcode.com/problems/basic-calculator-iii)
+<<<<<<< HEAD
 - [*188.Best Time to Buy and Sell Stock IV](old/2021/10/07/yyf-lc188.java)   [:flight_arrival:](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)
 - [*7.Reverse Integer](old/2021/10/07/yyf-lc7.java)   [:fork_and_knife:](https://leetcode.com/problems/reverse-integer)
 - [*380.Insert Delete GetRandom O(1)](old/2021/10/08/yyf-lc380.java)   [:green_apple:](https://leetcode.com/problems/insert-delete-getrandom-o1)
 - [*381.Insert Delete GetRandom O(1) - Duplicates allowed](old/2021/10/08/yyf-lc381.java)   [:hammer_and_pick:](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)
 - [*49.Group Anagrams](old/2021/10/08/yyf-lc49.java)   [:hammer_and_wrench:](https://leetcode.com/problems/group-anagrams)
 - [50.Pow(x, n)](new/2021/10/08/yyf-lc50java)   [:earth_americas:](https://leetcode.com/problems/powx-n)
+=======
+- [50.Pow(x, n)](new/2021/10/08/yyf-lc50.java)   [:earth_americas:](https://leetcode.com/problems/powx-n)
+>>>>>>> 1d799dd5e4328dafc7c96f466858d2fd68b3a27f
 - [21.Merge Two Sorted Lists](./new/2021/10/09/yyf-lc21.java) [:airplane:](https://leetcode.com/problems/merge-two-sorted-lists)
 - [269.Alien Dictionary](./new/2021/10/09/wf-lc269.java) [:aerial_tramway:](https://leetcode.com/problems/alien-dictionary)   
 - [91.Decode Ways](./new/2021/10/09/jian-lc91.java)[​ :accept:](https://leetcode.com/problems/decode-ways)
