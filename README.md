@@ -18,6 +18,7 @@ __:star: => importance__<br/>
 - [347.Top K Frequent Elements](./new/2021/10/10/yyf-lc347.java)  [:pager:](https://leetcode.com/problems/top-k-frequent-elements/)
 - [297.Serialize and Deserialize Binary Tree](./new/2021/10/10/wf-lc297.java)[:alarm_clock:](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)  
 - [10.Regular Expression Matching](./new/2021/10/10/jian-lc10.java)  [:alembic:](https://leetcode.com/problems/regular-expression-matching)
+- [Regular Expression Matching](new/2021/10/10/jian-lc297-bfs.java)    [:avocado:](https://leetcode.com/problems/regular-expression-matching)
 - [54.Spiral Matrix](./new/2021/10/11/yyf-lc54.java)  [:angel:](https://leetcode.com/problems/spiral-matrix)
 - [128.Longest Consecutive Sequence](./new/2021/10/11/wf-lc128.java) [:alien:](https://leetcode.com/problems/longest-consecutive-sequence)
 - [138.Copy List with Random Pointer](./new/2021/10/11/wf-lc138.java)  [:ambulance:](https://leetcode.com/problems/copy-list-with-random-pointer)
@@ -77,4 +78,8 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [218. The Skyline Problem](new/2021/10/25/yyf-lc218.java)   [:athletic_shoe:](https://leetcode.com/problems/the-skyline-problem)
 - [206. Reverse Linked List](new/2021/10/25/jian-lc206.java)   [:atm:](https://leetcode.com/problems/reverse-linked-list)
 - [387. First Unique Character in a String](new/2021/10/25/jian-lc387.java)   [:atom_symbol:](https://leetcode.com/problems/first-unique-character-in-a-string)
+- [8. String to Integer (atoi)](new/2021/10/27/yyf-lc8.java)   [:bow_and_arrow:](https://leetcode.com/problems/string-to-integer-atoi) 
+- [347. Top K Frequent Elements](old/2021/10/28/wf-lc347.java )   [:baby:](https://leetcode.com/problems/top-k-frequent-elements)
+-  [10. Regular Expression Matching](old/2021/10/28/yyf-lc10.java)   [:baby_bottle:](https://leetcode.com/problems/regular-expression-matching)
+- [134. Gas Station](old/2021/10/29/wf-lc134.java )   [:baby_chick:](https://leetcode.com/problems/gas-station)
 
