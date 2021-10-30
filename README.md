@@ -16,7 +16,7 @@ __:star: => importance__<br/>
 - [139.Word Break](new/2021/10/03/yyf-lc139.java)   [:couch_and_lamp:](https://leetcode.com/problems/word-break)
 - [79.Word Search](new/2021/10/04/yyf-lc79.java)   [:diamond_shape_with_a_dot_inside:](https://leetcode.com/problems/word-search)
 - [772.Basic Calculator III](new/2021/10/06/yyf-lc772.java)   [:earth_africa:](https://leetcode.com/problems/basic-calculator-iii)
-- [50.Pow(x, n)](new/2021/10/08/yyf-lc50java)   [:earth_americas:](https://leetcode.com/problems/powx-n)
+- [50.Pow(x, n)](new/2021/10/08/yyf-lc50.java)   [:earth_americas:](https://leetcode.com/problems/powx-n)
 - [21.Merge Two Sorted Lists](./new/2021/10/09/yyf-lc21.java) [:airplane:](https://leetcode.com/problems/merge-two-sorted-lists)
 - [269.Alien Dictionary](./new/2021/10/09/wf-lc269.java) [:aerial_tramway:](https://leetcode.com/problems/alien-dictionary)   
 - [91.Decode Ways](./new/2021/10/09/jian-lc91.java)[​ :accept:](https://leetcode.com/problems/decode-ways)
