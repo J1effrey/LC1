@@ -26,7 +26,7 @@
   - [*380.Insert Delete GetRandom O(1)](old/2021/10/08/yyf-lc380.java)   [:green_apple:](https://leetcode.com/problems/insert-delete-getrandom-o1)
   - [*381.Insert Delete GetRandom O(1) - Duplicates allowed](old/2021/10/08/yyf-lc381.java)   [:hammer_and_pick:](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)
   - [*49.Group Anagrams](old/2021/10/08/yyf-lc49.java)   [:hammer_and_wrench:](https://leetcode.com/problems/group-anagrams)
-  - [50.Pow(x, n)](new/2021/10/08/yyf-lc50java)   [:earth_americas:](https://leetcode.com/problems/powx-n)
+  - [50.Pow(x, n)](new/2021/10/08/yyf-lc50.java)   [:earth_americas:](https://leetcode.com/problems/powx-n)
   - [21.Merge Two Sorted Lists](./new/2021/10/09/yyf-lc21.java) [:airplane:](https://leetcode.com/problems/merge-two-sorted-lists)
   - [269.Alien Dictionary](./new/2021/10/09/wf-lc269.java) [:aerial_tramway:](https://leetcode.com/problems/alien-dictionary)   
   - [91.Decode Ways](./new/2021/10/09/jian-lc91.java)[​ :accept:](https://leetcode.com/problems/decode-ways)
