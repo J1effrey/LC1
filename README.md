@@ -79,7 +79,7 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [206. Reverse Linked List](new/2021/10/25/jian-lc206.java)   [:atm:](https://leetcode.com/problems/reverse-linked-list)
 - [387. First Unique Character in a String](new/2021/10/25/jian-lc387.java)   [:atom_symbol:](https://leetcode.com/problems/first-unique-character-in-a-string)
 - [8. String to Integer (atoi)](new/2021/10/27/yyf-lc8.java)   [:bow_and_arrow:](https://leetcode.com/problems/string-to-integer-atoi) 
-- [347. Top K Frequent Elements](old/2021/10/28/wf-lc347.java )   [:baby:](https://leetcode.com/problems/top-k-frequent-elements)
--  [10. Regular Expression Matching](old/2021/10/28/yyf-lc10.java)   [:baby_bottle:](https://leetcode.com/problems/regular-expression-matching)
-- [134. Gas Station](old/2021/10/29/wf-lc134.java )   [:baby_chick:](https://leetcode.com/problems/gas-station)
-
+- [*347. Top K Frequent Elements](old/2021/10/28/wf-lc347.java )   [:baby:](https://leetcode.com/problems/top-k-frequent-elements)
+-  [*10. Regular Expression Matching](old/2021/10/28/yyf-lc10.java)   [:baby_bottle:](https://leetcode.com/problems/regular-expression-matching)
+- [*134. Gas Station](old/2021/10/29/wf-lc134.java )   [:baby_chick:](https://leetcode.com/problems/gas-station)
+- [*128. Longest Consecutive Sequence](old/2021/10/29/yyf-lc128.java )   [:baby_symbol:](https://leetcode.com/problems/longest-consecutive-sequence) 
