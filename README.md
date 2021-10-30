@@ -78,6 +78,7 @@
   - [155. Min Stack](new/2021/10/18/yyf-lc155.java)  [:arrow_heading_up:](https://leetcode.com/problems/min-stack)
   - [46. Permutations](new/2021/10/18/yyf-lc46.java )  [:arrow_left:](https://leetcode.com/problems/permutations)  (:star::star::star:)
   - [36. Valid Sudoku](new/2021/10/18/jian-lc36.java)  [:arrow_lower_left:](https://leetcode.com/problems/valid-sudoku)
+  - [*79. Word Search](old/2021/10/20/yyf-lc79.java)   [:leftwards_arrow_with_hook:](https://leetcode.com/problems/word-search)
   - [152. Maximum Product Subarray](new/2021/10/20/jian-lc152.java)   [:arrow_lower_right:](https://leetcode.com/problems/maximum-product-subarray)
   - [38. Count and Say](new/2021/10/20/wf-lc38.java)   [:arrow_right:](https://leetcode.com/problems/count-and-say)
   - [169. Majority Element](new/2021/10/20/yyf-lc169.java)    [:arrow_right_hook:](https://leetcode.com/problems/majority-element)
