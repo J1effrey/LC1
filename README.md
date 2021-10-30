@@ -8,12 +8,18 @@ __:star: => importance__<br/>
 <div align="left">
 <img src="https://img.shields.io/badge/LC-Java-green?style=plastic&logo=appveyor">
 </div>
-
 ## Top Interviewed Questions
 
-- [21.Merge Two Sorted Lists](./new/2021/10/9/yyf-lc21.java) [:airplane:](https://leetcode.com/problems/merge-two-sorted-lists)
-- [269.Alien Dictionary](./new/2021/10/9/wf-lc269.java) [:aerial_tramway:](https://leetcode.com/problems/alien-dictionary)   
-- [91.Decode Ways](./new/2021/10/9/jian-lc91.java)[​ :accept:](https://leetcode.com/problems/decode-ways)
+- [238.Product of Array Except Self](new/2021/10/02/yyf-lc238.java)  [ :bridge_at_night:](https://leetcode.com/problems/product-of-array-except-self)
+- [208. Implement Trie (Prefix Tree)](new/2021/10/02/yyf-lc208.java)   [:capital_abcd:](https://leetcode.com/problems/implement-trie-prefix-tree)
+- [13.Roman to Integer](new/2021/10/03/yyf-lc13.java)   [:cloud_with_lightning_and_rain:](https://leetcode.com/problems/roman-to-integer)
+- [139.Word Break](new/2021/10/03/yyf-lc139.java)   [:couch_and_lamp:](https://leetcode.com/problems/word-break)
+- [79.Word Search](new/2021/10/04/yyf-lc79.java)   [:diamond_shape_with_a_dot_inside:](https://leetcode.com/problems/word-search)
+- [772.Basic Calculator III](new/2021/10/06/yyf-lc772.java)   [:earth_africa:](https://leetcode.com/problems/basic-calculator-iii)
+- [50.Pow(x, n)](new/2021/10/08/yyf-lc50java)   [:earth_americas:](https://leetcode.com/problems/powx-n)
+- [21.Merge Two Sorted Lists](./new/2021/10/09/yyf-lc21.java) [:airplane:](https://leetcode.com/problems/merge-two-sorted-lists)
+- [269.Alien Dictionary](./new/2021/10/09/wf-lc269.java) [:aerial_tramway:](https://leetcode.com/problems/alien-dictionary)   
+- [91.Decode Ways](./new/2021/10/09/jian-lc91.java)[​ :accept:](https://leetcode.com/problems/decode-ways)
 - [48.Rotate Image](./new/2021/10/10/yyf-lc48.java)   [:pencil2:](https://leetcode.com/problems/rotate-image/)
 - [347.Top K Frequent Elements](./new/2021/10/10/yyf-lc347.java)  [:pager:](https://leetcode.com/problems/top-k-frequent-elements/)
 - [297.Serialize and Deserialize Binary Tree](./new/2021/10/10/wf-lc297.java)[:alarm_clock:](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)  
@@ -54,7 +60,7 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [149. Max Points on a Line](new/2021/10/17/jian-lc149.java)  [:arrow_double_down:](https://leetcode.com/problems/max-points-on-a-line)
 - [125. Valid Palindrome](new/2021/10/17/yyf-lc125.java)   [:arrow_double_up:](https://leetcode.com/problems/valid-palindrome)
 - [412. Fizz Buzz](new/2021/10/17/yyf-lc412.java)   [:arrow_down:](https://leetcode.com/problems/fizz-buzz)
-- [79. Word Search](old/2021/10/17/wf-lc79.java)  [:arrow_down_small:](https://leetcode.com/problems/word-search)
+- [79. Word Search](new/2021/10/17/wf-lc79.java)  [:arrow_down_small:](https://leetcode.com/problems/word-search)
 - [34. Find First and Last Position of Element in Sorted Array](new/2021/10/18/wf-lc34.java)  [:arrow_forward:](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
 - [88. Merge Sorted Array](new/2021/10/18/wf-lc88.java)  [:arrow_heading_down:](https://leetcode.com/problems/merge-sorted-array)
 - [155. Min Stack](new/2021/10/18/yyf-lc155.java)  [:arrow_heading_up:](https://leetcode.com/problems/min-stack)
