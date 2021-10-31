@@ -14,8 +14,11 @@
 
   - [238. Product of Array Except Self](new/2021/10/02/yyf-lc238.java)  [ :bridge_at_night:](https://leetcode.com/problems/product-of-array-except-self)
   - [208. Implement Trie (Prefix Tree)](new/2021/10/02/yyf-lc208.java)   [:capital_abcd:](https://leetcode.com/problems/implement-trie-prefix-tree)
+  - [208. Implement Trie (Prefix Tree)](new/2021/10/02/jian-lc208.java)   [:man_artist:](https://leetcode.com/problems/implement-trie-prefix-tree)
+  - [212. Word Search II](new/2021/10/02/jian-lc212.java)   [:man_astronaut:](https://leetcode.com/problems/word-search-ii)
   - [13. Roman to Integer](new/2021/10/03/yyf-lc13.java)   [:cloud_with_lightning_and_rain:](https://leetcode.com/problems/roman-to-integer)
   - [139. Word Break](new/2021/10/03/yyf-lc139.java)   [:couch_and_lamp:](https://leetcode.com/problems/word-break)
+  - [227. Basic Calculator II](new/2021/10/03/jian-lc227.java)   [:martial_arts_uniform:](https://leetcode.com/problems/basic-calculator-ii)
   - [*2. Add Two Numbers](old/2021/10/04/yyf-lc2.java)   [:eight_spoked_asterisk:](https://leetcode.com/problems/add-two-numbers)
   - [*200. Number of Islands](old/2021/10/04/yyf-lc200.java)   [:envelope_with_arrow:](https://leetcode.com/problems/number-of-islands)
   - [79. Word Search](new/2021/10/04/yyf-lc79.java)   [:diamond_shape_with_a_dot_inside:](https://leetcode.com/problems/word-search)
@@ -41,11 +44,11 @@
   - [128. Longest Consecutive Sequence](./new/2021/10/11/wf-lc128.java) [:alien:](https://leetcode.com/problems/longest-consecutive-sequence)
   - [138. Copy List with Random Pointer](./new/2021/10/11/wf-lc138.java)  [:ambulance:](https://leetcode.com/problems/copy-list-with-random-pointer)
   - [134. Gas Station](./new/2021/10/11/jian-lc134.java)  [:amphora:](https://leetcode.com/problems/gas-station)
-
+  
   __Milestone: TOP 50 DONE__ :white_check_mark:
-
+  
   -----------------------------------------
-
+  
   - [*215. Kth Largest Element in an Array](./old/2021/10/12/jian-lc215.java)]
   - [*41. First Missing Positive](./old/2021/10/12/wf-lc41.java)
   - [*22. Generate Parentheses](./old/2021/10/12/yyf-lc22.java)
@@ -97,8 +100,14 @@
   - [218. The Skyline Problem](new/2021/10/25/yyf-lc218.java)   [:athletic_shoe:](https://leetcode.com/problems/the-skyline-problem)
   - [206. Reverse Linked List](new/2021/10/25/jian-lc206.java)   [:atm:](https://leetcode.com/problems/reverse-linked-list)
   - [387. First Unique Character in a String](new/2021/10/25/jian-lc387.java)   [:atom_symbol:](https://leetcode.com/problems/first-unique-character-in-a-string)
+  - [300. Longest Increasing Subsequence](new/2021/10/25/wf-lc300.java)   [:nut_and_bolt:](https://leetcode.com/problems/longest-increasing-subsequence)
   - [8. String to Integer (atoi)](new/2021/10/27/yyf-lc8.java)   [:bow_and_arrow:](https://leetcode.com/problems/string-to-integer-atoi) 
+  - [283. Move Zeroes](new/2021/10/27/jian-lc283.java)  [:oncoming_automobile:](https://leetcode.com/problems/move-zeroes)
+  - [75. Sort Colors](new/2021/10/27/wf-lc75.java)  [:part_alternation_mark:](https://leetcode.com/problems/sort-colors) 
   - [*347. Top K Frequent Elements](old/2021/10/28/wf-lc347.java )   [:baby:](https://leetcode.com/problems/top-k-frequent-elements)
   - [*10. Regular Expression Matching](old/2021/10/28/yyf-lc10.java)   [:baby_bottle:](https://leetcode.com/problems/regular-expression-matching)
   - [*134. Gas Station](old/2021/10/29/wf-lc134.java )   [:baby_chick:](https://leetcode.com/problems/gas-station)
   - [*128. Longest Consecutive Sequence](old/2021/10/29/yyf-lc128.java )   [:baby_symbol:](https://leetcode.com/problems/longest-consecutive-sequence) 
+  - [179. Largest Number](new/2021/10/30/jian-lc179.java)   [:performing_arts:](https://leetcode.com/problems/largest-number)
+  - [70. Climbing Stairs](new/2021/10/30/wf-lc70.java)  [:right_anger_bubble:](https://leetcode.com/problems/climbing-stairs)
+
