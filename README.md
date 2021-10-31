@@ -23,6 +23,7 @@
   - [*200. Number of Islands](old/2021/10/04/yyf-lc200.java)   [:envelope_with_arrow:](https://leetcode.com/problems/number-of-islands)
   - [79. Word Search](new/2021/10/04/yyf-lc79.java)   [:diamond_shape_with_a_dot_inside:](https://leetcode.com/problems/word-search)
   - [*20. Valid Parentheses](old/2021/10/05/yyf-lc20.java)   [:fishing_pole_and_fish:](https://leetcode.com/problems/valid-parentheses)
+  - [124. Binary Tree Maximum Path Sum](new/2021/10/04/jian-lc124.java)  [:small_airplane:](https://leetcode.com/problems/binary-tree-maximum-path-sum)
   - [772. Basic Calculator III](new/2021/10/06/yyf-lc772.java)   [:earth_africa:](https://leetcode.com/problems/basic-calculator-iii)
   - [*188. Best Time to Buy and Sell Stock IV](old/2021/10/07/yyf-lc188.java)   [:flight_arrival:](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)
   - [*7. Reverse Integer](old/2021/10/07/yyf-lc7.java)   [:fork_and_knife:](https://leetcode.com/problems/reverse-integer)
@@ -111,4 +112,7 @@
   - [179. Largest Number](new/2021/10/30/jian-lc179.java)   [:performing_arts:](https://leetcode.com/problems/largest-number)
   - [70. Climbing Stairs](new/2021/10/30/wf-lc70.java)  [:right_anger_bubble:](https://leetcode.com/problems/climbing-stairs)
   - [78. Subsets](new/2021/10/30/yyf-lc78.java) [:skull_and_crossbones:](https://leetcode.com/problems/subsets)
+  - [348. Design Tic-Tac-Toe](new/2021/10/31/yyf-lc348.java)   [:twisted_rightwards_arrows:](https://leetcode.com/problems/design-tic-tac-toe)
+  - [55. Jump Game](new/2021/10/31/jian-lc55.java)   [:star_and_crescent:](https://leetcode.com/problems/jump-game)
+  - [98. Validate Binary Search Tree](new/2021/10/31/wf-lc98.java )   [:woman_artist:](https://leetcode.com/problems/validate-binary-search-tree)
 
