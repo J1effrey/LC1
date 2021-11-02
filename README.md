@@ -120,4 +120,8 @@
   - [118. Pascal's Triangle](new/2021/10/31/jian-lc118.java)   [:baby_chick:](https://leetcode.com/problems/pascals-triangle)
   - [26. Remove Duplicates from Sorted Array ](new/2021/10/31/wf-lc26.java )  [:baby_symbol:](https://leetcode.com/problems/remove-duplicates-from-sorted-array) 
   - [340. Longest Substring with At Most K Distinct Characters](new/2021/10/31/yyf-lc340.java)   [:back:](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)
+  - [62. Unique Paths](new/2021/11/01/jian-lc62.java )   [:bacon:](https://leetcode.com/problems/unique-paths)
+  - [150. Evaluate Reverse Polish Notation](new/2021/11/01/wf-lc150.java)  [:badminton:](https://leetcode.com/problems/evaluate-reverse-polish-notation)
+  - [202. Happy Number](new/2021/11/01/yyf-lc202.java)   [:baggage_claim:](https://leetcode.com/problems/happy-number)
+  - [*315. Count of Smaller Numbers After Self(BST)](old/2021/11/02/jian-lc315.java)   [:baguette_bread:](https://leetcode.com/problems/count-of-smaller-numbers-after-self)
 
