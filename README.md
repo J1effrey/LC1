@@ -124,4 +124,7 @@
   - [150. Evaluate Reverse Polish Notation](new/2021/11/01/wf-lc150.java)  [:badminton:](https://leetcode.com/problems/evaluate-reverse-polish-notation)
   - [202. Happy Number](new/2021/11/01/yyf-lc202.java)   [:baggage_claim:](https://leetcode.com/problems/happy-number)
   - [*315. Count of Smaller Numbers After Self(BST)](old/2021/11/02/jian-lc315.java)   [:baguette_bread:](https://leetcode.com/problems/count-of-smaller-numbers-after-self)
+  - [328. Odd Even Linked List](new/2021/11/03/jian-lc328.java)   [:balance_scale:](https://leetcode.com/problems/odd-even-linked-list)
+  - [395. Longest Substring with At Least K Repeating Characters](new/2021/11/03/wf-lc 395.java)   [:balloon:](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)
+  - [204. Count Primes](new/2021/11/03/yyf-lc204.java)   [:ballot_box:](https://leetcode.com/problems/count-primes)
 
