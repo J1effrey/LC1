@@ -127,4 +127,6 @@
   - [328. Odd Even Linked List](new/2021/11/03/jian-lc328.java)   [:balance_scale:](https://leetcode.com/problems/odd-even-linked-list)
   - [395. Longest Substring with At Least K Repeating Characters](new/2021/11/03/wf-lc395.java)   [:balloon:](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)
   - [204. Count Primes](new/2021/11/03/yyf-lc204.java)   [:ballot_box:](https://leetcode.com/problems/count-primes)
+  - [994. Rotting Oranges](new/2021/11/06/jian-lc994.java)   [:ballot_box_with_check:](https://leetcode.com/problems/rotting-oranges)
+  - [29. Divide Two Integers](new/2021/11/06/yyf-lc29.java)   [:bamboo:](https://leetcode.com/problems/divide-two-integers)
 
