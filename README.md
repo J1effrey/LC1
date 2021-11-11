@@ -134,5 +134,5 @@
   - [85. Maximal Rectangle](new/2021/11/07/yyf-lc85.java)   [:baseball:](https://leetcode.com/problems/maximal-rectangle)
   - [636. Exclusive Time of Functions](new/2021/11/08/wf-lc636.java)   [:barber:](https://leetcode.com/problems/exclusive-time-of-functions)
   - [767. Reorganize String](new/2021/11/08/yyf-lc767.java)   [:bank:](https://leetcode.com/problems/reorganize-string)
-  - [987. Vertical Order Traversal of a Binary Tree](new/2021/11/08/jian-lc987.java)   [:bar_chart:
+  - [987. Vertical Order Traversal of a Binary Tree](new/2021/11/08/jian-lc987.java)   [:bar_chart:](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)
 
