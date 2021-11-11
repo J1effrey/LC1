@@ -129,4 +129,10 @@
   - [204. Count Primes](new/2021/11/03/yyf-lc204.java)   [:ballot_box:](https://leetcode.com/problems/count-primes)
   - [994. Rotting Oranges](new/2021/11/06/jian-lc994.java)   [:ballot_box_with_check:](https://leetcode.com/problems/rotting-oranges)
   - [29. Divide Two Integers](new/2021/11/06/yyf-lc29.java)   [:bamboo:](https://leetcode.com/problems/divide-two-integers)
+  - [642. Design Search Autocomplete System](new/2021/11/07/jian-lc642.java)   [:banana:](https://leetcode.com/problems/design-search-autocomplete-system)
+  - [528. Random Pick with Weight](new/2021/11/07/wf-lc528.java)   [:bangbang:](https://leetcode.com/problems/random-pick-with-weight)
+  - [85. Maximal Rectangle](new/2021/11/07/yyf-lc85.java)   [:baseball:](https://leetcode.com/problems/maximal-rectangle)
+  - [636. Exclusive Time of Functions](new/2021/11/08/wf-lc636.java)   [:barber:](https://leetcode.com/problems/exclusive-time-of-functions)
+  - [767. Reorganize String](new/2021/11/08/yyf-lc767.java)   [:bank:](https://leetcode.com/problems/reorganize-string)
+  - [987. Vertical Order Traversal of a Binary Tree](new/2021/11/08/jian-lc987.java)   [:bar_chart:
 
