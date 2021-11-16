@@ -138,4 +138,11 @@
   - [31. Next Permutation](new/2021/11/10/jian-lc31.java)   [:basketball:](https://leetcode.com/problems/next-permutation)
   - [863. All Nodes Distance K in Binary Tree](new/2021/11/10/wf-lc863.java)   [:basketball_man:](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree)
   - [727. Minimum Window Subsequence](new/2021/11/10/yyf-lc727.java)   [:basketball_woman:](https://leetcode.com/problems/minimum-window-subsequence)
+  - [1060. Missing Element in Sorted Array](new/2021/11/13/wf-lc1060.java)   [:bat:](https://leetcode.com/problems/missing-element-in-sorted-array)
+  - [224. Basic Calculator](new/2021/11/13/jian-lc224.java)   [:bath:](https://leetcode.com/problems/basic-calculator)
+  - [359. Logger Rate Limiter](new/2021/11/14/jian-lc359.java)   [:bathtub:](https://leetcode.com/problems/logger-rate-limiter) 
+  - [126. Word Ladder II](new/2021/11/14/yyf-lc126.java)   [:battery:](https://leetcode.com/problems/word-ladder-ii)
+  - [428. Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree)   [:beach_umbrella:](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree)
+  - [173. Binary Search Tree Iterator](new/2021/11/15/jian-lc173.java)   [:bear:](https://leetcode.com/problems/binary-search-tree-iterator)
+  - [211. Design Add and Search Words Data Structure](new/2021/11/15/yyf-lc211.java)   [:bed:](https://leetcode.com/problems/design-add-and-search-words-data-structure)
 
