@@ -48,6 +48,8 @@
   - [138. Copy List with Random Pointer](./new/2021/10/11/wf-lc138.java)  [:ambulance:](https://leetcode.com/problems/copy-list-with-random-pointer)
   - [134. Gas Station](./new/2021/10/11/jian-lc134.java)  [:amphora:](https://leetcode.com/problems/gas-station)
   
+  -----------------------------------------
+  
   __Milestone: TOP 50 DONE__ :white_check_mark:
   
   -----------------------------------------
@@ -129,6 +131,13 @@
   - [204. Count Primes](new/2021/11/03/yyf-lc204.java)   [:ballot_box:](https://leetcode.com/problems/count-primes)
   - [994. Rotting Oranges](new/2021/11/06/jian-lc994.java)   [:ballot_box_with_check:](https://leetcode.com/problems/rotting-oranges)
   - [29. Divide Two Integers](new/2021/11/06/yyf-lc29.java)   [:bamboo:](https://leetcode.com/problems/divide-two-integers)
+  
+  -----------------------------------------
+  
+  __Milestone: TOP 100 DONE__ :white_check_mark:
+  
+  -----------------------------------------
+  
   - [642. Design Search Autocomplete System](new/2021/11/07/jian-lc642.java)   [:banana:](https://leetcode.com/problems/design-search-autocomplete-system)
   - [528. Random Pick with Weight](new/2021/11/07/wf-lc528.java)   [:bangbang:](https://leetcode.com/problems/random-pick-with-weight)
   - [85. Maximal Rectangle](new/2021/11/07/yyf-lc85.java)   [:baseball:](https://leetcode.com/problems/maximal-rectangle)
