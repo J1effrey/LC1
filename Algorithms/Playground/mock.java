@@ -7,7 +7,7 @@
 // 6: focusing on coding and debug. less communication
 // 5: After finishing coding, to run (run code line by line) test cases for your interviewer(*)
 import java.util.*;
-public class Main {
+public class PrintGraphs {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         list.add(2);
