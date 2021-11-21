@@ -162,4 +162,7 @@
   - [986. Interval List Intersections](new/2021/11/17/jian-lc986.java )   [:bellhop_bell:](https://leetcode.com/problems/interval-list-intersections)
   - [314. Binary Tree Vertical Order Traversal](new/2021/11/17/wf-lc314.java)   [:bento:](https://leetcode.com/problems/binary-tree-vertical-order-traversal)
   - [545. Boundary of Binary Tree](new/2021/11/17/yyf-lc545.java)   [:no_bell:](https://leetcode.com/problems/boundary-of-binary-tree)
+  - [394. Decode String](new/2021/11/20/jian-lc394.java)   [:bicyclist:](https://leetcode.com/problems/decode-string)
+  - [221. Maximal Square](new/2021/11/20/wf-lc221.java)   [:biking_woman:](https://leetcode.com/problems/maximal-square)
+  - [133. Clone Graph](new/2021/11/20/yyf-lc133.java)   [:bikini:](https://leetcode.com/problems/clone-graph)
 

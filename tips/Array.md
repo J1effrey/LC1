@@ -11,3 +11,8 @@
 ## 2. int[] -> String[]
 
 `String[] strArray = Arrays.stream(intArray).mapToObj(String::valueOf).toArray(String[]::new);`
+
+## 3. Compare two array
+
+`Arrays.equals(T[], T[])`
+
