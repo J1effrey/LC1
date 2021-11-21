@@ -138,6 +138,8 @@
   
   -----------------------------------------
   
+  ## Top FAAMG Questions
+  
   - [642. Design Search Autocomplete System](new/2021/11/07/jian-lc642.java)   [:banana:](https://leetcode.com/problems/design-search-autocomplete-system)
   - [528. Random Pick with Weight](new/2021/11/07/wf-lc528.java)   [:bangbang:](https://leetcode.com/problems/random-pick-with-weight)
   - [85. Maximal Rectangle](new/2021/11/07/yyf-lc85.java)   [:baseball:](https://leetcode.com/problems/maximal-rectangle)
