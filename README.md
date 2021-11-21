@@ -165,4 +165,7 @@
   - [394. Decode String](new/2021/11/20/jian-lc394.java)   [:bicyclist:](https://leetcode.com/problems/decode-string)
   - [221. Maximal Square](new/2021/11/20/wf-lc221.java)   [:biking_woman:](https://leetcode.com/problems/maximal-square)
   - [133. Clone Graph](new/2021/11/20/yyf-lc133.java)   [:bikini:](https://leetcode.com/problems/clone-graph)
+  - [1197. Minimum Knight Moves](new/2021/11/21/jian-lc1197.java)   [:biohazard:](https://leetcode.com/problems/minimum-knight-moves)
+  - [695. Max Area of Island](new/2021/11/21/wf-lc695.java)   [:bird:](https://leetcode.com/problems/max-area-of-island)
+  - [438. Find All Anagrams in a String](new/2021/11/21/yyf-lc438.java)   [:birthday:](https://leetcode.com/problems/find-all-anagrams-in-a-string)
 
