@@ -170,4 +170,7 @@
   - [1197. Minimum Knight Moves](new/2021/11/21/jian-lc1197.java)   [:biohazard:](https://leetcode.com/problems/minimum-knight-moves)
   - [695. Max Area of Island](new/2021/11/21/wf-lc695.java)   [:bird:](https://leetcode.com/problems/max-area-of-island)
   - [438. Find All Anagrams in a String](new/2021/11/21/yyf-lc438.java)   [:birthday:](https://leetcode.com/problems/find-all-anagrams-in-a-string)
+  - [323. Number of Connected Components in an Undirected Graph](new/2021/11/21/jian-lc323.java)   [:black_circle:](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph)
+  - [973. K Closest Points to Origin](new/2021/11/21/jian-lc973.java)   [:black_flag:](https://leetcode.com/problems/k-closest-points-to-origin)
+  - [284. Peeking Iterator](new/2021/11/21/yyf-lc284.java)   [:black_heart:](https://leetcode.com/problems/peeking-iterator)
 
