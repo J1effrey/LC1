@@ -173,4 +173,7 @@
   - [323. Number of Connected Components in an Undirected Graph](new/2021/11/21/jian-lc323.java)   [:black_circle:](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph)
   - [973. K Closest Points to Origin](new/2021/11/21/jian-lc973.java)   [:black_flag:](https://leetcode.com/problems/k-closest-points-to-origin)
   - [284. Peeking Iterator](new/2021/11/21/yyf-lc284.java)   [:black_heart:](https://leetcode.com/problems/peeking-iterator)
+  - [25. Reverse Nodes in k-Group](new/2021/11/22/jian-lc25.java)   [:black_joker:](https://leetcode.com/problems/reverse-nodes-in-k-group)
+  -  [543. Diameter of Binary Tree](new/2021/11/22/wf-lc543.java)   [:black_large_square:](https://leetcode.com/problems/diameter-of-binary-tree)
+  -  [547. Number of Provinces](new/2021/11/22/yyf-lc547.java )   [:black_medium_small_square:](https://leetcode.com/problems/number-of-provinces)
 
