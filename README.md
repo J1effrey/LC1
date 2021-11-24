@@ -1,4 +1,4 @@
-# [Category:blue_book:](tips/胖头龙-算法篇.md)
+# [Category:blue_book:](tips/feilong/category.md) [skills:closed_book:](tips/feilong/methods.md)
 
 # Normal
 
