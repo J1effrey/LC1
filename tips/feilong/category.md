@@ -1,16 +1,64 @@
 __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默认是LeetCode，如果是LintCode会以Lint开头)__
 
-[toc]
+# 目录
+
+- [第一章 二分法]( #第一章 二分法)
+  - [朴素二分法](#朴素二分法)
+  - [条件二分法](#条件二分法)
+  - [答案二分法](#答案二分法)
+- [第二章 多指针]( #第二章 多指针)
+  - [数组](#数组)
+  - [链表](#链表)
+  - [区间](#区间)
+  - [回文串](#回文串)
+  - [滑动窗口](#滑动窗口)
+  - [流](#流)
+  - [前项和](#前项和)
+  - [和差问题](#和差问题)
+- [第三章 BFS](#第三章 BFS)
+  - [二叉树](#二叉树)
+  - [拓扑排序](#拓扑排序)
+  - [矩阵](#矩阵)
+  - [图](#图)
+- [第四章 二叉树与递归](#第四章 二叉树与递归)
+  - [二叉树前中后顺遍历](#二叉树前中后序遍历(需要熟练掌握非递归方式))
+  - [反向复原二叉树](#反向复原二叉树)
+  - [iterator相关](#iterator相关)
+  - [判断树的形态](#判断树的形态)
+  - [子树相关问题](#子树相关问题)
+  - [路径相关问题](#路径相关问题)
+  - [LCA问题](#LCA问题)
+  - [其他](#其他)
+- [第五章 DFS](#第五章 DFS)
+  - [排列组合](#排列组合)
+  - [二叉树](#二叉树)
+  - [图](#图)
+- [第六章 数据结构](#第六章 数据结构)
+  - [Array & Matrix](#Array & Matrix)
+  - [String](#String)
+  - [LinkedList](#Linked List)
+  - [Hash](#Hash)
+  - [Stack](#Stack)
+  - [Monotonic Stack](#Monotonic Stack)
+  - [Trie](#Trie)
+  - [Union Find](#Union Find)
+  - [Sweep Line](#Sweep Line)
+  - [Binary Index Tree & Segment Tree](#Binary Index Tree & Segment Tree)
+  - [Complex Data Structure](#Complex Data Structure)
+- [第七章 动态规划](#第七章 动态规划)
+  - [Backpack](#Backpack)
+  - [Single Sequence](#Single Sequence)
+  - [Double Sequences](#Double Sequences)
+  - [Sections](#Sections)
+  - [Matrix](#Matrix)
+  - [Others](#Others)
+  - [Greedy](#Greedy)
 
 
+
+-----
 
 # 第一章 二分法
-
-
-
-二分法题目列表：
-
-
 
 ## 朴素二分法
 
@@ -46,13 +94,9 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
+------
+
 # 第二章 多指针
-
-
-
-多指针题目列表：
-
-（必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默认是LeetCode，如果是LintCode会以Lint开头）
 
 
 
@@ -170,17 +214,13 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
+-------
+
 # 第三章 宽度优先搜索
 
 
 
-BFS题目列表：
-
-（必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默认是LeetCode，如果是LintCode会以Lint开头）
-
-
-
-## 二叉树:
+## 二叉树
 
 - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
@@ -191,7 +231,7 @@ BFS题目列表：
 
 
 
-## 拓扑排序:
+## 拓扑排序
 
 - [Lint-127. Topological Sorting](https://www.lintcode.com/problem/topological-sorting/description)
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
@@ -201,7 +241,7 @@ BFS题目列表：
 
 
 
-## 矩阵:
+## 矩阵
 
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [490. The Maze](https://leetcode.com/problems/the-maze/)
@@ -218,7 +258,7 @@ BFS题目列表：
 
 
 
-## 图:
+## 图
 
 - [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 - [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
@@ -234,18 +274,16 @@ BFS题目列表：
 
 
 
+--------
+
 # 第四章 二叉树与递归
-
-
-
-（必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默认是LeetCode，如果是LintCode会以Lint开头）
 
 因为二叉树上的递归很多时候既可以用分治，也可以用遍历，并不是哪一种方法总能最优。
 所以我们按相似题目分类，而不是按解法分类。
 
 
 
-## 二叉树前中后序遍历（需要熟练掌握非递归方式）：
+## 二叉树前中后序遍历(需要熟练掌握非递归方式)
 
 - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
@@ -253,7 +291,7 @@ BFS题目列表：
 
 
 
-## 反向复原二叉树：
+## 反向复原二叉树
 
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
@@ -261,7 +299,7 @@ BFS题目列表：
 
 
 
-## Iterator相关：
+## Iterator相关
 
 - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 - [280. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
@@ -271,7 +309,7 @@ BFS题目列表：
 - [510. Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/)
 - [Lint-915. Inorder Predecessor in BST II](https://www.lintcode.com/problem/915/)
 
-## 判断树的形态：
+## 判断树的形态
 
 - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [100. Same Tree](https://leetcode.com/problems/same-tree/)
@@ -280,7 +318,7 @@ BFS题目列表：
 
 
 
-## 子树相关问题：
+## 子树相关问题
 
 - [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
@@ -290,7 +328,7 @@ BFS题目列表：
 
 
 
-## 路径相关问题：
+## 路径相关问题
 
 - [112. Path Sum](https://leetcode.com/problems/path-sum/)
 - [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)
@@ -302,13 +340,13 @@ BFS题目列表：
 
 
 
-## LCA问题：
+## LCA问题
 
 - [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 - [Lint-474. Lowest Common Ancestor II](https://www.lintcode.com/problem/474/)
 - [Lint-578. Lowest Common Ancestor III](https://www.lintcode.com/problem/lowest-common-ancestor-iii/solution)
 
-## 其他：
+## 其他
 
 - [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 - [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)
@@ -318,11 +356,13 @@ BFS题目列表：
 
 
 
+-------------
+
 # 第五章 深度优先搜索
 
 
 
-## 排列组合：
+## 排列组合
 
 - [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 
@@ -366,7 +406,7 @@ BFS题目列表：
 
 
 
-## 二叉树：
+## 二叉树
 
 - [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)
 
@@ -380,7 +420,7 @@ BFS题目列表：
 
 
 
-## 图：
+## 图
 
 - [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
 - [494. Target Sum](https://leetcode.com/problems/target-sum/)
@@ -393,11 +433,13 @@ BFS题目列表：
 
 
 
+----------
+
 # 第六章 数据结构
 
 
 
-## Array & Matrix:
+## Array & Matrix
 
 - [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
@@ -413,7 +455,7 @@ BFS题目列表：
 
 
 
-## String:
+## String
 
 - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 
@@ -429,7 +471,7 @@ BFS题目列表：
 
 
 
-## Linked List:
+## Linked List
 
 - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
@@ -452,7 +494,7 @@ BFS题目列表：
 
 
 
-## Hash:
+## Hash
 
 - [706. Design HashMap](https://leetcode.com/problems/design-hashmap/)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
@@ -463,7 +505,7 @@ BFS题目列表：
 
 
 
-## Heap:
+## Heap
 
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
@@ -476,7 +518,7 @@ BFS题目列表：
 
 
 
-## Stack:
+## Stack
 
 - [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
@@ -496,7 +538,7 @@ BFS题目列表：
 
 
 
-## Monotonic Stack:
+## Monotonic Stack
 
 - [300. Longest Increasing Subsequence (Patience Sort)](https://leetcode.com/problems/longest-increasing-subsequence/)
 
@@ -508,7 +550,7 @@ BFS题目列表：
 
 
 
-## Trie:
+## Trie
 
 - [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
@@ -518,7 +560,7 @@ BFS题目列表：
 
 
 
-## Union Find:
+## Union Find
 
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
@@ -528,7 +570,7 @@ BFS题目列表：
 
 
 
-## Sweep Line:
+## Sweep Line
 
 - [Lint-391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/391/)
 
@@ -538,7 +580,7 @@ BFS题目列表：
 
 
 
-## Binary Index Tree & Segment Tree:
+## Binary Index Tree & Segment Tree
 
 - [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 
@@ -552,7 +594,7 @@ BFS题目列表：
 
 
 
-## Complex Data Structure:
+## Complex Data Structure
 
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
@@ -565,11 +607,13 @@ BFS题目列表：
 
 
 
+-------
+
 # 第七章 动态规划
 
 
 
-## Backpack:
+## Backpack
 
 - [Lint-92. Backpack](https://www.lintcode.com/problem/backpack/description)
 
@@ -587,7 +631,7 @@ BFS题目列表：
 
 
 
-## Single Sequence:
+## Single Sequence
 
 - [139. Word Break](https://leetcode.com/problems/word-break/)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
@@ -600,7 +644,7 @@ BFS题目列表：
 
 
 
-## Double Sequences:
+## Double Sequences
 
 - [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 
@@ -616,7 +660,7 @@ BFS题目列表：
 
 
 
-## Sections:
+## Sections
 
 - [312.Burst Balloons](https://leetcode.com/problems/burst-balloons/)
 
@@ -626,7 +670,7 @@ BFS题目列表：
 
 
 
-## Matrix:
+## Matrix
 
 - [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 
@@ -642,7 +686,7 @@ BFS题目列表：
 
 
 
-## Others：
+## Others
 
 - [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [Lint-394. Coins in a Line](https://www.lintcode.com/problem/coins-in-a-line/description)
@@ -652,7 +696,7 @@ BFS题目列表：
 - [Lint-395. Coins in a Line II](https://www.lintcode.com/problem/coins-in-a-line-ii/description)
 - [Lint-396. Coins in a Line III](https://www.lintcode.com/problem/coins-in-a-line-iii/description)
 
-## Greedy:
+## Greedy
 
 - [55. Jump Game](https://leetcode.com/problems/jump-game/)
 
