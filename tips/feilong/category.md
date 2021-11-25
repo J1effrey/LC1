@@ -34,7 +34,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
   - [二叉树](#二叉树)
   - [图](#图)
 - 第六章 数据结构
-  - [Array & Matrix](#Array-&-Matrix)
+  - [Array & Matrix](#Array-and-Matrix)
   - [String](#String)
   - [LinkedList](#Linked-List)
   - [Hash](#Hash)
@@ -43,7 +43,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
   - [Trie](#Trie)
   - [Union Find](#Union-Find)
   - [Sweep Line](#Sweep-Line)
-  - [Binary Index Tree & Segment Tree](#Binary-Index-Tree-&-Segment-Tree)
+  - [Binary Index Tree & Segment Tree](#Binary-Index-Tree-and-Segment-Tree)
   - [Complex Data Structure](#Complex-Data-Structure)
 - 第七章 动态规划
   - [Backpack](#Backpack)
@@ -439,7 +439,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
-## Array & Matrix
+## Array and Matrix
 
 - [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
@@ -580,7 +580,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
-## Binary Index Tree & Segment Tree
+## Binary Index Tree and Segment Tree
 
 - [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 
