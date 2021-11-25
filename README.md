@@ -143,39 +143,88 @@ __Milestone: TOP 100 DONE__ :white_check_mark:
 ## Top FAAMG Questions
 
 - [642. Design Search Autocomplete System](new/2021/11/07/jian-lc642.java)   [:banana:](https://leetcode.com/problems/design-search-autocomplete-system)
+
 - [528. Random Pick with Weight](new/2021/11/07/wf-lc528.java)   [:bangbang:](https://leetcode.com/problems/random-pick-with-weight)
+
 - [85. Maximal Rectangle](new/2021/11/07/yyf-lc85.java)   [:baseball:](https://leetcode.com/problems/maximal-rectangle)
+
 - [636. Exclusive Time of Functions](new/2021/11/08/wf-lc636.java)   [:barber:](https://leetcode.com/problems/exclusive-time-of-functions)
+
 - [767. Reorganize String](new/2021/11/08/yyf-lc767.java)   [:bank:](https://leetcode.com/problems/reorganize-string)
+
 - [987. Vertical Order Traversal of a Binary Tree](new/2021/11/08/jian-lc987.java)   [:bar_chart:](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)
+
 - [31. Next Permutation](new/2021/11/10/jian-lc31.java)   [:basketball:](https://leetcode.com/problems/next-permutation)
+
 - [863. All Nodes Distance K in Binary Tree](new/2021/11/10/wf-lc863.java)   [:basketball_man:](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree)
+
 - [727. Minimum Window Subsequence](new/2021/11/10/yyf-lc727.java)   [:basketball_woman:](https://leetcode.com/problems/minimum-window-subsequence)
+
 - [1060. Missing Element in Sorted Array](new/2021/11/13/wf-lc1060.java)   [:bat:](https://leetcode.com/problems/missing-element-in-sorted-array)
+
 - [224. Basic Calculator](new/2021/11/13/jian-lc224.java)   [:bath:](https://leetcode.com/problems/basic-calculator)
+
 - [359. Logger Rate Limiter](new/2021/11/14/jian-lc359.java)   [:bathtub:](https://leetcode.com/problems/logger-rate-limiter) 
+
 - [126. Word Ladder II](new/2021/11/14/yyf-lc126.java)   [:battery:](https://leetcode.com/problems/word-ladder-ii)
+
 - [428. Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree)   [:beach_umbrella:](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree)
+
 - [173. Binary Search Tree Iterator](new/2021/11/15/jian-lc173.java)   [:bear:](https://leetcode.com/problems/binary-search-tree-iterator)
+
 - [211. Design Add and Search Words Data Structure](new/2021/11/15/yyf-lc211.java)   [:bed:](https://leetcode.com/problems/design-add-and-search-words-data-structure)
+
 - [721. Accounts Merge](new/2021/11/15/wf-lc721.java)   [:bee:](https://leetcode.com/problems/accounts-merge)
+
 - [*973. K Closest Points to Origin - quick select](new/2021/10/10/jian-lc347-quick-select.java )   [:beer:](https://leetcode.com/problems/k-closest-points-to-origin)
+
 - [*300. Longest Increasing Subsequence](new/2021/10/25/jian-lc300.java)   [:beetle:](https://leetcode.com/problems/longest-increasing-subsequence)
+
 - [*8. String to Integer (atoi)](new/2021/10/27/jian-lc8.java )   [:beginner:](https://leetcode.com/problems/string-to-integer-atoi)
+
 - [973. K Closest Points to Origin](new/2021/11/17/jian-lc973.java)   [:bell:](https://leetcode.com/problems/k-closest-points-to-origin)
+
 - [986. Interval List Intersections](new/2021/11/17/jian-lc986.java )   [:bellhop_bell:](https://leetcode.com/problems/interval-list-intersections)
+
 - [314. Binary Tree Vertical Order Traversal](new/2021/11/17/wf-lc314.java)   [:bento:](https://leetcode.com/problems/binary-tree-vertical-order-traversal)
+
 - [545. Boundary of Binary Tree](new/2021/11/17/yyf-lc545.java)   [:no_bell:](https://leetcode.com/problems/boundary-of-binary-tree)
+
 - [394. Decode String](new/2021/11/20/jian-lc394.java)   [:bicyclist:](https://leetcode.com/problems/decode-string)
+
 - [221. Maximal Square](new/2021/11/20/wf-lc221.java)   [:biking_woman:](https://leetcode.com/problems/maximal-square)
+
 - [133. Clone Graph](new/2021/11/20/yyf-lc133.java)   [:bikini:](https://leetcode.com/problems/clone-graph)
+
 - [1197. Minimum Knight Moves](new/2021/11/21/jian-lc1197.java)   [:biohazard:](https://leetcode.com/problems/minimum-knight-moves)
+
 - [695. Max Area of Island](new/2021/11/21/wf-lc695.java)   [:bird:](https://leetcode.com/problems/max-area-of-island)
+
 - [438. Find All Anagrams in a String](new/2021/11/21/yyf-lc438.java)   [:birthday:](https://leetcode.com/problems/find-all-anagrams-in-a-string)
+
 - [323. Number of Connected Components in an Undirected Graph](new/2021/11/21/jian-lc323.java)   [:black_circle:](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph)
+
 - [973. K Closest Points to Origin](new/2021/11/21/jian-lc973.java)   [:black_flag:](https://leetcode.com/problems/k-closest-points-to-origin)
+
 - [284. Peeking Iterator](new/2021/11/21/yyf-lc284.java)   [:black_heart:](https://leetcode.com/problems/peeking-iterator)
+
 - [25. Reverse Nodes in k-Group](new/2021/11/22/jian-lc25.java)   [:black_joker:](https://leetcode.com/problems/reverse-nodes-in-k-group)
--  [543. Diameter of Binary Tree](new/2021/11/22/wf-lc543.java)   [:black_large_square:](https://leetcode.com/problems/diameter-of-binary-tree)
--  [547. Number of Provinces](new/2021/11/22/yyf-lc547.java )   [:black_medium_small_square:](https://leetcode.com/problems/number-of-provinces)
+
+- [543. Diameter of Binary Tree](new/2021/11/22/wf-lc543.java)   [:black_large_square:](https://leetcode.com/problems/diameter-of-binary-tree)
+
+- [547. Number of Provinces](new/2021/11/22/yyf-lc547.java )   [:black_medium_small_square:](https://leetcode.com/problems/number-of-provinces)
+
+- [443. String Compression](new/2021/11/yyf-lc443.java)   [:black_medium_square:](https://leetcode.com/problems/string-compression)
+
+- [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)  [:black_nib:](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)
+
+- [128. Longest Consecutive Sequence(Union Find)](new/2021/11/24/wf-lc128.java)  [:black_small_square:](https://leetcode.com/problems/longest-consecutive-sequence)
+
+- [200. Number of Islands(Union Find)](new/2021/11/24/wf-lc200-UF.java)   [:black_square_button:](https://leetcode.com/problems/number-of-islands) 
+
+-  [695. Max Area of Island(Union Find)](new/2021/11/24/wf-lc695.java)  [:blonde_man:](https://leetcode.com/problems/max-area-of-island)
+
+-  [721. Accounts Merge(Union Find)](new/2021/11/24/wf-lc721.java)  [:blonde_woman:](https://leetcode.com/problems/accounts-merge)
+
+  
 

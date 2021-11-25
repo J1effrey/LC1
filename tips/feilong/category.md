@@ -562,11 +562,12 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 ## Union Find
 
-- [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
-
 - [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
-
 - [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- [128. Longest Consecutive Sequence(Union Find)](new/2021/11/24/wf-lc128.java)  [:black_small_square:](https://leetcode.com/problems/longest-consecutive-sequence)
+- [200. Number of Islands(Union Find)](new/2021/11/24/wf-lc200-UF.java)   [:black_square_button:](https://leetcode.com/problems/number-of-islands) 
+- [695. Max Area of Island(Union Find)](new/2021/11/24/wf-lc695.java)  [:blonde_man:](https://leetcode.com/problems/max-area-of-island)
+- [721. Accounts Merge(Union Find)](new/2021/11/24/wf-lc721.java)  [:blonde_woman:](https://leetcode.com/problems/accounts-merge)
 
 
 

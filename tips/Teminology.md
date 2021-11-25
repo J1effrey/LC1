@@ -7,7 +7,7 @@
 | source                      |      |      |
 | destination                 |      |      |
 | DAG (directed acylic graph) |      |      |
-|                             |      |      |
+| production                  | 乘积 |      |
 |                             |      |      |
 |                             |      |      |
 |                             |      |      |
