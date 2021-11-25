@@ -1,8 +1,13 @@
 package com.yyf.codesignal;
 
+/**
+ * cut all prefix palindrome substring
+ * example: aaacodedoc => {aaa} {codedoc}
+ */
 public class CutPrefixesPalindrome {
     public static void main(String[] args) {
-
+        System.out.println(solution("codesignal"));
+        System.out.println(solution("aaacodedoc"));
     }
 
     public static String solution(String s) {
@@ -29,3 +34,4 @@ public class CutPrefixesPalindrome {
         return true;
     }
 }
+
