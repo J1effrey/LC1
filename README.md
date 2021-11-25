@@ -1,4 +1,4 @@
-# [Category:blue_book:](tips/feilong/category.md) [skills:closed_book:](tips/feilong/methods.md)
+# [Category:blue_book:](tips/feilong/category.md) [Methods:closed_book:](tips/feilong/methods.md)
 
 # Normal
 
