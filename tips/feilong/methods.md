@@ -426,7 +426,7 @@ Binary Search, BFS, DFS...等算法分类，同时在按数据类型分，就像
 
 一些标签示例（之前截的图，有些中英文混用了，请忽略这个细节）：
 
-![062958s20q8yrxqg82g08a](../062958s20q8yrxqg82g08a.png)
+![062958s20q8yrxqg82g08a](./062958s20q8yrxqg82g08a.png)
 
 
 
@@ -474,7 +474,7 @@ _一个小tip，leetcode题目里面的notes，constraints 很多时候就是我
 也不需要一次性写这么多，很多内容实在反复刷反复想的过程中逐步添加的。
 这个例子里面有三个标签：Pointers-array，Heap，优先级2_核心。
 
-![063057icz03tlq3pjburjx](../063057icz03tlq3pjburjx.png)
+![063057icz03tlq3pjburjx](./063057icz03tlq3pjburjx.png)
 
 
 
@@ -504,7 +504,7 @@ _一个小tip，leetcode题目里面的notes，constraints 很多时候就是我
 截图一个之前的栗子：
 一开始可能很空旷而且都是红色，后来渐渐变绿就越来越稳了。
 
-![063144muuucu67nzwuu1ys](../063144muuucu67nzwuu1ys.png)
+![063144muuucu67nzwuu1ys](./063144muuucu67nzwuu1ys.png)
 
 以上就是胖头龙记笔记时的一些要点。
 
@@ -539,7 +539,7 @@ _一个小tip，leetcode题目里面的notes，constraints 很多时候就是我
 
 
 
-![111653hijoxznbumoxaniw](../111653hijoxznbumoxaniw.png)
+![111653hijoxznbumoxaniw](./111653hijoxznbumoxaniw.png)
 
 从刷题频次上来看，更接近于 30 * 10 + 100 * 8 + 300 * 5 。
 
@@ -689,7 +689,7 @@ _一个小tip，leetcode题目里面的notes，constraints 很多时候就是我
 
 把每天有限的心力及时用在最困难的任务上。
 
-![111803qtzd4l6runftft22](../111803qtzd4l6runftft22.png)
+![111803qtzd4l6runftft22](./111803qtzd4l6runftft22.png)
 
 
 
