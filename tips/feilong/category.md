@@ -420,6 +420,10 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
+## Number
+
+- [29. Divide Two Integers](../../topics/lc29.java)   [:bamboo:](
+
 ## Array and Matrix
 
 - [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
@@ -661,3 +665,5 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 - [Palindrome Partition](https://leetcode.com/problems/palindrome-partitioning/)
 
 ## Top K
+
+- [692. Top K Frequent Words](../../topics/lc692.java)   [:blossom:](https://leetcode.com/problems/top-k-frequent-words)
