@@ -521,17 +521,10 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## Stack
 
 - [155. Min Stack](https://leetcode.com/problems/min-stack/)
-
 - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-
-- [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
-
 - [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
-
 - [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
-
 - [394. Decode String](https://leetcode.com/problems/decode-string/)
-
 - [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 
 
@@ -541,11 +534,9 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## Monotonic Stack
 
 - [300. Longest Increasing Subsequence (Patience Sort)](https://leetcode.com/problems/longest-increasing-subsequence/)
-
 - [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
-
+- [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-
 - [1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)
 
 
