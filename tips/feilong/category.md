@@ -47,10 +47,10 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
   - [Complex Data Structure](#Complex-Data-Structure)
 - 第七章 动态规划
   - [Backpack](#Backpack)
-  - [Single Sequence](#Single-Sequence)
-  - [Double Sequences](#Double-Sequences)
+  - [Single Sequence](#Single-Sequence(单序列型))
+  - [Double Sequences](#Double-Sequences(双序列型))
   - [Sections](#Sections)
-  - [Matrix](#Matrix)
+  - [Matrix](#Matrix(坐标型))
   - [Others](#Others)
   - [Greedy](#Greedy)
 
@@ -555,10 +555,10 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 - [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
 - [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-- [128. Longest Consecutive Sequence(Union Find)](new/2021/11/24/wf-lc128.java)  [:black_small_square:](https://leetcode.com/problems/longest-consecutive-sequence)
-- [200. Number of Islands(Union Find)](new/2021/11/24/wf-lc200-UF.java)   [:black_square_button:](https://leetcode.com/problems/number-of-islands) 
-- [695. Max Area of Island(Union Find)](new/2021/11/24/wf-lc695.java)  [:blonde_man:](https://leetcode.com/problems/max-area-of-island)
-- [721. Accounts Merge(Union Find)](new/2021/11/24/wf-lc721.java)  [:blonde_woman:](https://leetcode.com/problems/accounts-merge)
+- [128. Longest Consecutive Sequence(Union Find)](../../topics/lc128.java)  [:blossom:](https://leetcode.com/problems/longest-consecutive-sequence)
+- [200. Number of Islands(Union Find)](../../topics/lc200.java)    [:black_square_button:](https://leetcode.com/problems/number-of-islands) 
+- [695. Max Area of Island(Union Find)](../../topics/lc695.java)  [:blonde_man:](https://leetcode.com/problems/max-area-of-island)
+- [721. Accounts Merge(Union Find)](../../topics/lc721.java)  [:blonde_woman:](https://leetcode.com/problems/accounts-merge)
 
 
 
@@ -623,34 +623,35 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
-## Single Sequence
+## Single Sequence(单序列型)
 
 - [139. Word Break](https://leetcode.com/problems/word-break/)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
 - [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
+- [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)
 - [256. Paint House](https://leetcode.com/problems/paint-house/)
 - [265. Paint House II](https://leetcode.com/problems/paint-house-ii/)
 - [Lint-843. Digital Flip](https://www.lintcode.com/problem/digital-flip/description)
 
 
 
-## Double Sequences
+## Double Sequences(双序列型)
 
 - [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 
 - [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 
-- [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+- [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+
+- [72. Edit Distance](../../topics/lc72.java)   [:one:](https://leetcode.com/problems/edit-distance/)  
 
 - [97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
 
 - [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
 
-- [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-
-
+  
 
 ## Sections
 
@@ -662,18 +663,15 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
-## Matrix
+## Matrix(坐标型)
 
+- Jump Game
+- LIS
 - [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
-
 - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
-
 - [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
-
 - [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
-
 - [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
-
 - [361. Bomb Enemy](https://leetcode.com/problems/bomb-enemy/)
 
 
@@ -682,7 +680,6 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 - [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [Lint-394. Coins in a Line](https://www.lintcode.com/problem/coins-in-a-line/description)
-- [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)
 - [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 - [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)
 - [Lint-395. Coins in a Line II](https://www.lintcode.com/problem/coins-in-a-line-ii/description)
@@ -696,3 +693,20 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 - [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
 
+
+
+# 第八章 其他方法
+
+## BackTrack
+
+- [Subsets](https://leetcode.com/problems/subsets)
+- [Subsets II](https://leetcode.com/problems/subsets-ii)
+- [Permutations](https://leetcode.com/problems/permutations/)
+- [Permutations II](https://leetcode.com/problems/permutations-ii/)
+- [Combinations](https://leetcode.com/problems/combinations/)
+- [39. Combination Sum](../../topics/lc39.java)   [:two:](https://leetcode.com/problems/combination-sum)
+- [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+- [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+- [Palindrome Partition](https://leetcode.com/problems/palindrome-partitioning/)
+
+## Top K
