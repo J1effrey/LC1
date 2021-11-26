@@ -75,7 +75,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## 条件二分法
 
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-  [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+- [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 - [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 - [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
@@ -87,7 +87,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 - [875.Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 - [1283. Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
-  [Lint-586. Sqrt(x) II, follow up](https://www.lintcode.com/problem/sqrtx-ii/description)
+- [Lint-586. Sqrt(x) II, follow up](https://www.lintcode.com/problem/sqrtx-ii/description)
 - [Lint-183. Wood Cut](https://www.lintcode.com/problem/wood-cut/description)
 - [Lint-437. Copy Books](https://www.lintcode.com/problem/copy-books/description)
 - [Lint-438. Copy Books II](https://www.lintcode.com/problem/copy-books-ii/description)
@@ -365,43 +365,24 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## 排列组合
 
 - [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-
 - [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
-
 - [46. Permutations](https://leetcode.com/problems/permutations/)
-
 - [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
-
 - [77. Combinations](https://leetcode.com/problems/combinations/)
-
 - [78. Subsets](https://leetcode.com/problems/subsets/)
-
 - [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
-
 - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-
 - [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-
 - [51. N-Queens](https://leetcode.com/problems/n-queens/)
-
 - [254. Factor Combinations](https://leetcode.com/problems/factor-combinations/)
-
 - [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)
-
 - [491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
-
 - [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
-
 - [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
-
 - [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
-
 - [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
-
 - [Lint-10. String Permutation II](https://www.lintcode.com/problem/10/)
-
 - [Lint-570. Find the Missing Number II](https://www.lintcode.com/problem/570/)
-
 - [Lint-680. Split String](https://www.lintcode.com/problem/split-string/description)
 
 
@@ -409,13 +390,9 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## 二叉树
 
 - [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)
-
 - [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
-
 - [Lint-246. Binary Tree Path Sum II](https://www.lintcode.com/problem/binary-tree-path-sum-ii/solution)
-
 - [Lint-376. Binary Tree Path Sum](https://www.lintcode.com/problem/binary-tree-path-sum/solution)
-
 - [Lint-472. Binary Tree Path Sum III](https://www.lintcode.com/problem/472/)
 
 
@@ -442,13 +419,9 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## Array and Matrix
 
 - [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
-
 - [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
-
 - [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-
 - [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-
 - [289. Game of Life](https://leetcode.com/problems/game-of-life/)
 
 
@@ -458,13 +431,9 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## String
 
 - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
-
 - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
-
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
-
 - [68. Text Justification](https://leetcode.com/problems/text-justification/)
-
 - [443. String Compression](https://leetcode.com/problems/string-compression/)
 
 
@@ -544,9 +513,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## Trie
 
 - [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
-
 - [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
-
 - [1032. Stream of Characters](https://leetcode.com/problems/stream-of-characters/)
 
 
@@ -565,9 +532,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## Sweep Line
 
 - [Lint-391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/391/)
-
 - [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
-
 - [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
 
 
@@ -575,13 +540,9 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## Binary Index Tree and Segment Tree
 
 - [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
-
 - [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)
-
 - [715. Range Module](https://leetcode.com/problems/range-module/)
-
 - [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/co ... numbers-after-self/)
-
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
 
 
@@ -608,15 +569,10 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## Backpack
 
 - [Lint-92. Backpack](https://www.lintcode.com/problem/backpack/description)
-
 - [Lint-125. Backpack II](https://www.lintcode.com/problem/backpack-ii/description)
-
 - [Lint-440. Backpack III](https://www.lintcode.com/problem/backpack-iii/description)
-
 - [Lint-562. Backpack IV](https://www.lintcode.com/problem/backpack-iv/description)
-
 - [Lint-563. Backpack V](https://www.lintcode.com/problem/backpack-v/description)
-
 - [Lint-564. Backpack VI (Combination Sum IV)](https://www.lintcode.com/problem/combination-sum-iv/description)
 - [Lint-971. Surplus Value Backpack](https://www.lintcode.com/problem/971/)
 - [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
@@ -640,15 +596,10 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## Double Sequences(双序列型)
 
 - [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
-
 - [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
-
 - [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-
 - [72. Edit Distance](../../topics/lc72.java)   [:one:](https://leetcode.com/problems/edit-distance/)  
-
 - [97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
-
 - [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
 
   
@@ -656,9 +607,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## Sections
 
 - [312.Burst Balloons](https://leetcode.com/problems/burst-balloons/)
-
 - [516.Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
-
 - [87.Scramble String](https://leetcode.com/problems/scramble-string/)
 
 
@@ -688,9 +637,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 ## Greedy
 
 - [55. Jump Game](https://leetcode.com/problems/jump-game/)
-
 - [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
-
 - [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
 
 
