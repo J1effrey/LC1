@@ -21,7 +21,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
   - [矩阵](#矩阵)
   - [图](#图)
 - 第四章 二叉树与递归
-  - [二叉树前中后顺遍历](#二叉树前中后序遍历\(需要熟练掌握非递归方式\))
+  - [二叉树前中后顺遍历](#二叉树前中后序遍历-需要熟练掌握非递归方式)
   - [反向复原二叉树](#反向复原二叉树)
   - [iterator相关](#iterator相关)
   - [判断树的形态](#判断树的形态)
@@ -47,10 +47,10 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
   - [Complex Data Structure](#Complex-Data-Structure)
 - 第七章 动态规划
   - [Backpack](#Backpack)
-  - [Single Sequence](#Single-Sequence(单序列型))
-  - [Double Sequences](#Double-Sequences(双序列型))
+  - [Single Sequence](#Single-Sequence-单序列型)
+  - [Double Sequences](#Double-Sequences-双序列型)
   - [Sections](#Sections)
-  - [Matrix](#Matrix(坐标型))
+  - [Matrix](#Matrix-坐标型)
   - [Others](#Others)
   - [Greedy](#Greedy)
 
@@ -283,7 +283,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
-## 二叉树前中后序遍历(需要熟练掌握非递归方式)
+## 二叉树前中后序遍历 需要熟练掌握非递归方式
 
 - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
@@ -579,7 +579,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
-## Single Sequence(单序列型)
+## Single Sequence 单序列型
 
 - [139. Word Break](https://leetcode.com/problems/word-break/)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
@@ -593,7 +593,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
-## Double Sequences(双序列型)
+## Double Sequences 双序列型
 
 - [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 - [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
@@ -612,7 +612,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
-## Matrix(坐标型)
+## Matrix 坐标型
 
 - Jump Game
 - LIS
