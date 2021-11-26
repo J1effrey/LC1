@@ -9,4 +9,4 @@
 | <<     | LEFT SHIFT        | x * 2                |
 | ^      | XOR(exclusive or) | 不同为1，相同为0     |
 
-![bit](bit.png)
+![bit](../pics/bit.png)
