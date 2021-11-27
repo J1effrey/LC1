@@ -1,16 +1,11 @@
-# [Category:blue_book:](tips/feilong/category.md) [Methods:closed_book:](tips/feilong/methods.md)
+## [Category:blue_book:](tips/feilong/category.md) [Methods:closed_book:](tips/feilong/methods.md)
 
-# Normal
-
-owned by coding brothers 🥇
-
-__problem with star(*) before means previously solved problem__<br/>
-__emoji after every problem links to its original problem in Leetcode__<br/>
-__:star: => importance__<br/>
-
-<div align="left">
-<img src="https://img.shields.io/badge/LC-Java-green?style=plastic&logo=appveyor">
-</div>
+## Code Template (WIP)
+- Top K:
+- Sliding WIndow:
+- Union-Find:
+- BFS
+- DFS
 
 ## Top Interviewed Questions
 
@@ -49,13 +44,6 @@ __:star: => importance__<br/>
 - [128. Longest Consecutive Sequence](./new/2021/10/11/wf-lc128.java) [:alien:](https://leetcode.com/problems/longest-consecutive-sequence)
 - [138. Copy List with Random Pointer](./new/2021/10/11/wf-lc138.java)  [:ambulance:](https://leetcode.com/problems/copy-list-with-random-pointer)
 - [134. Gas Station](./new/2021/10/11/jian-lc134.java)  [:amphora:](https://leetcode.com/problems/gas-station)
-
------------------------------------------
-
-__Milestone: TOP 50 DONE__ :white_check_mark:
-
------------------------------------------
-
 - [*215. Kth Largest Element in an Array](./old/2021/10/12/jian-lc215.java)]
 - [*41. First Missing Positive](./old/2021/10/12/wf-lc41.java)
 - [*22. Generate Parentheses](./old/2021/10/12/yyf-lc22.java)
@@ -133,12 +121,6 @@ __Milestone: TOP 50 DONE__ :white_check_mark:
 - [204. Count Primes](new/2021/11/03/yyf-lc204.java)   [:ballot_box:](https://leetcode.com/problems/count-primes)
 - [994. Rotting Oranges](new/2021/11/06/jian-lc994.java)   [:ballot_box_with_check:](https://leetcode.com/problems/rotting-oranges)
 - [29. Divide Two Integers](new/2021/11/06/jian-lc29.java)   [:bamboo:](https://leetcode.com/problems/divide-two-integers)
-
------------------------------------------
-
-__Milestone: TOP 100 DONE__ :white_check_mark:
-
------------------------------------------
 
 ## Top FAAMG Questions
 
