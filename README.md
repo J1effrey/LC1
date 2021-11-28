@@ -2,7 +2,7 @@
 
 ## Code Template (WIP)
 - Top K:
-- Sliding WIndow:
+- Sliding Window:
 - Union-Find:
 - BFS
 - DFS
@@ -164,9 +164,11 @@
 - [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)  [:black_nib:](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)
 - [128. Longest Consecutive Sequence(Union Find)](new/2021/11/24/wf-lc128.java)  [:black_small_square:](https://leetcode.com/problems/longest-consecutive-sequence)
 - [200. Number of Islands(Union Find)](new/2021/11/24/wf-lc200-UF.java)   [:black_square_button:](https://leetcode.com/problems/number-of-islands) 
--  [695. Max Area of Island(Union Find)](new/2021/11/24/wf-lc695.java)  [:blonde_man:](https://leetcode.com/problems/max-area-of-island)
--  [721. Accounts Merge(Union Find)](new/2021/11/24/wf-lc721.java)  [:blonde_woman:](https://leetcode.com/problems/accounts-merge)
--  [692. Top K Frequent Words](new/2021/11/06/yyf-lc692.java)   [:blossom:](https://leetcode.com/problems/top-k-frequent-words)
+- [695. Max Area of Island(Union Find)](new/2021/11/24/wf-lc695.java)  [:blonde_man:](https://leetcode.com/problems/max-area-of-island)
+- [721. Accounts Merge(Union Find)](new/2021/11/24/wf-lc721.java)  [:blonde_woman:](https://leetcode.com/problems/accounts-merge)
+- [692. Top K Frequent Words](new/2021/11/06/jian-lc692.java)   [:blossom:](https://leetcode.com/problems/top-k-frequent-words)
+-  [658. Find K Closest Elements](new/2021/11/27/jian-lc658.java)   [:blowfish:](https://leetcode.com/problems/find-k-closest-elements)
+-  [403. Frog Jump](new/2021/11/27/yyf-lc403.java)   [:blue_car:](https://leetcode.com/problems/frog-jump)
 
   
 
