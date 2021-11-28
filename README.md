@@ -1,11 +1,19 @@
 ## [Category:blue_book:](tips/feilong/category.md) [Methods:closed_book:](tips/feilong/methods.md)
 
-## Code Template (WIP)
+## Template
 - Top K:
+    - [215. Kth Largest Element in an Array](./old/2021/10/12/jian-lc215.java)] 
+- Union-Find: 
+    - [200. Number of Islands(Union Find)](new/2021/11/24/wf-lc200-UF.java)
 - Sliding Window:
-- Union-Find:
-- BFS
+    - https://labuladong.github.io/algo/1/9/ 
+- Binary Search:
+    - [34. Find First and Last Position of Element in Sorted Array](new/2021/10/18/wf-lc34.java)
+- BFS:
+    - level order: [103. Binary Tree Zigzag Level Order Traversal ](new/2021/10/24/jian-lc103.java )
+    - board: TODO
 - DFS
+    - board: TODO   
 
 ## Top Interviewed Questions
 
