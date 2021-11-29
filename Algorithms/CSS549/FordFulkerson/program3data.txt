@@ -1,0 +1,22 @@
+10
+Anibel
+Belinda
+Clark
+Delphina
+Ernie
+Dozer
+Sassy
+Betty
+Tiger
+Pippy
+10
+1 6
+1 8
+2 6
+2 7
+2 8
+2 9
+3 9
+4 9
+5 9
+5 10

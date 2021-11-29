@@ -175,8 +175,12 @@
 - [695. Max Area of Island(Union Find)](new/2021/11/24/wf-lc695.java)  [:blonde_man:](https://leetcode.com/problems/max-area-of-island)
 - [721. Accounts Merge(Union Find)](new/2021/11/24/wf-lc721.java)  [:blonde_woman:](https://leetcode.com/problems/accounts-merge)
 - [692. Top K Frequent Words](new/2021/11/06/jian-lc692.java)   [:blossom:](https://leetcode.com/problems/top-k-frequent-words)
--  [658. Find K Closest Elements](new/2021/11/27/jian-lc658.java)   [:blowfish:](https://leetcode.com/problems/find-k-closest-elements)
--  [403. Frog Jump](new/2021/11/27/yyf-lc403.java)   [:blue_car:](https://leetcode.com/problems/frog-jump)
+- [658. Find K Closest Elements](new/2021/11/27/jian-lc658.java)   [:blowfish:](https://leetcode.com/problems/find-k-closest-elements)
+- [403. Frog Jump](new/2021/11/27/yyf-lc403.java)   [:blue_car:](https://leetcode.com/problems/frog-jump)
+- [1570. Dot Product of Two Sparse Vectors](new/2021/11/28/jian-lc1570.java)   [:blue_heart:](https://leetcode.com/problems/dot-product-of-two-sparse-vectors) 
+-  [1249. Minimum Remove to Make Valid Parentheses](new/2021/11/28/yyf-lc1249.java)   [:blush:](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
+- [199. Binary Tree Right Side View](new/2021/11/28/jian-lc199.java )   [:boar:](https://leetcode.com/problems/binary-tree-right-side-view)
+- [494. Target Sum](new/2021/11/28/yyf-lc494.java)   [:boat:](https://leetcode.com/problems/target-sum)
 
   
 
