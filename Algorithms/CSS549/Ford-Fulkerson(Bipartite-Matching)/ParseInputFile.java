@@ -1,25 +1,52 @@
 package com.yyf.css549.FordFulkerson;
 
 import java.io.*;
-import java.util.ArrayList;
 
-
+/**
+ * @author yifei yang
+ */
 public class ParseInputFile {
+
+    /**
+     * input fileName
+     */
     private String fileName;
+
+    /**
+     * parsed graph
+     */
     private Graph graph;
+
+    /**
+     * number of nodes
+     */
     public int numberOfNodes;
+
+    /**
+     * number of edges
+     */
     public int numberOfEdges;
 
-
+    /**
+     * get fileName that needs to be parsed
+     * @param fileName input
+     */
     public ParseInputFile(String fileName) {
         this.fileName = fileName;
     }
 
+    /**
+     * return graph from parsed input file
+     * @return
+     */
     public Graph getGraph() {
         this.parseFile();
         return graph;
     }
 
+    /**
+     * parse nodes' names and edges in the file and transform them into a graph;
+     */
     public void parseFile() {
         FileReader fr = null;
         BufferedReader br = null;
@@ -39,8 +66,8 @@ public class ParseInputFile {
                 edges[i] = new Edge(Integer.parseInt(nodes[0]), Integer.parseInt(nodes[1]));
             }
 
+            // get graph
             this.graph = new Graph(nodeNames, edges);
-
 
         } catch (IOException e) {
             e.printStackTrace();
