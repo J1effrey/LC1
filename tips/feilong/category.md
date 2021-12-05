@@ -32,7 +32,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 - 第五章 DFS
   - [排列组合](#排列组合)
   - [二叉树](#二叉树)
-  - [图](#图)
+  - [图](#图2)
 - 第六章 数据结构
   - [Array & Matrix](#Array-and-Matrix)
   - [String](#String)
@@ -368,21 +368,23 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 ## 排列组合
 
-- [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-- [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
-- [46. Permutations](https://leetcode.com/problems/permutations/)
-- [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
-- [77. Combinations](https://leetcode.com/problems/combinations/)
-- [78. Subsets](https://leetcode.com/problems/subsets/)
-- [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
-- [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-- [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-- [51. N-Queens](https://leetcode.com/problems/n-queens/)
-- [254. Factor Combinations](https://leetcode.com/problems/factor-combinations/)
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/)   [:boat:](https://leetcode.com/problems/combination-sum/)
+- [40. Combination Sum II ](https://leetcode.com/problems/combination-sum-ii/)     [:bomb:](https://leetcode.com/problems/combination-sum-ii/)    
+- [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii)    [:book:](https://leetcode.com/problems/combination-sum-iii)   
+- [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)   [:bookmark:](https://leetcode.com/problems/combination-sum-iv)
+- [46. Permutations](https://leetcode.com/problems/permutations/)   [:bookmark_tabs:](https://leetcode.com/problems/permutations/)
+- [47. Permutations II](https://leetcode.com/problems/permutations-ii/)  [:books:](https://leetcode.com/problems/permutations-ii/)
+- [77. Combinations](https://leetcode.com/problems/combinations/)     [:boom:](https://leetcode.com/problems/combinations/)   
+- [78. Subsets](https://leetcode.com/problems/subsets/)   [:boot:](https://leetcode.com/problems/subsets/)
+- [90. Subsets II](https://leetcode.com/problems/subsets-ii/)   [:bouquet:](https://leetcode.com/problems/subsets-ii/)
+- [17. Letter Combinations of a Phone Number ](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)  [:bow:](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)   [:bow_and_arrow:](https://leetcode.com/problems/generate-parentheses/)
+- [51. N-Queens](https://leetcode.com/problems/n-queens/)     [:bowing_man:](https://leetcode.com/problems/n-queens/)   
+- [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)   [:bowing_woman:](https://leetcode.com/problems/n-queens-ii/)
+- [254. Factor Combinations](https://leetcode.com/problems/factor-combinations/)   [:bowling:](https://leetcode.com/problems/factor-combinations/)
 - [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)
-- [491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
+- [491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)   [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)
 - [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
-- [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
 - [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 - [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 - [Lint-10. String Permutation II](https://www.lintcode.com/problem/10/)
@@ -401,7 +403,7 @@ __(必背：紫色；核心：蓝色；重点：绿色；普通：黄色；默�
 
 
 
-## 图
+## 图2
 
 - [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
 - [494. Target Sum](https://leetcode.com/problems/target-sum/)

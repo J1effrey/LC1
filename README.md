@@ -178,9 +178,30 @@
 - [658. Find K Closest Elements](new/2021/11/27/jian-lc658.java)   [:blowfish:](https://leetcode.com/problems/find-k-closest-elements)
 - [403. Frog Jump](new/2021/11/27/yyf-lc403.java)   [:blue_car:](https://leetcode.com/problems/frog-jump)
 - [1570. Dot Product of Two Sparse Vectors](new/2021/11/28/jian-lc1570.java)   [:blue_heart:](https://leetcode.com/problems/dot-product-of-two-sparse-vectors) 
--  [1249. Minimum Remove to Make Valid Parentheses](new/2021/11/28/yyf-lc1249.java)   [:blush:](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
+- [1249. Minimum Remove to Make Valid Parentheses](new/2021/11/28/yyf-lc1249.java)   [:blush:](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
 - [199. Binary Tree Right Side View](new/2021/11/28/jian-lc199.java )   [:boar:](https://leetcode.com/problems/binary-tree-right-side-view)
 - [494. Target Sum](new/2021/11/28/yyf-lc494.java)   [:boat:](https://leetcode.com/problems/target-sum)
-
-  
+- [938. Range Sum of BST](new/2021/12/01/jian-lc938.java)     [:cactus:](https://leetcode.com/problems/range-sum-of-bst)   
+- [273. Integer to English Words](new/2021/12/01/yyf-lc273.java)   [:cake:](https://leetcode.com/problems/integer-to-english-words)
+- [680. Valid Palindrome II](new/2021/12/04/yyf-lc680.java)   [:calendar:](https://leetcode.com/problems/valid-palindrome-ii)
+- [415. Add Strings](new/2021/12/04/yyf-lc415.java)   [:call_me_hand:](https://leetcode.com/problems/add-strings)
+- [523. Continuous Subarray Sum](new/2021/12/04/jian-lc523.java)   [:calling:](https://leetcode.com/problems/continuous-subarray-sum)
+- [1762. Buildings With an Ocean View](new/2021/12/04/jian-lc1762.java)   [:camel:](https://leetcode.com/problems/buildings-with-an-ocean-view)
+- `dfs--------------------start`
+- [39. Combination Sum](new/2021/12/04/yyf-lc39.java)   [:boat:](https://leetcode.com/problems/combination-sum/)
+- [40. Combination Sum II ](new/2021/12/04/yyf-lc40.java)     [:bomb:](https://leetcode.com/problems/combination-sum-ii/)    
+- [216. Combination Sum III](new/2021/12/04/yyf-lc216.java)    [:book:](https://leetcode.com/problems/combination-sum-iii)   
+- [377. Combination Sum IV](new/2021/12/04/yyf-lc377.java)   [:bookmark:](https://leetcode.com/problems/combination-sum-iv)
+- [46. Permutations](new/2021/12/04/yyf-lc46.java)   [:bookmark_tabs:](https://leetcode.com/problems/permutations/)
+- [47. Permutations II](new/2021/12/04/yyf-lc47.java)  [:books:](https://leetcode.com/problems/permutations-ii/)
+- [77. Combinations](new/2021/12/04/yyf-lc77.java)     [:boom:](https://leetcode.com/problems/combinations/)   
+- [78. Subsets](new/2021/12/04/yyf-lc78.java)   [:boot:](https://leetcode.com/problems/subsets/)
+- [90. Subsets II](new/2021/12/04/yyf-lc90.java)   [:bouquet:](https://leetcode.com/problems/subsets-ii/)
+- [17. Letter Combinations of a Phone Number ](new/2021/12/04/yyf-lc17.java)  [:bow:](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [22. Generate Parentheses](new/2021/12/04/yyf-lc22.java)   [:bow_and_arrow:](https://leetcode.com/problems/generate-parentheses/)
+- [51. N-Queens](new/2021/12/04/yyf-lc51.java)     [:bowing_man:](https://leetcode.com/problems/n-queens/)   
+- [52. N-Queens II](new/2021/12/04/yyf-lc52.java)   [:bowing_woman:](https://leetcode.com/problems/n-queens-ii/)
+- [254. Factor Combinations](new/2021/12/04/yyf-lc254.java)   [:bowling:](https://leetcode.com/problems/factor-combinations/)
+- `dfs-----------------------end`
+- 
 
