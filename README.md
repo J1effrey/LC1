@@ -5,6 +5,9 @@
     - [215. Kth Largest Element in an Array](./old/2021/10/12/jian-lc215.java)] 
 - Union-Find: 
     - [200. Number of Islands(Union Find)](new/2021/11/24/wf-lc200-UF.java)
+- Trie
+    - char[26]: TODO
+    - HashMap: TODO
 - Sliding Window:
     - https://labuladong.github.io/algo/1/9/ 
 - Binary Search:
@@ -13,6 +16,7 @@
     - level order: [103. Binary Tree Zigzag Level Order Traversal ](new/2021/10/24/jian-lc103.java )
     - board: TODO
 - DFS
+    - string: TODO
     - board: TODO   
 
 ## Top Interviewed Questions
