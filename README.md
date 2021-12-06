@@ -9,7 +9,7 @@
     - char[26]: 
       - String: [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-string.java)
       - Boolean: [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-boolean.java) 
-    - HashMap:  [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-boolean.java)  
+    - HashMap:  [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-hashmap.java)  
 - Sliding Window:
     - https://labuladong.github.io/algo/1/9/ 
 - Binary Search:
