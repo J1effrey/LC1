@@ -19,7 +19,7 @@
     - board: TODO
 - DFS
     - string: TODO
-    - board: TODO   
+    - board: [51. N-Queens](new/2021/12/04/yyf-lc51.java)     [:bowing_man:](https://leetcode.com/problems/n-queens/)   
 
 ## Top Interviewed Questions
 
