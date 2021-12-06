@@ -6,8 +6,10 @@
 - Union-Find: 
     - [200. Number of Islands(Union Find)](new/2021/11/24/wf-lc200-UF.java)
 - Trie
-    - char[26]: TODO
-    - HashMap: TODO
+    - char[26]: 
+      - String: [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-string.java)
+      - Boolean: [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-boolean.java) 
+    - HashMap:  [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-boolean.java)  
 - Sliding Window:
     - https://labuladong.github.io/algo/1/9/ 
 - Binary Search:
@@ -208,4 +210,7 @@
 - [254. Factor Combinations](new/2021/12/04/yyf-lc254.java)   [:bowling:](https://leetcode.com/problems/factor-combinations/)
 - `dfs-----------------------end`
 - [211. Design Add and Search Words Data Structure[follow up]](new/2021/12/05/YYF-lc211.java)   [:camera:](https://leetcode.com/problems/design-add-and-search-words-data-structure)
+-  new/2021/12/05/jian-lc282.java | 43 +++++++++++++++++++++++++++++++++++++++++++
+   new/2021/12/05/wf-lc426.java   | 50 ++++++++++++++++++++++++++++++++++++++++++++++++++
+   new/2021/12/05/yyf-lc158.java  | 35 +++++++++++++++++++++++++++++++++++
 
