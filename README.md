@@ -1,5 +1,3 @@
-## [Category:blue_book:](tips/feilong/category.md) [Methods:closed_book:](tips/feilong/methods.md)
-
 ## Template
 - Top K:
     - [215. Kth Largest Element in an Array](./old/2021/10/12/jian-lc215.java)] 
