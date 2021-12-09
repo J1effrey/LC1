@@ -213,8 +213,11 @@
 - [282. Expression Add Operators](new/2021/12/05/jian-lc282.java)   [:camera_flash:](https://leetcode.com/problems/expression-add-operators) 
 - [426. Convert Binary Search Tree to Sorted Doubly Linked List](new/2021/12/05/wf-lc426.java)   [:cameroon:](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)
 - [158. Read N Characters Given read4 II - Call Multiple Times](new/2021/12/05/yyf-lc158.java)   [:camping:](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times)
--  new/2021/12/06/jian-lc827.java
--  new/2021/12/06/yyf-lc398.java
--  new/2021/12/06/yyf-lc471.java
--  new/2021/12/07/jian-lc727.java
+-  [827. Making A Large Island](new/2021/12/06/jian-lc827.java)   [:canada:](https://leetcode.com/problems/making-a-large-island)
+-  [398. Random Pick Index](new/2021/12/06/yyf-lc398.java)   [:canary_islands:](https://leetcode.com/problems/random-pick-index)
+-  [471. Encode String with Shortest Length](new/2021/12/06/yyf-lc471.java)   [:cancer:](https://leetcode.com/problems/encode-string-with-shortest-length)
+-  [727. Minimum Window Subsequence](new/2021/12/07/jian-lc727.java)   [:candle:](https://leetcode.com/problems/minimum-window-subsequence)
+-  [833. Find And Replace in String](new/2021/12/08/jian-lc833.java)   [:candy:](https://leetcode.com/problems/find-and-replace-in-string)
+-   [395. Longest Substring with At Least K Repeating Characters](new/2021/12/08/yyf-lc395.java)   [:canoe:](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)
+-   [951. Flip Equivalent Binary Trees](new/2021/12/08/yyf-lc951.java)   [:cape_verde:](https://leetcode.com/problems/flip-equivalent-binary-trees)
 
