@@ -213,4 +213,8 @@
 - [282. Expression Add Operators](new/2021/12/05/jian-lc282.java)   [:camera_flash:](https://leetcode.com/problems/expression-add-operators) 
 - [426. Convert Binary Search Tree to Sorted Doubly Linked List](new/2021/12/05/wf-lc426.java)   [:cameroon:](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)
 - [158. Read N Characters Given read4 II - Call Multiple Times](new/2021/12/05/yyf-lc158.java)   [:camping:](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times)
+-  new/2021/12/06/jian-lc827.java
+-  new/2021/12/06/yyf-lc398.java
+-  new/2021/12/06/yyf-lc471.java
+-  new/2021/12/07/jian-lc727.java
 

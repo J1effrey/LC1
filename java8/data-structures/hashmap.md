@@ -45,3 +45,15 @@ for (String word : words) {
 String[] wordSet = counts.keySet().toArray(new String[0]);
 ```
 
+
+
+## map的value存放引用型变量时不需要重复put
+
+```java
+Map<Integer, List<Integer>> map = new HashMap<>();
+map.put(1, new ArrayList<>());
+map.get(1).add(123);
+map.get(1).add(456);
+System.out.println(map.get(1));
+```
+
