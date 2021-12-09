@@ -220,4 +220,7 @@
 -  [833. Find And Replace in String](new/2021/12/08/jian-lc833.java)   [:candy:](https://leetcode.com/problems/find-and-replace-in-string)
 -   [395. Longest Substring with At Least K Repeating Characters](new/2021/12/08/yyf-lc395.java)   [:canoe:](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)
 -   [951. Flip Equivalent Binary Trees](new/2021/12/08/yyf-lc951.java)   [:cape_verde:](https://leetcode.com/problems/flip-equivalent-binary-trees)
+-  [951. Flip Equivalent Binary Trees](new/2021/12/08/jian-lc951.java)   [:capital_abcd:](https://leetcode.com/problems/flip-equivalent-binary-trees)
+-   [670. Maximum Swap](new/2021/12/08/wf-lc670.java)   [:capricorn:](https://leetcode.com/problems/maximum-swap)
+-   [921. Minimum Add to Make Parentheses Valid](new/2021/12/08/wf-lc921.java )   [:car:](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid)
 
