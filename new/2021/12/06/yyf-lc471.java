@@ -1,3 +1,4 @@
+// DP
 class Solution {
     public String encode(String s) {
         int n = s.length();
@@ -24,6 +25,7 @@ class Solution {
 }
 
 /*=============================================================================================================================================================================*/
+// DFS
 class Solution {
     Map<String, String> map = new HashMap<>();
     public String encode(String s) {
