@@ -187,7 +187,7 @@
 - [1249. Minimum Remove to Make Valid Parentheses](new/2021/11/28/yyf-lc1249.java)   [:blush:](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
 - [199. Binary Tree Right Side View](new/2021/11/28/jian-lc199.java )   [:boar:](https://leetcode.com/problems/binary-tree-right-side-view)
 - [494. Target Sum](new/2021/11/28/yyf-lc494.java)   [:boat:](https://leetcode.com/problems/target-sum)
-- [304. Range Sum Query 2D - Immutable](new/2021/11/28/wf-lc304.java | 24)   [:cat:](https://leetcode.com/problems/range-sum-query-2d-immutable)
+- [304. Range Sum Query 2D - Immutable](new/2021/11/28/wf-lc304.java)   [:cat:](https://leetcode.com/problems/range-sum-query-2d-immutable)
 - [71. Simplify Path](new/2021/11/28/wf-lc71.java)   [:carrot:](https://leetcode.com/problems/simplify-path) 
 - [938. Range Sum of BST](new/2021/12/01/jian-lc938.java)     [:cactus:](https://leetcode.com/problems/range-sum-of-bst)   
 - [273. Integer to English Words](new/2021/12/01/yyf-lc273.java)   [:cake:](https://leetcode.com/problems/integer-to-english-words)
