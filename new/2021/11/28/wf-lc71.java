@@ -1,5 +1,31 @@
 class Solution {
     public String simplifyPath(String path) {
+        StringBuilder sb = new StringBuilder();
+        String[] paths = path.split("/+");
+        Stack<String> stack = new Stack<>();
+        for (String directory : paths) {
+            if (".".equals(directory) || directory.isEmpty()) {
+                continue;
+            } else if ("..".equals(directory)){
+                if (!stack.isEmpty()) {
+                    stack.pop();
+                }
+            } else {
+                stack.push(directory);
+            }
+        }
+        for (String dir : stack) {
+            sb.append("/");
+            sb.append(dir);
+        }
+
+        return sb.length() > 0 ? sb.toString() : "/";
+    }
+}
+
+// ==========================================================
+class Solution {
+    public String simplifyPath(String path) {
         if (path == null || path.length() == 0) {
             return path;
         }
