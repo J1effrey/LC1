@@ -1,3 +1,5 @@
+// http://fisherlei.blogspot.com/2013/11/leetcode-linked-list-cycle-ii-solution.html  
+// proof
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         /*
