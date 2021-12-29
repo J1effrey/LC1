@@ -46,8 +46,8 @@ foo/bar = 不知道该起什么名字好
 |                             | 乘     |      |
 |                             | 除     |      |
 | multiple                    | 倍数   |      |
-|                             |        |      |
-|                             |        |      |
-|                             |        |      |
+| hundreds digit              |        |      |
+| tens digit                  |        |      |
+| units digit                 |        |      |
 |                             |        |      |
 
