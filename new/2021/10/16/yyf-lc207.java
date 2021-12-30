@@ -1,3 +1,4 @@
+//// Time: O(E + V) E:is the number of dependencies. V: is the number of courses
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         if (prerequisites == null) {
