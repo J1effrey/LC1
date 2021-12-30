@@ -1,3 +1,5 @@
+// Time: Time Complexity: O(Rows * Cols * 3^L) where NN is the number of cells in the board and LL is the length of the word to be matched
+// Space: O(Rows * Cols)
 class Solution {
     private boolean[][] visited;
     private char[][] board;
