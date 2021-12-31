@@ -1,3 +1,5 @@
+// Time: O(Math.max(S, T))
+// Space: O(Math.max(S, T)) 
 class Solution {
     public String minWindow(String s, String t) {
         if (s == null || s.length() == 0) {
@@ -19,6 +21,7 @@ class Solution {
         int matchedNumOfChars = 0;
         int left = 0;
         int right = 0;
+        
         int leftOfRes = 0;
         int rightOfRes = 0;
         int minLen = Integer.MAX_VALUE;
@@ -27,28 +30,28 @@ class Solution {
         
         while (right < s.length()) {
             char c = s.charAt(right);
-            int count = wMap.getOrDefault(c, 0);
-            wMap.put(c, count + 1);
+            wMap.put(c, wMap.getOrDefault(c, 0) + 1);
             
             if (tMap.containsKey(c) && tMap.get(c).intValue() == wMap.get(c).intValue()) {
                 matchedNumOfChars++;
-                while (left <= right && matchedNumOfChars == uniqueNumOfChars) {
-                    if (minLen > right - left + 1) {
-                        leftOfRes = left;
-                        rightOfRes = right;
-                        minLen = Math.min(minLen, right - left + 1);
-                    }
-                    
-                    char cLeft = s.charAt(left);
-                    int cLeftCount = wMap.get(cLeft);
-                    wMap.put(cLeft, cLeftCount - 1);
-                    
-                    if (tMap.containsKey(cLeft) && tMap.get(cLeft).intValue() > wMap.get(cLeft).intValue()) {
-                        matchedNumOfChars--;
-                    }
-                    
-                    left++;
+            }
+            
+            while (left <= right && matchedNumOfChars == uniqueNumOfChars) {
+                if (minLen > right - left + 1) {
+                    leftOfRes = left;
+                    rightOfRes = right;
+                    minLen = Math.min(minLen, right - left + 1);
                 }
+
+                char cLeft = s.charAt(left);
+                int cLeftCount = wMap.get(cLeft);
+                wMap.put(cLeft, cLeftCount - 1);
+
+                if (tMap.containsKey(cLeft) && tMap.get(cLeft).intValue() > wMap.get(cLeft).intValue()) {
+                    matchedNumOfChars--;
+                }
+
+                left++;
             }
             
             right++;
