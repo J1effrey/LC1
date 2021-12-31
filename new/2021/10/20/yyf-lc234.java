@@ -1,13 +1,49 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
+// Best Solution
+// dummy used to reverse the 1st half
+// do the reverse of first half and find middle point togeter!!!
+class Solution {
+    public boolean isPalindrome(ListNode head) {
+        if (head == null || head.next == null) {
+            return true;
+        }
+        
+        ListNode fast = head;
+        
+        ListNode dummy = new ListNode();
+        
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            
+            ListNode next = head.next;
+            ListNode dummyNext = dummy.next;
+            dummy.next = head;
+            head.next = dummyNext;
+            head = next;
+        }
+        
+        if (fast != null) {
+            head = head.next;
+        }
+        
+        ListNode first = dummy.next;
+        ListNode second = head;
+        
+        while (first != null && second != null) {
+            if (first.val != second.val) {
+                return false;
+            }
+            
+            first = first.next;
+            second = second.next;
+        }
+        
+        return true;
+    }
+}
+
+-------------
+// 2nd best
+    
 class Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode slow = head;
@@ -45,6 +81,9 @@ class Solution {
 }
 
 /*
+
+// worst solution
+
 class Solution {
     public boolean isPalindrome(ListNode head) {
         List<Integer> nums = new ArrayList<>();
