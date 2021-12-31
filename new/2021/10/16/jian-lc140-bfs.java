@@ -1,3 +1,4 @@
+// BFS
 class Solution {
     class Candidate {
         int index;
@@ -65,5 +66,44 @@ class Solution {
         }
         
         return res;
+    }
+}
+
+// =============================-===============================================================================
+// DFS
+// O(L/M*N)
+// N 是字典单词个数
+// M是最短单词长度
+// L是单词长度
+class Solution {
+    Map<String, List<String>> map = new HashMap<>();
+    public List<String> wordBreak(String s, List<String> wordDict) {
+        List<String> res = new ArrayList<>();
+        if (s == null || s.equals("")) {
+            return res;
+        }
+        if (map.containsKey(s)) {
+            return map.get(s);
+        }
+        if (wordDict.contains(s)) {
+            res.add(s);
+        }
+        
+        
+        for (int i = 0; i < s.length(); i++) {
+            String prefix =  s.substring(0, i + 1);
+            String suffix = s.substring(i + 1);
+            if (wordDict.contains(prefix)) {
+                List<String> temp = wordBreak(suffix, wordDict);
+                if (temp.size() != 0) {
+                    for (String str : temp) {
+                        res.add(prefix + " " + str);
+                    }
+                }
+            }
+        }
+        map.put(s, res);
+        return res;
+                                                        
     }
 }
