@@ -1,3 +1,4 @@
+//Time: 5^(L+2) L:N的长度
 class Solution {
     Map<Integer, Integer> map = new HashMap<>();
     int res = 0;
@@ -15,6 +16,7 @@ class Solution {
             res++;
         }
         for (Integer i : map.keySet()) {
+            // cur * 10 + i != 0 -> [1, n] 忽略leading zeros
             if (cur * 10 + i <= N && cur * 10 + i != 0) {
                 helper(N, cur * 10 + i);
             }
