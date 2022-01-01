@@ -7,12 +7,7 @@ class Solution {
         temp = myPow(x, n / 2);
         if (n % 2 == 0) {
             return temp * temp;
-        } else {
-            if (n > 0) {
-                return temp * x * temp;
-            } else {
-                return (temp * temp) / x;
-            }
-        }
+        }    
+        return n > 0 ? temp * x * temp : (temp * temp) / x;
     }
 }
