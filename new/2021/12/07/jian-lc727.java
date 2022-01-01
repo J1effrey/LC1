@@ -20,6 +20,8 @@ class Solution {
             if (s2Index == s2.length()) {
                 left = right;
                 while (s2Index > 0) {
+                    // 后面的要 前面的不要
+                    // 例如 s1:abced  s2:bcd => bced最优
                     char cLeft = s1.charAt(left);
                     if (cLeft == s2.charAt(s2Index - 1)) {
                         s2Index--;
