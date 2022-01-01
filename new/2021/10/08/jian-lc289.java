@@ -52,10 +52,11 @@ class Solution {
         int n = board[0].length;
         
         for (int[] dir: dirs) {
-            int x = i + dir[0];
-            int y = j + dir[1];
-            if (x >= 0 && x < m && y >= 0 && y < n) {
-                if (board[x][y] == 1 || board[x][y] == 3) {
+            int newX = i + dir[0];
+            int newY = j + dir[1];
+            if (newX >= 0 && newX < m && newY >= 0 && newY < n) {
+                // 01 or 11, last digit is the value for round1, first digit is value for round 2
+                if (board[newX][newY] == 1 || board[newX][newY] == 3) {
                     count++;
                 }
             }
