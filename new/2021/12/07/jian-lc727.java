@@ -1,3 +1,4 @@
+// O(s1 * s2)
 class Solution {
     public String minWindow(String s1, String s2) {
         if (s1 == null || s1.length() == 0 || s2 == null || s2.length() == 0) {
