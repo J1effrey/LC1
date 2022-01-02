@@ -1,3 +1,5 @@
+// T: O(Math.max(n, m) * m), m is words.length, n is length of s
+// S: O(1)
 class Solution {
     public int expressiveWords(String s, String[] words) {
         if (s == null || s.length() == 0) {
@@ -7,8 +9,10 @@ class Solution {
         if (words == null || words.length == 0) {
             return 0;
         }
+        
         int res = 0;
-        for (String candidate: words) {
+        
+        for (String candidate : words) {
             if (canExtend(s, candidate)) {
                 res++;
             }
@@ -17,33 +21,41 @@ class Solution {
         return res;
     }
     
-     public boolean canExtend(String S, String word) {
-        if (word == null) {
-            return false;
-        }
-        int i = 0;
-        int j = 0;
-        while (i < S.length() && j < word.length()) {
-            if (S.charAt(i) == word.charAt(j)) {
-                int len1 = getRepeatedLength(S, i);
-                int len2 = getRepeatedLength(word, j);
-                if (len1 < 3 && len1 != len2 || len1 >= 3 && len1 < len2) {
-                    return false;
-                }
-                i += len1;
-                j += len2;
-            } else {
+    private boolean canExtend(String s, String candidate) {
+        int p1 = 0;
+        int p2 = 0;
+        
+        while (p1 < s.length() && p2 < candidate.length()) {
+            char c1 = s.charAt(p1);
+            char c2 = candidate.charAt(p2);
+            if (c1 != c2) {
                 return false;
             }
+            int repeat1 = getRepeatedTimes(s, p1);
+            int repeat2 = getRepeatedTimes(candidate, p2);
+            
+            if (repeat1 < repeat2) {
+                return false;
+            } 
+            
+            if (repeat1 > repeat2 && repeat1 < 3) {
+                return false;
+            } 
+            
+            p1 += repeat1;
+            p2 += repeat2; 
         }
-        return i == S.length() && j == word.length();
+        
+        return p1 == s.length() && p2 == candidate.length();
+        
     }
     
-    public int getRepeatedLength(String str, int start) {
+    private int getRepeatedTimes(String s, int start) {
         int end = start;
-        while (end < str.length() && str.charAt(end) == str.charAt(start)) {
+        while (end < s.length() && s.charAt(end) == s.charAt(start)) {
             end++;
         }
-        return end - start;
+
+        return end - start; 
     }
 }
