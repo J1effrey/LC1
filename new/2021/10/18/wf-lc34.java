@@ -1,3 +1,5 @@
+// T: O(log n)
+// S: O(1)
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
