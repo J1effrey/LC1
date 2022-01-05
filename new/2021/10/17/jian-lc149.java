@@ -1,3 +1,6 @@
+// n is the number of points
+// T: O(n * n)
+// S: O(n)
 class Solution {
     public int maxPoints(int[][] points) {
         if (points == null || points.length == 0) {
