@@ -1,3 +1,6 @@
+// T: O(n * avg(length of temp))
+// S: O(n * avg(length of temp))
+
 class Solution {
     public String countAndSay(int n) {
         if (n == 0) {
