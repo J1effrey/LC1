@@ -1,3 +1,5 @@
+// O(1)
+// O(n)
 class MinStack {
     
     Stack<Integer> stack = new Stack<>();
