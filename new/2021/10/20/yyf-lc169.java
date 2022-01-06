@@ -1,3 +1,5 @@
+// T: O(n)
+// S: O(1)
 class Solution {
     public int majorityElement(int[] nums) {
         int candidate = nums[0];
