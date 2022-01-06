@@ -1,3 +1,6 @@
+// T: O(n)
+// S: O(1)
+
 class Solution {
     public int maxProduct(int[] nums) {
         if (nums == null || nums.length == 0) {
