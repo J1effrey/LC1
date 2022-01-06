@@ -1,3 +1,5 @@
+// T: O(n*n)
+// S: O(2* n*n) -> O(n*n)
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         if (board == null || board.length == 0) {
