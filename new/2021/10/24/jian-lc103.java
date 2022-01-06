@@ -1,3 +1,6 @@
+// T: O(N), insert to head should take O(L). L is longest number of nodes on a level
+// S: O(N)
+
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
