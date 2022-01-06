@@ -1,6 +1,7 @@
 // Best Solution
 // dummy used to reverse the 1st half
 // do the reverse of first half and find middle point togeter!!!
+// one pass, T: O(n) S: O(1)
 class Solution {
     public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {
