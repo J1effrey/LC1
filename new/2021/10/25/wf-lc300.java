@@ -38,3 +38,30 @@ class Solution {
         return end;
     }
 }
+
+
+/*
+class Solution {
+    public int lengthOfLIS(int[] nums) {
+        int[] tails = new int[nums.length];
+        int size = 0;
+        for (int x : nums) {
+            int i = 0;
+            int j = size;
+            while (i != j) {
+                int m = (j + i) / 2;
+                if (tails[m] < x) {
+                    i = m + 1;
+                } else {
+                    j = m;
+                }
+            }
+            tails[j] = x;
+            if (j == size) size++;
+        }
+        return size;
+    }
+}
+// [2,3,7,101,18]
+
+*/
