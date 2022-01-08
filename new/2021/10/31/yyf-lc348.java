@@ -1,3 +1,6 @@
+// T: O(1)
+// S: O(n)
+
 class TicTacToe {
     int[] rows;
     int[] cols;
