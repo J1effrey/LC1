@@ -1,3 +1,6 @@
+// T: O(N)
+// S: O(N)
+
 class Solution {
     public boolean isValidBST(TreeNode root) {
         return isValidHelper(root, Long.MIN_VALUE, Long.MAX_VALUE);
