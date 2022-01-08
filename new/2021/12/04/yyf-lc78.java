@@ -1,3 +1,6 @@
+// T: O(N * 2^N)
+// S: O(2^n)
+
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
