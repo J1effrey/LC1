@@ -66,7 +66,6 @@
 - [44. Wildcard Matching](./new/2021/10/13/wf-lc44-dfs.java)  [:anchor:](https://leetcode.com/problems/wildcard-matching)
 - [142. Linked List Cycle II](./new/2021/10/13/jian-lc142.java) [:anger:](https://leetcode.com/problems/linked-list-cycle-ii)(:star::star::star:) 
 - [287. Find the Duplicate Number](./new/2021/10/13/jian-lc287.java)  [:angry:](https://leetcode.com/problems/find-the-duplicate-number)
-- [*238. Product of Array Except Self](./old/2021/10/14/jian-lc238.java)
 - [*212. Word Search II](./old/2021/10/14/wf-lc212.java)  ​(:star::star::star:)
 - [1804. Implement Trie II (Prefix Tree)](./old/2021/10/14/yyf-lc1804.java)  [:anguished:](https://leetcode.com/problems/implement-trie-ii-prefix-tree)
 - [*210. Course Schedule II](old/2021/10/15/yyf-lc210.java)  
