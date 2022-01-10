@@ -1,5 +1,7 @@
 /*
 // Definition for a Node.
+
+
 class Node {
     public int val;
     public Node left;
@@ -19,6 +21,8 @@ class Node {
 };
 */
 
+// T: O(N)
+// S: O(N)
 class Solution {
     Node prev = null;
     public Node treeToDoublyList(Node root) {
