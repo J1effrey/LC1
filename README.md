@@ -298,4 +298,6 @@
 -  [1023. Camelcase Matching](new/2022/01/08/yyf-lc1023.java )   [1023. Camelcase Matching](https://leetcode.com/problems/camelcase-matching)
 - [19. Remove Nth Node From End of List]( new/2022/01/08/yyf-lc19.java)   [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)
 - [56. Merge Intervals](new/2022/01/08/yyf-lc56.java)  [56. Merge Intervals](https://leetcode.com/problems/merge-intervals) 
+- [99. Recover Binary Search Tree](new/2022/01/09/jian-lc99.java )   [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree)
+-  [733. Flood Fill](new/2022/01/09/yyf-lc733.java )   [733. Flood Fill](https://leetcode.com/problems/flood-fill)
 
