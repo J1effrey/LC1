@@ -1,3 +1,7 @@
+// Let NN be the number of candidates, TT be the target value, and MM be the minimal value among the candidates.
+// T: O(N^T/M + 1) 
+// S: O(T/M)
+
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
