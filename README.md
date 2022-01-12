@@ -303,4 +303,5 @@
 - [37. Sudoku Solver](new/2022/01/09/jian-lc37.java)   [:building_construction:](https://leetcode.com/problems/sudoku-solver)
 - [364. Nested List Weight Sum II](new/2022/01/11/jian-lc364.java)   [:building_construction:](https://leetcode.com/problems/nested-list-weight-sum-ii) 
 - [432. All O one Data Structure](new/2022/01/11/jian-lc432.java)     [:cookie:](https://leetcode.com/problems/all-oone-data-structure) 
+-  [244. Shortest Word Distance II](new/2022/01/11/jian-lc244.java)   [:cool:](https://leetcode.com/problems/shortest-word-distance-ii)
 
