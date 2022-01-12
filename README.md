@@ -308,5 +308,5 @@
 -  [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance)   [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance)
 - [1611. Minimum One Bit Operations to Make In](new/2022/01/12/jian-lc1611.java)   [1611. Minimum One Bit Operations to Make In](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero)
 - [605. Can Place Flowers](new/2022/01/12/jian-lc605.java)   [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers) 
-- 
+- [68. Text Justification](new/2022/01/12/yyf-lc68.java)  [68. Text Justification](https://leetcode.com/problems/text-justification)
 
