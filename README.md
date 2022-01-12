@@ -301,7 +301,12 @@
 - [99. Recover Binary Search Tree](new/2022/01/09/jian-lc99.java )   [:control_knobs:](https://leetcode.com/problems/recover-binary-search-tree)
 - [733. Flood Fill](new/2022/01/09/yyf-lc733.java )   [:convenience_store:](https://leetcode.com/problems/flood-fill)
 - [37. Sudoku Solver](new/2022/01/09/jian-lc37.java)   [:building_construction:](https://leetcode.com/problems/sudoku-solver)
+- `LinkedIn tag start`
 - [364. Nested List Weight Sum II](new/2022/01/11/jian-lc364.java)   [:building_construction:](https://leetcode.com/problems/nested-list-weight-sum-ii) 
 - [432. All O one Data Structure](new/2022/01/11/jian-lc432.java)     [:cookie:](https://leetcode.com/problems/all-oone-data-structure) 
 -  [244. Shortest Word Distance II](new/2022/01/11/jian-lc244.java)   [:cool:](https://leetcode.com/problems/shortest-word-distance-ii)
+-  [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance)   [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance)
+- [1611. Minimum One Bit Operations to Make In](new/2022/01/12/jian-lc1611.java)   [1611. Minimum One Bit Operations to Make In](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero)
+- [605. Can Place Flowers](new/2022/01/12/jian-lc605.java)   [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers) 
+- 
 
