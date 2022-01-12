@@ -294,6 +294,7 @@
 - [213. House Robber II](new/2022/01/06/jian-lc213.java)   [:confounded:](https://leetcode.com/problems/house-robber-ii)
 - [337. House Robber III]( new/2022/01/06/yyf-lc337.java)   [:confused:](https://leetcode.com/problems/house-robber-iii)
 - [1345. Jump Game IV](new/2022/01/07/yyf-lc1345.java)   [:congratulations:](https://leetcode.com/problems/jump-game-iv)
+- `Apple tag start`
 - [351. Android Unlock Patterns](new/2022/01/08/jian-lc351.java)   [:construction:](https://leetcode.com/problems/android-unlock-patterns)
 - [1023. Camelcase Matching](new/2022/01/08/yyf-lc1023.java )   [:construction_worker:](https://leetcode.com/problems/camelcase-matching)
 - [19. Remove Nth Node From End of List]( new/2022/01/08/yyf-lc19.java)   [:construction_worker_man:](https://leetcode.com/problems/remove-nth-node-from-end-of-list)
@@ -301,14 +302,16 @@
 - [99. Recover Binary Search Tree](new/2022/01/09/jian-lc99.java )   [:control_knobs:](https://leetcode.com/problems/recover-binary-search-tree)
 - [733. Flood Fill](new/2022/01/09/yyf-lc733.java )   [:convenience_store:](https://leetcode.com/problems/flood-fill)
 - [37. Sudoku Solver](new/2022/01/09/jian-lc37.java)   [:building_construction:](https://leetcode.com/problems/sudoku-solver)
+- `Apple tag end`
 - `LinkedIn tag start`
 - [244. Shortest Word Distance II](new/2022/01/11/jian-lc244.java)   [:cool:](https://leetcode.com/problems/shortest-word-distance-ii)
 - [364. Nested List Weight Sum II](new/2022/01/11/jian-lc364.java)   [:building_construction:](https://leetcode.com/problems/nested-list-weight-sum-ii) 
-- [716. Max Stack](https://leetcode.com/problems/max-stack)    [:copyright:](https://leetcode.com/problems/max-stack)
+- [716. Max Stack](new/2022/01/12/yyf-lc716.java)    [:copyright:](https://leetcode.com/problems/max-stack)
 - [432. All O one Data Structure](new/2022/01/11/jian-lc432.java)     [:cookie:](https://leetcode.com/problems/all-oone-data-structure) 
 -  [605. Can Place Flowers](new/2022/01/12/jian-lc605.java)   [:cop:](https://leetcode.com/problems/can-place-flowers) 
--  [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance)   [:corn:](https://leetcode.com/problems/shortest-word-distance)
+-  [243. Shortest Word Distance](new/2022/01/12/yyf-lc243.java)   [:corn:](https://leetcode.com/problems/shortest-word-distance)
 - [1611. Minimum One Bit Operations to Make In](new/2022/01/12/jian-lc1611.java)   [:couch_and_lamp:](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero)
-- [156. Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down)   [:couple:](https://leetcode.com/problems/binary-tree-upside-down)
+- [156. Binary Tree Upside Down](new/2022/01/12/yyf-lc156.java)   [:couple:](https://leetcode.com/problems/binary-tree-upside-down)
 - [68. Text Justification](new/2022/01/12/yyf-lc68.java)  [:couple_with_heart:](https://leetcode.com/problems/text-justification)
+- `LinkedIn tag end`
 
