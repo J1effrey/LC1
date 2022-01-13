@@ -1,3 +1,6 @@
+// T: O(NK)
+// S: O(K) 
+
 class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         if (s == null || s.length() == 0 || k <= 0) {
