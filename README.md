@@ -308,10 +308,14 @@
 - [364. Nested List Weight Sum II](new/2022/01/11/jian-lc364.java)   [:building_construction:](https://leetcode.com/problems/nested-list-weight-sum-ii) 
 - [716. Max Stack](new/2022/01/12/yyf-lc716.java)    [:copyright:](https://leetcode.com/problems/max-stack)
 - [432. All O one Data Structure](new/2022/01/11/jian-lc432.java)     [:cookie:](https://leetcode.com/problems/all-oone-data-structure) 
--  [605. Can Place Flowers](new/2022/01/12/jian-lc605.java)   [:cop:](https://leetcode.com/problems/can-place-flowers) 
--  [243. Shortest Word Distance](new/2022/01/12/yyf-lc243.java)   [:corn:](https://leetcode.com/problems/shortest-word-distance)
+- [605. Can Place Flowers](new/2022/01/12/jian-lc605.java)   [:cop:](https://leetcode.com/problems/can-place-flowers) 
+- [243. Shortest Word Distance](new/2022/01/12/yyf-lc243.java)   [:corn:](https://leetcode.com/problems/shortest-word-distance)
 - [1611. Minimum One Bit Operations to Make In](new/2022/01/12/jian-lc1611.java)   [:couch_and_lamp:](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero)
 - [156. Binary Tree Upside Down](new/2022/01/12/yyf-lc156.java)   [:couple:](https://leetcode.com/problems/binary-tree-upside-down)
 - [68. Text Justification](new/2022/01/12/yyf-lc68.java)  [:couple_with_heart:](https://leetcode.com/problems/text-justification)
 - `LinkedIn tag end`
+-  [427. Construct Quad Tree](new/2022/01/13/jian-lc427.java)   [:cow:](https://leetcode.com/problems/construct-quad-tree)
+-  [757. Set Intersection Size At Least Two](new/2022/01/13/jian-lc757.java)   [:cow2:](https://leetcode.com/problems/set-intersection-size-at-least-two) 
+-  [468. Validate IP Address](new/2022/01/14/jian-lc468.java )   [:cowboy_hat_face:](https://leetcode.com/problems/validate-ip-address)
+-  [93. Restore IP Addresses](new/2022/01/14/jian-lc93.java)   [:crab:](https://leetcode.com/problems/restore-ip-addresses) 
 
