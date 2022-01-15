@@ -1,3 +1,6 @@
+// T: O(loglogn)
+// S: O(n)
+
 class Solution {
     public int countPrimes(int n) {
         boolean[] dp = new boolean[n];
