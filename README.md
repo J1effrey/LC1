@@ -216,7 +216,6 @@
 - [543. Diameter of Binary Tree](new/2021/12/05/yyf-lc543.java)   [:canary_islands:](https://leetcode.com/problems/diameter-of-binary-tree)
 - [282. Expression Add Operators](new/2021/12/05/jian-lc282.java)   [:camera_flash:](https://leetcode.com/problems/expression-add-operators) 
 - [636. Exclusive Time of Functions](new/2021/12/05/wf-lc636.java )   [:blue_car:](https://leetcode.com/problems/exclusive-time-of-functions)
-- [426. Convert Binary Search Tree to Sorted Doubly Linked List](new/2021/12/05/wf-lc426.java)   [:cameroon:](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)
 - [158. Read N Characters Given read4 II - Call Multiple Times](new/2021/12/05/yyf-lc158.java)   [:camping:](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times)
 - [827. Making A Large Island](new/2021/12/06/jian-lc827.java)   [:canada:](https://leetcode.com/problems/making-a-large-island)
 - [398. Random Pick Index](new/2021/12/06/yyf-lc398.java)   [:canary_islands:](https://leetcode.com/problems/random-pick-index)
