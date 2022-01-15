@@ -1,3 +1,48 @@
+// T: O(N)
+// S: O(N)
+
+class Solution {
+    // the smallest (first) and the largest (last) nodes
+    Node prev = null;
+    
+    public Node treeToDoublyList(Node root) {
+        if (root == null) {
+            return null;
+        }
+        Node dummy = new Node(0);
+        prev = dummy;
+        
+        helper(root);
+        
+        // close DLL
+        Node first = dummy.right;
+        prev.right = first;
+        first.left = prev;
+        
+        return first;
+    }
+
+    public void helper(Node node) {
+        if (node == null) {
+            return;
+        }
+        
+        // left
+        helper(node.left);
+            
+        // node
+        prev.right = node;
+        node.left = prev;
+        prev = node;
+        
+        // right
+        helper(node.right);
+    }
+}
+
+
+===
+    
 class Solution {
     public Node treeToDoublyList(Node root) {
         if (root == null) {
