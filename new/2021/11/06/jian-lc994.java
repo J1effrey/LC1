@@ -1,3 +1,6 @@
+// T: O(m * n)
+// S: O(m * n)
+
 class Solution {
     public int orangesRotting(int[][] grid) {
         if (grid == null || grid.length == 0 || grid[0] == null || grid[0].length == 0) {
