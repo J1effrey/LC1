@@ -310,7 +310,7 @@
 - [605. Can Place Flowers](new/2022/01/12/jian-lc605.java)   [:cop:](https://leetcode.com/problems/can-place-flowers) 
 - [243. Shortest Word Distance](new/2022/01/12/yyf-lc243.java)   [:corn:](https://leetcode.com/problems/shortest-word-distance)
 - [1611. Minimum One Bit Operations to Make In](new/2022/01/12/jian-lc1611.java)   [:couch_and_lamp:](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero)
-- [156. Binary Tree Upside Down](new/2022/01/12/yyf-lc156.java)   [:couple:](https://leetcode.com/problems/binary-tree-upside-down)
+- [156. Binary Tree Upside Down](new/2022/01/12/yyf-lc156.java)   [:couple: ](https://leetcode.com/problems/binary-tree-upside-down)
 - [68. Text Justification](new/2022/01/12/yyf-lc68.java)  [:couple_with_heart:](https://leetcode.com/problems/text-justification)
 - `LinkedIn tag end`
 -  [427. Construct Quad Tree](new/2022/01/13/jian-lc427.java)   [:cow:](https://leetcode.com/problems/construct-quad-tree)
@@ -319,3 +319,8 @@
 -  [93. Restore IP Addresses](new/2022/01/14/jian-lc93.java)   [:crab:](https://leetcode.com/problems/restore-ip-addresses) 
 -  [981. Time Based Key-Value Store](new/2022/01/15/jian-lc981.java)   [:crayon:](https://leetcode.com/problems/time-based-key-value-store)
 -  [316. Remove Duplicate Letters](new/2022/01/16/jian-lc316.java)   [:credit_card:](https://leetcode.com/problems/remove-duplicate-letters)
+- [1937. Maximum Number of Points with Cost](new/2022/01/16/jian-lc1937.java)   [:crescent_moon:](https://leetcode.com/problems/maximum-number-of-points-with-cost) 
+- [947. Most Stones Removed with Same Row o](new/2022/01/16/jian-lc947.java)   [:cricket:](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column) 
+-  [1293. Shortest Path in a Grid with Obstacles Elimination](new/2022/01/17/jian-lc1293.java )   [:crocodile:](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination)
+- [2096. Step-By-Step Directions From a Binary Tree Node to Another](new/2022/01/17/jian-lc2096.java)   [:croissant:](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) 
+- [274. H-Index](new/2022/01/17/jian-lc274.java)  [:crossed_fingers:](https://leetcode.com/problems/h-index) 
