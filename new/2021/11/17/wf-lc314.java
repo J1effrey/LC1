@@ -59,3 +59,50 @@ class Solution {
         return res;
     }
 }
+
+------------
+    class Solution {
+    int min = 0;
+    int max = 0;
+    public List<List<Integer>> verticalOrder(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null) {
+            return res;
+        }
+        computeRange(root, 0);
+        for (int i = min; i <= max; i++) {
+            res.add(new ArrayList<>());
+        }
+        // -2 -1 0 1 2
+        //  0 1 2 3 4
+        Queue<TreeNode> nodes = new LinkedList<>();
+        Queue<Integer> cols = new LinkedList<>();
+        nodes.offer(root);
+        cols.offer(-min);
+        while (!nodes.isEmpty()) {
+            TreeNode currNode = nodes.poll();
+            int currCol = cols.poll();
+            res.get(currCol).add(currNode.val);
+            if (currNode.left != null) {
+                nodes.offer(currNode.left);
+                cols.offer(currCol - 1);
+            }
+            if (currNode.right != null) {
+                nodes.offer(currNode.right);
+                cols.offer(currCol + 1);
+            }
+        }
+        
+        return res;
+    }
+    
+    public void computeRange(TreeNode root, int index) {
+        if (root == null) {
+            return;
+        }
+        min = Math.min(min, index);
+        max = Math.max(max, index);
+        computeRange(root.left, index - 1);
+        computeRange(root.right, index + 1);
+    }
+}
