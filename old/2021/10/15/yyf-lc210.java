@@ -1,3 +1,5 @@
+// T: O(V+E)
+// S: O(V+E)
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         if (prerequisites == null) {
