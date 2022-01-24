@@ -1,3 +1,5 @@
+// T: O(N)  
+// No extra space complexity
 class Solution {
     Random random;
     int[] arr;
