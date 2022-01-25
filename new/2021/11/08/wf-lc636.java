@@ -1,3 +1,5 @@
+// T:O(N)
+// S:O(N)
 class Solution {
     static class Log {
         public int id;
