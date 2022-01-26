@@ -1,3 +1,5 @@
+// T: O(NL)  N is the length of sentences, L is longest length of sentence
+// S: O(N)
 class AutocompleteSystem {
     
     class TrieNode implements Comparable<TrieNode> {
@@ -50,8 +52,8 @@ class AutocompleteSystem {
         cur = root;
         sb = new StringBuilder();
         
-        for (int i = 0; i < sentences.length; i++) {
-            addSentence(sentences[i], times[i]);
+        for (int i = 0; i < sentences.length; i++) {  // O(N)
+            addSentence(sentences[i], times[i]);   // O(L)
         }
     }
     
@@ -60,9 +62,9 @@ class AutocompleteSystem {
         
         Set<TrieNode> visited = new HashSet<TrieNode>();
         
-        for (int i = 0; i < sentence.length(); i++) {
-            char c = sentence.charAt(i);
-            if (!cur.children.containsKey(c)) {
+        for (int i = 0; i < sentence.length(); i++) {   
+            char c = sentence.charAt(i);            
+            if (!cur.children.containsKey(c)) {   
                 cur.children.put(c, new TrieNode());
             }
             cur = cur.children.get(c);
