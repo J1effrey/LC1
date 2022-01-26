@@ -136,7 +136,6 @@
 - [987. Vertical Order Traversal of a Binary Tree](new/2021/11/08/jian-lc987.java)   [:bar_chart:](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)
 - [31. Next Permutation](new/2021/11/10/jian-lc31.java)   [:basketball:](https://leetcode.com/problems/next-permutation)
 - [863. All Nodes Distance K in Binary Tree](new/2021/11/10/wf-lc863.java)   [:basketball_man:](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree)
-- [727. Minimum Window Subsequence](new/2021/11/10/yyf-lc727.java)   [:basketball_woman:](https://leetcode.com/problems/minimum-window-subsequence)
 - [1060. Missing Element in Sorted Array](new/2021/11/13/wf-lc1060.java)   [:bat:](https://leetcode.com/problems/missing-element-in-sorted-array)
 - [224. Basic Calculator](new/2021/11/13/jian-lc224.java)   [:bath:](https://leetcode.com/problems/basic-calculator)
 - [359. Logger Rate Limiter](new/2021/11/14/jian-lc359.java)   [:bathtub:](https://leetcode.com/problems/logger-rate-limiter) 
