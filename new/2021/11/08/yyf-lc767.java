@@ -1,28 +1,35 @@
+// T: O(N)
+// S: O(N)
 class Solution {
     public String reorganizeString(String S) {
         if (S == null || S.length() == 0) {
             return "";
         }
         
-        int[] m = new int[26];
+        int[] counts = new int[26];
         for (int i = 0; i < S.length(); i++) { 
-            m[S.charAt(i) - 'a']++;
+            counts[S.charAt(i) - 'a']++;
         }
         
         PriorityQueue<int[]> q = new PriorityQueue<>((a, b) -> b[1] - a[1]);
         for (int i = 0; i < 26; i++) {
-            if (m[i] > 0) {
-                q.offer(new int[] {i, m[i]}); // add char counts to priority queue
+            if (counts[i] > 0) {
+                q.offer(new int[] {i, counts[i]}); // add char counts to priority queue
             }
         }
-
+        
+        // !!!  prev to prevent two consective same chars !!!
+        // if a 4 b3
+        // after sb.append('a');
+        // becomes a 3 b3
+        // prev stores a 3 away, next time pq only poll  b 3
         int[] prev = new int[] {-1, 0};
         StringBuilder sb = new StringBuilder();
         
         while (!q.isEmpty()) {
             int[] cur = q.poll();
             
-            if(prev[1] > 0) {
+            if (prev[1] > 0) {
                 q.offer(prev);
             }
 
