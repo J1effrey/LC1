@@ -317,3 +317,5 @@
 -  [1293. Shortest Path in a Grid with Obstacles Elimination](new/2022/01/17/jian-lc1293.java )   [:crocodile:](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination)
 - [2096. Step-By-Step Directions From a Binary Tree Node to Another](new/2022/01/17/jian-lc2096.java)   [:croissant:](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) 
 - [274. H-Index](new/2022/01/17/jian-lc274.java)  [:crossed_fingers:](https://leetcode.com/problems/h-index) 
+-  [490. The Maze](new/2022/01/24/jian-lc490.java)  [:crossed_flags:](https://leetcode.com/problems/the-maze) 
+-  [240. Search a 2D Matrix II](new/2022/01/27/jian-lc240.java)  [:crossed_swords:](https://leetcode.com/problems/search-a-2d-matrix-ii)
