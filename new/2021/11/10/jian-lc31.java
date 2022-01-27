@@ -1,3 +1,11 @@
+// Time: O(n)
+// Space: O(n)
+
+// 1 11 12 5 7 6 4 3 2
+// index: 5 (6)
+// 1 11 12 6 7 5 4 3 2
+// 1 11 12 6 2 3 4 5 
+
 class Solution {
     public void nextPermutation(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -5,12 +13,14 @@ class Solution {
         }
         
         int breakerIndex = findBreakerIndex(nums);
-        if (breakerIndex != -1) {
-            int rightMostBigger = findRightMostBigger(nums, nums[breakerIndex], breakerIndex);
-            if (rightMostBigger != -1) {
-                swap(nums, breakerIndex, rightMostBigger);
-            }
+        
+        if (breakerIndex == -1) {
+            reverse(nums, breakerIndex + 1);
+            return;
         }
+        
+        int rightMostBigger = findRightMostBigger(nums, nums[breakerIndex], breakerIndex);
+        swap(nums, breakerIndex, rightMostBigger);
         
         reverse(nums, breakerIndex + 1);
     }
