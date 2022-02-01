@@ -1,3 +1,14 @@
+/**
+ * Using union-find (Union by rank and path compression) to group all emails
+ * belonging to same owner. And using TreeSet to sort each group of emails.
+ *
+ * Time Complexity: O(N + N * log(N) + N) = O(N * log(N))
+ *
+ * Space Complexity: O(N)
+ *
+ * N = Total number of email addresses in the input. Here assuming the length of
+ * each email and owner string is a fixed constant.
+ */
 class Solution {
     class UnionFind {
         private int[] pa;
