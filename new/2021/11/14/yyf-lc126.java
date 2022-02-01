@@ -1,4 +1,6 @@
 // bfs
+// T: O(NK^2)
+// S: O(NK), Here N is the Number of words in wordList, K is the Maximum length of a word.
 class Solution {
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         List<List<String>> res = new ArrayList<>();
@@ -20,6 +22,7 @@ class Solution {
         
         while (!queue.isEmpty()) {
             int size = queue.size();
+            // trick 2
             boolean foundPath = false;
             
             for (int i = 0; i < size; i++) {
@@ -40,10 +43,12 @@ class Solution {
                 }
             }
             
+            // trick 2
             if (foundPath) {
                 break;
             }
             
+            // trick 1
             for (String s : visited) {
                 wordSet.remove(s);
             }        
@@ -52,6 +57,7 @@ class Solution {
         return res;
     }
     
+    // O(K), K : word longest length
     private List<String> getNeighbors(String word, Set<String> wordSet) {
         List<String> neighbors = new LinkedList<>();
         for (int i = 0; i < word.length(); i++) {
