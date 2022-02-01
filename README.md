@@ -143,7 +143,6 @@
 - [428. Serialize and Deserialize N-ary Tree](new/2021/11/14/wf-lc428.java)   [:beach_umbrella:](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree)
 - [173. Binary Search Tree Iterator](new/2021/11/15/jian-lc173.java)   [:bear:](https://leetcode.com/problems/binary-search-tree-iterator)
 - [211. Design Add and Search Words Data Structure](new/2021/11/15/yyf-lc211.java)   [:bed:](https://leetcode.com/problems/design-add-and-search-words-data-structure)
-- [721. Accounts Merge](new/2021/11/15/wf-lc721.java)   [:bee:](https://leetcode.com/problems/accounts-merge)
 - [*973. K Closest Points to Origin - quick select](new/2021/10/10/jian-lc347-quick-select.java )   [:beer:](https://leetcode.com/problems/k-closest-points-to-origin)
 - [*8. String to Integer (atoi)](new/2021/10/27/jian-lc8.java )   [:beginner:](https://leetcode.com/problems/string-to-integer-atoi)
 - [973. K Closest Points to Origin](new/2021/11/17/jian-lc973.java)   [:bell:](https://leetcode.com/problems/k-closest-points-to-origin)
