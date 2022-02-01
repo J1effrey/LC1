@@ -1,3 +1,5 @@
+//Time: O(1)
+//Space: O(n)
 class Logger {
     Map<String, Integer> m;
     public int COOL_DOWN_TIME = 10;
