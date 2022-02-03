@@ -13,6 +13,8 @@
  *     }
  * }
  */
+// T: O(N)
+// S: O(N)
 class Solution {
     public List<List<Integer>> verticalOrder(TreeNode root) {
         if (root == null) {
