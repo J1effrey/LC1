@@ -16,95 +16,42 @@
 // T: O(N)
 // S: O(N)
 class Solution {
-    public List<List<Integer>> verticalOrder(TreeNode root) {
-        if (root == null) {
-            return new ArrayList<>();
-        }
-        
-        Queue<TreeNode> queue = new LinkedList<>();
-        Queue<Integer> cols = new LinkedList<>();
-        Map<Integer, List<Integer>> map = new HashMap<>();
-        
-        queue.offer(root);
-        cols.offer(0);
-        
-        while (!queue.isEmpty()) {
-            int col = cols.poll();
-            TreeNode node = queue.poll();
-            
-            if (!map.containsKey(col)) {
-                map.put(col, new ArrayList<>());
-            }
-            
-            map.get(col).add(node.val);
-            
-            if (node.left != null) {
-                queue.offer(node.left);
-                cols.offer(col - 1);
-            }
-            
-            if (node.right != null) {
-                queue.offer(node.right);
-                cols.offer(col + 1);
-            }
-        }
-        
-        List<List<Integer>> res = new ArrayList<>();
-        
-        int min = Collections.min(map.keySet());
-        int max = Collections.max(map.keySet());
-        
-        for (int i = min; i <= max; i++) {
-            res.add(map.get(i));
-        }
-        
-        return res;
+  public List<List<Integer>> verticalOrder(TreeNode root) {
+    List<List<Integer>> output = new ArrayList();
+    if (root == null) {
+      return output;
     }
-}
 
-------------
-    class Solution {
-    int min = 0;
-    int max = 0;
-    public List<List<Integer>> verticalOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
-        if (root == null) {
-            return res;
+    Map<Integer, ArrayList> columnTable = new HashMap();
+    // Pair of node and its column offset
+    Queue<Pair<TreeNode, Integer>> queue = new ArrayDeque();
+    int column = 0;
+    queue.offer(new Pair(root, column));
+
+    int minColumn = 0, maxColumn = 0;
+
+    while (!queue.isEmpty()) {
+      Pair<TreeNode, Integer> p = queue.poll();
+      root = p.getKey();
+      column = p.getValue();
+
+      if (root != null) {
+        if (!columnTable.containsKey(column)) {
+          columnTable.put(column, new ArrayList<Integer>());
         }
-        computeRange(root, 0);
-        for (int i = min; i <= max; i++) {
-            res.add(new ArrayList<>());
-        }
-        // -2 -1 0 1 2
-        //  0 1 2 3 4
-        Queue<TreeNode> nodes = new LinkedList<>();
-        Queue<Integer> cols = new LinkedList<>();
-        nodes.offer(root);
-        cols.offer(-min);
-        while (!nodes.isEmpty()) {
-            TreeNode currNode = nodes.poll();
-            int currCol = cols.poll();
-            res.get(currCol).add(currNode.val);
-            if (currNode.left != null) {
-                nodes.offer(currNode.left);
-                cols.offer(currCol - 1);
-            }
-            if (currNode.right != null) {
-                nodes.offer(currNode.right);
-                cols.offer(currCol + 1);
-            }
-        }
-        
-        return res;
+        columnTable.get(column).add(root.val);
+        minColumn = Math.min(minColumn, column);
+        maxColumn = Math.max(maxColumn, column);
+
+        queue.offer(new Pair(root.left, column - 1));
+        queue.offer(new Pair(root.right, column + 1));
+      }
     }
-    
-    public void computeRange(TreeNode root, int index) {
-        if (root == null) {
-            return;
-        }
-        min = Math.min(min, index);
-        max = Math.max(max, index);
-        computeRange(root.left, index - 1);
-        computeRange(root.right, index + 1);
+
+    for(int i = minColumn; i < maxColumn + 1; ++i) {
+      output.add(columnTable.get(i));
     }
+
+    return output;
+  }
 }
