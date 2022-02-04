@@ -8,6 +8,7 @@ LeetCode
 | #    | Title                                                        | Solution                                                     | Difficulty | Other |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---------- |
 |2096|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another)|[:croissant:](new/2022/01/17/jian-lc2096.java)|Medium||
+|1985|[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array)|[:cloud_with_lightning:](new/2021/11/21/jian-lc1985.java )|Medium||
 |1963|[Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced)|[:cloud_with_lightning:](new/2021/12/30/yyf-lc1963.java)|Medium||
 |1937|[Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost)|[:crescent_moon:](new/2022/01/16/jian-lc1937.java)|Medium||
 |1804|[Implement Trie II (Prefix Tree)](https://leetcode.com/problems/implement-trie-ii-prefix-tree)|[:anguished:](./old/2021/10/14/yyf-lc1804.java)|Medium||
