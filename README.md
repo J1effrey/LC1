@@ -38,8 +38,6 @@ LeetCode
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|[:bar_chart:](new/2021/11/08/jian-lc987.java)|Medium||
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections)|[:bellhop_bell:](new/2021/11/17/jian-lc986.java )|Medium||
 |981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store)|[:crayon:](new/2022/01/15/jian-lc981.java)|Medium||
-- [*973. K Closest Points to Origin - quick select](new/2021/10/10/jian-lc347-quick-select.java )   [:beer:](https://leetcode.com/problems/k-closest-points-to-origin)
-
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|[jian-template](new/2021/11/17/jian-lc973.java)|Medium|[yyf-template](new/2021/11/17/yyf-lc973.java)|
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees)|[:cape_verde:](new/2021/12/08/yyf-lc951.java)|Medium||
 |947|[Most Stones Removed with Same Row o](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column)|[:cricket:](new/2022/01/16/jian-lc947.java)|Medium||
@@ -110,8 +108,6 @@ LeetCode
 |359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter)|[:bathtub:](new/2021/11/14/jian-lc359.java)|Medium||
 |351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns)|[:construction:](new/2022/01/08/jian-lc351.java)|Medium||
 |348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe)|[:twisted_rightwards_arrows:](new/2021/10/31/yyf-lc348.java)|Medium||
-- [*347. Top K Frequent Elements](old/2021/10/28/wf-lc347.java )   [:baby:](https://leetcode.com/problems/top-k-frequent-elements)
-
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[:pager:](./new/2021/10/10/yyf-lc347.java)|Medium||
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator)|[:aquarius:](new/2021/10/16/wf-lc341.java)|Medium||
 |340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)|[:back:](new/2021/10/31/yyf-lc340.java)|Medium||
@@ -123,9 +119,7 @@ LeetCode
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph)|[:black_circle:](new/2021/11/21/jian-lc323.java)|Medium||
 |323|[Coin Change](https://leetcode.com/problems/coin-change)|[:arrows_clockwise:]old/2021/10/22/jian-lc322.java)|Medium||
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters)|[:credit_card:](new/2022/01/16/jian-lc316.java)|Medium||
-- [*315. Count of Smaller Numbers After Self(BST)](old/2021/11/02/jian-lc315.java)   [:baguette_bread:](https://leetcode.com/problems/count-of-smaller-numbers-after-self)
-
-|315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)|[:ant:](new/2021/10/16/yyf-lc315-BIT.java)|Medium||
+|315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)|[BIT](new/2021/10/16/yyf-lc315-BIT.java)|Medium|[BST](old/2021/11/02/jian-lc315.java) |
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal)|[:bento:](new/2021/11/17/wf-lc314.java)|Medium||
 |311|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication)|[:card_index_dividers:](new/2021/12/12/wf-lc311.java)|Medium||
 |308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable)|[:clinking_glasses:](new/2021/12/28/wf-lc308.java)|Medium||
@@ -135,8 +129,6 @@ LeetCode
 |298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence)|[:computer_mouse:](new/2022/01/02/jian-lc298.java )|Medium||
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[:alarm_clock:](./new/2021/10/10/wf-lc297.java)|Medium||
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)|[:left_right_arrow:](old/2021/10/11/yyf-lc295.java)|Medium||
-- [*289. Game of Life](old/2021/10/22/yyf-lc289.java)    [:arrow_upper_right:](https://leetcode.com/problems/game-of-life)
-
 |289|[Game of Life](https://leetcode.com/problems/game-of-life)|[:baby_bottle:](new/2021/10/08/jian-lc289.java )|Medium||
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|[:angry:](./new/2021/10/13/jian-lc287.java)|Medium||
 |286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates)|[:clapper:](new/2021/12/27/jian-lc286.java)|Medium||
@@ -168,23 +160,16 @@ LeetCode
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii)|[:book:](new/2021/12/04/yyf-lc216.java)|Medium||
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)|[:confounded:](./old/2021/10/12/jian-lc215.java)|Medium||
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii)|[:confounded:](new/2022/01/06/jian-lc213.java)|Medium||
-- [*212. Word Search II](./old/2021/10/14/wf-lc212.java)  ​(:star::star::star:)
-
-|212|[Word Search II](https://leetcode.com/problems/word-search-ii)|[:man_astronaut:](new/2021/10/02/jian-lc212.java)|Medium||
+|212|[Word Search II](https://leetcode.com/problems/word-search-ii)|[jian](new/2021/10/02/jian-lc212.java)|Medium|[wf](./old/2021/10/14/wf-lc212.java)|
 |211|[Design Add and Search Words Data Structure[follow up]](https://leetcode.com/problems/design-add-and-search-words-data-structure)|[:bed:](new/2021/12/05/yyf-lc211.java)|Medium||
 |211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure)|[:bed:](new/2021/11/15/yyf-lc211.java)|Medium||
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[:bed:](old/2021/10/15/yyf-lc210.java)|Medium||
-- [*208. Implement Trie (Prefix Tree)](./old/2021/10/13/yyf-lc208.java) (:star::star::star:)
-
-|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[:man_artist:](new/2021/10/02/jian-lc208.java)|Medium||
-|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[:capital_abcd:](new/2021/10/02/yyf-lc208.java)|Medium||
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[string](new/2021/10/02/yyf-lc208.java)|Medium|[boolean](new/2021/10/02/jian-lc208.java)|
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule)|[:apple:](new/2021/10/16/yyf-lc207.java)|Medium||
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[:atm:](new/2021/10/25/jian-lc206.java)|Medium||
 |204|[Count Primes](https://leetcode.com/problems/count-primes)|[:ballot_box:](new/2021/11/03/yyf-lc204.java)|Medium||
 |202|[Happy Number](https://leetcode.com/problems/happy-number)|[:baggage_claim:](new/2021/11/01/yyf-lc202.java)|Medium||
-- [*200. Number of Islands](old/2021/10/04/yyf-lc200.java)   [:envelope_with_arrow:](https://leetcode.com/problems/number-of-islands)
-
-|200|[200. Number of Islands](https://leetcode.com/problems/number-of-islands)|[:black_square_button:](new/2021/11/24/wf-lc200-UF.java)|Medium||
+|200|[200. Number of Islands](https://leetcode.com/problems/number-of-islands)|[UF](new/2021/11/24/wf-lc200-UF.java)|Medium|[DFS](old/2021/10/04/yyf-lc200.java)|
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)|[:boar:](new/2021/11/28/jian-lc199.java )|Medium||
 |198|[House Robber](https://leetcode.com/problems/house-robber)|[:art:](new/2021/10/24/wf-lc198.java)|Medium||
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[:flight_arrival:](old/2021/10/07/yyf-lc188.java)|Medium||
@@ -203,19 +188,13 @@ LeetCode
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache)|[:chart_with_downwards_trend:](new/2021/12/19/wf-lc146.java)|Medium||
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)|[:anger:](./new/2021/10/13/jian-lc142.java)|Medium||
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii)|[:arrow_backward:](new/2021/10/16/jian-lc140-bfs.java)|Medium||
-- [*139. Word Break](old/2021/10/15/jian-lc139-bfs.java)
-
-|139|[Word Break](https://leetcode.com/problems/word-break)|[:couch_and_lamp:](new/2021/10/03/yyf-lc139.java)|Medium||
+|139|[Word Break](https://leetcode.com/problems/word-break)|[BFS](old/2021/10/15/jian-lc139-bfs.java)|Medium|[DP](new/2021/10/03/yyf-lc139.java)|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|[:ambulance:](./new/2021/10/11/wf-lc138.java)|Medium||
-- [*134. Gas Station](old/2021/10/29/wf-lc134.java )   [:baby_chick:](https://leetcode.com/problems/gas-station)
-
 |134|[Gas Station](https://leetcode.com/problems/gas-station)|[:amphora:](./new/2021/10/11/jian-lc134.java)|Medium||
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph)|[:bikini:](new/2021/11/20/yyf-lc133.java)|Medium||
 |132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii)|[:confetti_ball:](new/2022/01/02/yyf-lc132.java )|Medium||
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions)|[:classical_building:](new/2021/12/27/yyf-lc130.java)|Medium||
-- [*128. Longest Consecutive Sequence](old/2021/10/29/yyf-lc128.java )   [:baby_symbol:](https://leetcode.com/problems/longest-consecutive-sequence)
-
-|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[:alien:](./new/2021/10/11/wf-lc128.java)|Medium|[UF](new/2021/11/24/wf-lc128.java)|
+|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[Set](./new/2021/10/11/wf-lc128.java)|Medium|[UF](new/2021/11/24/wf-lc128.java)|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii)|[:battery:](new/2021/11/14/yyf-lc126.java)|Medium||
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome)|[:arrow_double_up:](new/2021/10/17/yyf-lc125.java)|Medium||
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[:small_airplane:](new/2021/10/04/jian-lc124.java)|Medium||
@@ -234,8 +213,6 @@ LeetCode
 |79|[Word Search](https://leetcode.com/problems/word-search)|[:diamond_shape_with_a_dot_inside:](new/2021/10/04/yyf-lc79.java)|Medium||
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[:boot:](new/2021/12/04/yyf-lc78.java)|Medium||
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[:boom:](new/2021/12/04/yyf-lc77.java)|Medium||
-- [*76. Minimum Window Substring](old/2021/10/21/yyf-lc76.java)   [:arrow_up_small:](https://leetcode.com/problems/minimum-window-substring)
-
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[:baby:](new/2021/10/06/jian-lc76.java )|Medium||
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors)|[:part_alternation_mark:](new/2021/10/27/wf-lc75.java)|Medium||
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path)|[:carrot:](new/2021/11/28/wf-lc71.java)|Medium||
