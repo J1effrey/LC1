@@ -82,7 +82,7 @@ LeetCode
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median)|[:clown_face:](new/2021/12/31/yyf-lc480.java)|Medium||
 |471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length)|[:cancer:](new/2021/12/06/yyf-lc471.java)|Medium||
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address)|[:cowboy_hat_face:](new/2022/01/14/jian-lc468.java )|Medium||
-|460|[LFU Cache](https://leetcode.com/problems/lfu-cache)|[DLL](new/2021/12/30/yyf-lc460-dll.java)|Medium|[:chart_with_upwards_trend:](new/2021/12/19/yyf-lc460-linkedHashSet.java)|
+|460|[LFU Cache](https://leetcode.com/problems/lfu-cache)|[DLL](new/2021/12/30/yyf-lc460-dll.java)|Medium|[LinkedHashSet](new/2021/12/19/yyf-lc460-linkedHashSet.java)|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii)|[:green_book:](new/2021/11/21/wf-lc445.java)|Medium||
 |443|[String Compression](https://leetcode.com/problems/string-compression)|[:black_medium_square:](new/2021/11/24/yyf-lc443.java)|Medium||
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[:birthday:](new/2021/11/21/yyf-lc438.java)|Medium||
