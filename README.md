@@ -161,7 +161,7 @@ LeetCode
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii)|[:book:](new/2021/12/04/yyf-lc216.java)|Medium||
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)|[:confounded:](./old/2021/10/12/jian-lc215.java)|Medium||
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii)|[:confounded:](new/2022/01/06/jian-lc213.java)|Medium||
-|212|[Word Search II](https://leetcode.com/problems/word-search-ii)|[jian](new/2021/10/02/jian-lc212.java)|Medium|[wf](./old/2021/10/14/wf-lc212.java)|
+|212|[Word Search II](https://leetcode.com/problems/word-search-ii)|[[jian]](new/2021/10/02/jian-lc212.java)|Medium|[[wf]](./old/2021/10/14/wf-lc212.java)|
 |211|[Design Add and Search Words Data Structure[follow up]](https://leetcode.com/problems/design-add-and-search-words-data-structure)|[:bed:](new/2021/12/05/yyf-lc211.java)|Medium||
 |211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure)|[:bed:](new/2021/11/15/yyf-lc211.java)|Medium||
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[:bed:](old/2021/10/15/yyf-lc210.java)|Medium||
