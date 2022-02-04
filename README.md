@@ -117,7 +117,7 @@ LeetCode
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|[ :articulated_lorry:](new/2021/10/24/yyf-lc329.java)|Medium||
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|[:balance_scale:](new/2021/11/03/jian-lc328.java)|Medium||
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph)|[:black_circle:](new/2021/11/21/jian-lc323.java)|Medium||
-|323|[Coin Change](https://leetcode.com/problems/coin-change)|[:arrows_clockwise:]old/2021/10/22/jian-lc322.java)|Medium||
+|322|[Coin Change](https://leetcode.com/problems/coin-change)|[:arrows_clockwise:](old/2021/10/22/jian-lc322.java)|Medium||
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters)|[:credit_card:](new/2022/01/16/jian-lc316.java)|Medium||
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)|[BIT](new/2021/10/16/yyf-lc315-BIT.java)|Medium|[BST](old/2021/11/02/jian-lc315.java) |
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal)|[:bento:](new/2021/11/17/wf-lc314.java)|Medium||
