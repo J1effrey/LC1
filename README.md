@@ -39,7 +39,7 @@ LeetCode
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|[:bar_chart:](new/2021/11/08/jian-lc987.java)|Medium||
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections)|[:bellhop_bell:](new/2021/11/17/jian-lc986.java )|Medium||
 |981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store)|[:crayon:](new/2022/01/15/jian-lc981.java)|Medium||
-|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|[jian-template](new/2021/11/17/jian-lc973.java)|Medium|[yyf-template](new/2021/11/17/yyf-lc973.java)|
+|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|[[jian]](new/2021/11/17/jian-lc973.java)|Medium|[[yyf]](new/2021/11/17/yyf-lc973.java)|
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees)|[:cape_verde:](new/2021/12/08/yyf-lc951.java)|Medium||
 |947|[Most Stones Removed with Same Row o](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column)|[:cricket:](new/2022/01/16/jian-lc947.java)|Medium||
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences)|[:cheese:](new/2021/12/19/yyf-lc946.java)|Medium||
