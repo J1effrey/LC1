@@ -38,7 +38,7 @@ LeetCode
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|[:bar_chart:](new/2021/11/08/jian-lc987.java)|Medium||
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections)|[:bellhop_bell:](new/2021/11/17/jian-lc986.java )|Medium||
 |981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store)|[:crayon:](new/2022/01/15/jian-lc981.java)|Medium||
-|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|[:bell:](new/2021/11/17/jian-lc973.java)|Medium||
+|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|[jian-template](new/2021/11/17/jian-lc973.java)|Medium|[yyf-template](new/2021/11/17/yyf-lc973.java)|
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees)|[:cape_verde:](new/2021/12/08/yyf-lc951.java)|Medium||
 |947|[Most Stones Removed with Same Row o](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column)|[:cricket:](new/2022/01/16/jian-lc947.java)|Medium||
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences)|[:cheese:](new/2021/12/19/yyf-lc946.java)|Medium||
@@ -70,7 +70,7 @@ LeetCode
 |659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[:card_index:](new/2021/12/12/wf-lc659.java)|Medium||
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)|[:blowfish:](new/2021/11/27/jian-lc658.java)|Medium||
 |642|[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system)|[:banana:](new/2021/11/07/jian-lc642.java)|Medium||
-|636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions)|[:barber:](new/2021/11/08/wf-lc636.java)|Medium||
+|636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions)|[自定义class](new/2021/11/08/wf-lc636.java)|Medium|[Array](new/2021/12/05/wf-lc636.java ) |
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers)|[:cop:](new/2022/01/12/jian-lc605.java)|Medium||
 |547|[Number of Provinces](https://leetcode.com/problems/number-of-provinces)|[:black_medium_small_square:](new/2021/11/22/yyf-lc547.java )|Medium||
 |545|[Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree)|[:no_bell:](new/2021/11/17/yyf-lc545.java)|Medium||
@@ -95,11 +95,11 @@ LeetCode
 |407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii)|[:central_african_republic:](new/2021/12/19/jian-lc407.java)|Medium||
 |403|[Frog Jump](https://leetcode.com/problems/frog-jump)|[DFS](new/2021/11/27/yyf-lc403.java)|Medium|[BFS](new/2021/11/27/jian-lc403-bfs.java)|
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index)|[:canary_islands:](new/2021/12/06/yyf-lc398.java)|Medium||
-|395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[:balloon:](new/2021/11/03/wf-lc395.java)|Medium||
+|395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[HashMap](new/2021/11/03/wf-lc395.java)|Medium|[Array](new/2021/12/08/yyf-lc395.java)|
 |394|[Decode String](https://leetcode.com/problems/decode-string)|[:bicyclist:](new/2021/11/20/jian-lc394.java)|Medium||
 |391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle)|[:scream_cat:](new/2021/12/12/jian-lc391.java )|Medium||
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)|[:atom_symbol:](new/2021/10/25/jian-lc387.java)|Medium||
-|378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[:black_nib:](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|Medium||
+|378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[:black_nib:](new/2021/12/22/jian-lc378.java)|Medium||
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)|[:bookmark:](new/2021/12/04/yyf-lc377.java)|Medium||
 |364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii)|[:building_construction:](new/2022/01/11/jian-lc364.java)|Medium||
 |362|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter)|[:blue_car:](new/2021/12/12/yyf-lc362.java)|Medium||
@@ -223,7 +223,7 @@ LeetCode
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[:books:](new/2021/12/04/yyf-lc47.java)|Medium||
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[:bookmark_tabs:](new/2021/12/04/yyf-lc46.java)|Medium||
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching)|[:anchor:](./new/2021/10/13/wf-lc44-dfs.java)|Medium||
-|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[:cl:](new/2021/12/26/jian-lc43.java)|Medium||
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[:cl:](new/2021/12/26/jian-lc43.java)|Medium|[x's property](new/2021/12/26/yyf-lc43.java)|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[:church:](new/2021/12/21/wf-lc42.java)|Medium||
 |40|[Combination Sum II ](https://leetcode.com/problems/combination-sum-ii/)|[:bomb:](new/2021/12/04/yyf-lc40.java)|Medium||
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[:boat:](new/2021/12/04/yyf-lc39.java)|Medium||
