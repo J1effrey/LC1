@@ -60,7 +60,7 @@ LeetCode
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance)|[:closed_lock_with_key:](new/2021/12/29/yyf-lc719.java)|Medium||
 |716|[Max Stack](https://leetcode.com/problems/max-stack)|[:copyright:](new/2022/01/12/yyf-lc716.java)|Medium||
 |715|[Range Module](https://leetcode.com/problems/range-module)|[:checkered_flag:](new/2021/12/19/yyf-lc715.java )|Medium||
-|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island)|[:bird:](new/2021/11/21/wf-lc695.java)|Medium||
+|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island)|[DFS](new/2021/11/21/wf-lc695.java)|Medium|[UF](new/2021/11/24/wf-lc695.java)|
 |694|[Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands)|[:circus_tent:](new/2021/12/22/yyf-lc694.java   )|Medium||
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)|[:blossom:](new/2021/11/06/jian-lc692.java)|Medium||
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance)|[:cherry_blossom:](new/2021/12/20/jian-lc690.java)|Medium||
@@ -93,7 +93,7 @@ LeetCode
 |415|[Add Strings](https://leetcode.com/problems/add-strings)|[:call_me_hand:](new/2021/12/04/yyf-lc415.java)|Medium||
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz)|[:arrow_down:](new/2021/10/17/yyf-lc412.java)|Medium||
 |407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii)|[:central_african_republic:](new/2021/12/19/jian-lc407.java)|Medium||
-|403|[Frog Jump](https://leetcode.com/problems/frog-jump)|[:blue_car:](new/2021/11/27/yyf-lc403.java)|Medium||
+|403|[Frog Jump](https://leetcode.com/problems/frog-jump)|[DFS](new/2021/11/27/yyf-lc403.java)|Medium|[BFS](new/2021/11/27/jian-lc403-bfs.java)|
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index)|[:canary_islands:](new/2021/12/06/yyf-lc398.java)|Medium||
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[:balloon:](new/2021/11/03/wf-lc395.java)|Medium||
 |394|[Decode String](https://leetcode.com/problems/decode-string)|[:bicyclist:](new/2021/11/20/jian-lc394.java)|Medium||
@@ -155,6 +155,7 @@ LeetCode
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii)|[:book:](new/2021/12/04/yyf-lc216.java)|Medium||
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii)|[:confounded:](new/2022/01/06/jian-lc213.java)|Medium||
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii)|[:man_astronaut:](new/2021/10/02/jian-lc212.java)|Medium||
+|211|[Design Add and Search Words Data Structure[follow up]](https://leetcode.com/problems/design-add-and-search-words-data-structure)|[:bed:](new/2021/12/05/yyf-lc211.java)|Medium||
 |211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure)|[:bed:](new/2021/11/15/yyf-lc211.java)|Medium||
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[:man_artist:](new/2021/10/02/jian-lc208.java)|Medium||
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[:capital_abcd:](new/2021/10/02/yyf-lc208.java)|Medium||
@@ -186,7 +187,7 @@ LeetCode
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph)|[:bikini:](new/2021/11/20/yyf-lc133.java)|Medium||
 |132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii)|[:confetti_ball:](new/2022/01/02/yyf-lc132.java )|Medium||
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions)|[:classical_building:](new/2021/12/27/yyf-lc130.java)|Medium||
-|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[:alien:](./new/2021/10/11/wf-lc128.java)|Medium||
+|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[:alien:](./new/2021/10/11/wf-lc128.java)|Medium|[UF](new/2021/11/24/wf-lc128.java)|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii)|[:battery:](new/2021/11/14/yyf-lc126.java)|Medium||
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome)|[:arrow_double_up:](new/2021/10/17/yyf-lc125.java)|Medium||
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[:small_airplane:](new/2021/10/04/jian-lc124.java)|Medium||
