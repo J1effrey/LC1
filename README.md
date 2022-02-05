@@ -156,7 +156,7 @@ LeetCode
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)|[:martial_arts_uniform:](new/2021/10/03/jian-lc227.java)|Medium||
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator)|[:bath:](new/2021/11/13/jian-lc224.java)|Medium||
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes)|[:clubs:](new/2022/01/01//wf-lc222.java)|Medium||
-|221|[Maximal Square](https://leetcode.com/problems/maximal-square)|[:biking_woman:](new/2021/11/20/wf-lc221.java)|Medium||
+|221|[Maximal Square](https://leetcode.com/problems/maximal-square)|[Stack](new/2021/11/20/wf-lc221.java)|Medium|[DP](new/2021/11/20/yyf-lc221-dp.java)|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)|[:athletic_shoe:](new/2021/10/25/yyf-lc218.java)|Medium||
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii)|[:book:](new/2021/12/04/yyf-lc216.java)|Medium||
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)|[:confounded:](./old/2021/10/12/jian-lc215.java)|Medium||
