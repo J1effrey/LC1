@@ -1,3 +1,5 @@
+// T: O(M + N)
+// S: O(M + N)
 class Solution {
     public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
         if (firstList == null || firstList.length == 0 || secondList == null || secondList.length == 0) {
