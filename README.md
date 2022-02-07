@@ -11,7 +11,7 @@ LeetCode
       - Boolean: [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-boolean.java) 
     - HashMap:  [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-hashmap.java)  
 - Sliding Window:
-    - https://labuladong.github.io/algo/1/9/ 
+    - https://labuladong.github.io/algo/1/11/ 
 - Binary Search:
     - [34. Find First and Last Position of Element in Sorted Array](new/2021/10/18/wf-lc34.java)
 - BFS:
