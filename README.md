@@ -1,5 +1,26 @@
 LeetCode
 ========
+### Template
+- Top K:
+    - [215. Kth Largest Element in an Array](./old/2021/10/12/jian-lc215.java)] 
+- Union-Find: 
+    - [200. Number of Islands(Union Find)](new/2021/11/24/wf-lc200-UF.java)
+- Trie
+    - char[26]: 
+      - String: [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-string.java)
+      - Boolean: [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-boolean.java) 
+    - HashMap:  [208. Implement Trie (Prefix Tree)](new/2021/12/05/yyf-lc208-hashmap.java)  
+- Sliding Window:
+    - https://labuladong.github.io/algo/1/9/ 
+- Binary Search:
+    - [34. Find First and Last Position of Element in Sorted Array](new/2021/10/18/wf-lc34.java)
+- BFS:
+    - level order: [103. Binary Tree Zigzag Level Order Traversal ](new/2021/10/24/jian-lc103.java )
+    - board: TODO
+- DFS
+    - string: TODO
+    - board: [51. N-Queens](new/2021/12/04/yyf-lc51.java)     [:bowing_man:](https://leetcode.com/problems/n-queens/)   
+
 
 ### LeetCode Algorithm
 
