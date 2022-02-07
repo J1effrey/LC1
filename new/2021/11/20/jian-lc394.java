@@ -1,3 +1,7 @@
+/*
+Time: O(maxK*n) k[string]
+Space: O(m+n) m:a-z n:0-9
+*/
 class Solution {
     public String decodeString(String s) {
         if (s == null || s.length() == 0) {
