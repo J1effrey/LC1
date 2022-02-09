@@ -1,15 +1,22 @@
+// T: O(row * col)
+// S: O(row * col)
 class Solution {
     class UnionFind {
         private int[] pa;
         private int[] sz;
+        private int maxSize;
+        
         public UnionFind(int N) {
             pa = new int[N];
             sz = new int[N];
+            maxSize = 1;
+            
             for (int i = 0; i < N; i++) {
                 pa[i] = i;
                 sz[i] = 1;
             }
         }
+        
         public void union(int p, int q) {
             int pParent = find(p);
             int qParent = find(q);
@@ -19,14 +26,16 @@ class Solution {
             if (sz[pParent] < sz[qParent]) {
                 pa[pParent] = qParent;
                 sz[qParent] += sz[pParent];
+                maxSize = Math.max(maxSize, sz[qParent]);
             } else {
                 pa[qParent] = pParent;
                 sz[pParent] += sz[qParent];
+                maxSize = Math.max(maxSize, sz[pParent]);
             }
         }
+        
         public int find(int x) {
             while (x != pa[x]) {
-                // 重新挂在它爸爸的爸爸也就是爷爷下面 path compression
                 pa[x] = pa[pa[x]];
                 x = pa[x];
             }
@@ -34,11 +43,7 @@ class Solution {
         }
         
         public int getMaxSize() {
-            int max = 0;
-            for (int i = 0; i < sz.length; i++) {
-                max = Math.max(max, sz[i]);
-            }
-            return max;
+            return maxSize;
         }
     }
     
@@ -50,10 +55,12 @@ class Solution {
         UnionFind unionFind = new UnionFind(grid.length * grid[0].length);
         int n = grid.length;
         int m = grid[0].length;
+        boolean foundLand = false;
         
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (grid[i][j] == 1) {
+                    foundLand = true;
                     if (i > 0 && grid[i - 1][j] == 1) {
                         unionFind.union(i * m + j, (i - 1) * m + j);
                     }
@@ -69,6 +76,6 @@ class Solution {
                 }  
             }
         }
-        return unionFind.getMaxSize();
+        return foundLand ? unionFind.getMaxSize() : 0;
     }
 }
