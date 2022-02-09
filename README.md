@@ -48,7 +48,7 @@ LeetCode
 |1277|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones)|[:chains:](new/2021/12/19/wf-lc1277.java)|Medium||
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)|[:blush:](new/2021/11/28/yyf-lc1249.java)|Medium||
 |1229|[Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler)|[:caribbean_netherlands:](new/2021/12/12/yyf-lc1229.java)|Medium||
-|1197|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves)|[:biohazard:](new/2021/11/21/jian-lc1197.java)|Medium||
+|1197|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves)|[BFS](new/2021/11/21/jian-lc1197.java)|Medium||
 |1153|[String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string)|[:cherries:](new/2021/12/19/yyf-lc1153.java)|Medium||
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest)|[:children_crossing:](new/2021/12/20/yyf-lc1110.java)|Medium||
 |1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array)|[:card_file_box:](new/2021/12/12/jian-lc1095.java)|Medium||
