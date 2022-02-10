@@ -1,3 +1,5 @@
+// T:O(N^2)
+// S:O(N)
 class Solution {
     class Union {
         int[] size;
@@ -15,6 +17,7 @@ class Solution {
         
         public int find(int i) {
             while (i != parent[i]) {
+                parent[i] = parent[parent[i]];
                 i = parent[i];
             }
             return i;
