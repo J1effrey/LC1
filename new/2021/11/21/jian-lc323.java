@@ -1,3 +1,5 @@
+// T: O(N) 
+// S: O(E) number of edges
 class Solution {
     class Union {
         int[] parent;
@@ -47,13 +49,11 @@ class Solution {
             return 0;
         }
         Union uf = new Union(n);
-        Set<Integer> set = new HashSet<>();
+        
         for (int i = 0; i < edges.length; i++) {
             uf.union(edges[i][0], edges[i][1]);
         }
-        // for (int i = 0; i < n; i++) {
-        //     set.add(uf.find(i));
-        // }
+
         return uf.getCount();
         
     }
