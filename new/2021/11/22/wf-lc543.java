@@ -1,3 +1,5 @@
+// Time: O(n) nodes
+// Space: O(n) stack
 class Solution {
     int max;
     public int diameterOfBinaryTree(TreeNode root) {
