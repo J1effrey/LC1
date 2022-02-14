@@ -1,6 +1,10 @@
+// T: O(log(max - min) * (row + col))
+// S: O(1)
+
 class Solution {
     private int n;
     /*
+    k = 6
     1 2 3 4 5 6 (7 8 9)  10 11 12 13
               s  e       
     */
@@ -28,8 +32,8 @@ class Solution {
         
         return end;
     }
-    
-    private int getLessOrEqualCount(int target, int[][] matrix) {
+
+    private int getLessOrEqualCount(int target, int[][] matrix) { // O(row + col)
         int i = n - 1;
         int j = 0;
         int count = 0;
@@ -46,11 +50,3 @@ class Solution {
         return count;
     }
 }
-
-
-/*
-1  5  9 
-10 11 13
-12 13 15
-
-*/
