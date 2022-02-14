@@ -1,3 +1,5 @@
+// Time: O(n)
+// Space:O(n)
 public class NestedIterator implements Iterator<Integer> {
     private Stack<NestedInteger> stack;
     private void pushToStack(List<NestedInteger> nestedList) {
