@@ -123,7 +123,7 @@ LeetCode
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)|[:atom_symbol:](new/2021/10/25/jian-lc387.java)|Medium||
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|[:hammer_and_pick:](old/2021/10/08/yyf-lc381.java)|Medium||
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)|[:green_apple:](old/2021/10/08/yyf-lc380.java)|Medium||
-|378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[:black_nib:](new/2021/12/22/jian-lc378.java)|Medium||
+|378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[Binary Search](new/2021/12/22/jian-lc378.java)|Medium|[PQ](new/2021/12/22/yyf-lc378.java)|
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)|[:bookmark:](new/2021/12/04/yyf-lc377.java)|Medium||
 |364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii)|[:building_construction:](new/2022/01/11/jian-lc364.java)|Medium||
 |362|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter)|[:blue_car:](new/2021/12/12/yyf-lc362.java)|Medium||
