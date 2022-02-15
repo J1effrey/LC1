@@ -1,34 +1,38 @@
+// T:O(N^3)
+// S:O(N^2) ?
 class Solution {
-    Set<Integer> set = new HashSet<>();
-    Map<String, Boolean> map = new HashMap<>();
     int target;
+    Map<String, Boolean> finishedJumps = new HashMap<>();
     public boolean canCross(int[] stones) {
         if (stones == null || stones.length == 0) {
             return false;
         }
         target = stones[stones.length - 1];
+        Set<Integer> stonesAvaliable = new HashSet<>();
         for (int stone : stones) {
-            set.add(stone);
+            stonesAvaliable.add(stone);
         }
-        return dfs(1, 1);
+        return dfs(1, 1, stonesAvaliable);
     }
     
-    public boolean dfs(int currPosition, int prevJumpStep) {
-        if (!set.contains(currPosition) || prevJumpStep == 0) {
-            return false;
-        }
-        if (currPosition == target) {
+    public boolean dfs(int position, int lastStep, Set<Integer> stonesAvaliable) {
+        if (position == target) {
             return true;
         }
-        String temp = currPosition + "," + prevJumpStep;
-        if (map.containsKey(temp)) {
-            return map.get(temp);
+        if (!stonesAvaliable.contains(position)) {
+            return false;
         }
-        boolean res;
-        res = dfs(currPosition + prevJumpStep - 1, prevJumpStep - 1) || 
-              dfs(currPosition + prevJumpStep, prevJumpStep) ||
-              dfs(currPosition + prevJumpStep + 1, prevJumpStep + 1);
-        map.put(temp, res);
+        if (lastStep == 0) {
+            return false;
+        }
+        String currentJumpToFinish = position + "," + lastStep;
+        if (finishedJumps.containsKey(currentJumpToFinish)) {
+            return finishedJumps.get(currentJumpToFinish);
+        }
+        boolean res = dfs(position + lastStep - 1, lastStep - 1, stonesAvaliable) ||
+               dfs(position + lastStep, lastStep, stonesAvaliable) ||
+               dfs(position + lastStep + 1, lastStep + 1, stonesAvaliable);
+        finishedJumps.put(currentJumpToFinish, res);
         return res;
     }
 }
