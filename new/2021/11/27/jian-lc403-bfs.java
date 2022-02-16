@@ -1,67 +1,69 @@
+/*
+I think the complexity is O(Nsqrt(N)).
+Assume the number of steps we can take at a position, which is the size of the inner loop, is K. Worst case is when we have one stone at each possible position, creating a lot of possible jumpsizes. To get a jumpsize K, we must at least have stone [0, 1, 3, 6, 10, ..., a_K], i.e. we always take the maximal step at each stone so that at the K-th term of this array, we can take any jumpsize between 1 to K. This array satisfies a_n - a_(n-1) = a_(n-1) - a_(n-2), from which we can easily derive a_K = K(K-1) / 2. Hence, at a position x, the number of jumpsizes we can get is sqrt(x) and the overall complexity is O(N*sqrt(N))
+Ref and math proof: https://math.stackexchange.com/questions/422559/what-is-sum-limits-i-1n-sqrt-i.
+*/
+
 class Solution {
-    
-    //用Jump来记录上一跳的距离和当前坐标，记录上一跳的距离是为了推算下一步能跳到哪
     class Jump {
-        int len;
-        int idx;
-        public Jump(int l, int i) {
-            len = l;
-            idx = i;
+        int position;
+        int lastStep;
+        public Jump(int position, int lastStep) {
+            this.position = position;
+            this.lastStep = lastStep;
         }
     }
-    /**
-     * @param stones: a list of stones' positions in sorted ascending order
-     * @return: true if the frog is able to cross the river or false
-     */
+    
     public boolean canCross(int[] stones) {
-        // write your code here
         if (stones == null || stones.length == 0) {
             return false;
         }
+
+        Set<Integer> stonesAvaliable = new HashSet<>();
+        
+        for (Integer i : stones) {
+            stonesAvaliable.add(i);
+        }
+        
+        int target = stones[stones.length - 1];
         
         Queue<Jump> queue = new LinkedList();
-        //初始化上一跳是0（下一跳可以是0+1=1）,当前位置是0
         queue.offer(new Jump(0, 0));
-        int target = stones[stones.length - 1];
-        //把石头的坐标集合化，方便判断该青蛙能否停在该坐标上
-        Set<Integer> positions = new HashSet();
-        for (Integer i : stones) {
-            positions.add(i);
-        }
-        //记忆化剪枝用的visited，记录上一跳的距离和当前坐标，用于去重
         Set<String> visited = new HashSet();
-        visited.add(0 + "_" + 0);
+        visited.add(0 + "-" + 0);
         
         while (!queue.isEmpty()) {
             int size = queue.size();
-            for (int j = 0; j < size; j++) {
+            for (int i = 0; i < size; i++) {
                 Jump jump = queue.poll();
-                //如果到达目标就返回true
-                if (jump.idx == target) {
+                
+                if (jump.position == target) {
                     return true;
                 }
-                //否则按照上一跳的距离和当前坐标，推算当前能跳的距离和可以到达的坐标
-                for (int k = -1; k <= 1; k++) {
-                    int len = jump.len + k;
-                    int idx = jump.idx + len;
-                    //题目要求必须向前跳，所以距离必须大于等于1
-                    if (len < 1) {
+                
+                for (int j = -1; j <= 1; j++) {
+                    int nextStep = jump.lastStep + j;
+                    int nextPosition = jump.position + nextStep;
+                    
+                    if (nextStep < 1) { 
                         continue;
                     }
-                    //如果下一步可以到达的坐标上没有石头就略过
-                    if (!positions.contains(idx)) {
+                    
+                    if (!stonesAvaliable.contains(nextPosition)) {
                         continue;
                     }
-                    //如果距离和坐标的组合以前曾经加入过对列也略过
-                    if (visited.contains(len + "_" + idx)){
+                    
+                    String visitedStr = nextPosition + "-" + nextStep;
+                    if (visited.contains(visitedStr)){
                         continue;
                     }
-                    //把新的Jump对象放入队列，并标记为已访问
-                    queue.offer(new Jump(len, idx));
-                    visited.add(len + "_" + idx);
+                    
+                    queue.offer(new Jump(nextPosition, nextStep));
+                    visited.add(visitedStr);
                 }
             }
         }
+        
         return false;
     }
 }
