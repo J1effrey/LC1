@@ -191,7 +191,7 @@ LeetCode
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[:atm:](new/2021/10/25/jian-lc206.java)|Medium||
 |204|[Count Primes](https://leetcode.com/problems/count-primes)|[:ballot_box:](new/2021/11/03/yyf-lc204.java)|Medium||
 |202|[Happy Number](https://leetcode.com/problems/happy-number)|[:baggage_claim:](new/2021/11/01/yyf-lc202.java)|Medium||
-|200|[200. Number of Islands](https://leetcode.com/problems/number-of-islands)|[UF](new/2021/11/24/wf-lc200-UF.java)|Medium|[DFS](old/2021/10/04/yyf-lc200.java)|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands)|[UF](new/2021/11/24/wf-lc200-UF.java)|Medium|[DFS](old/2021/10/04/yyf-lc200.java)|
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)|[:boar:](new/2021/11/28/jian-lc199.java )|Medium||
 |198|[House Robber](https://leetcode.com/problems/house-robber)|[:art:](new/2021/10/24/wf-lc198.java)|Medium||
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[:flight_arrival:](old/2021/10/07/yyf-lc188.java)|Medium||
