@@ -1,3 +1,5 @@
+//Time:O(nm)
+//Space:O(nm)
 class NumMatrix {
     private int[][] dp;
     public NumMatrix(int[][] matrix) {
