@@ -1,3 +1,5 @@
+// T: O(N)
+// S: O(N)
 class Solution {
     public String minRemoveToMakeValid(String s) {
         if (s == null || s.length() == 0) {
