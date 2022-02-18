@@ -1,3 +1,5 @@
+// T:O(s) s is path length 
+// S:O(s)
 class Solution {
     public String simplifyPath(String path) {
         StringBuilder sb = new StringBuilder();
@@ -6,13 +8,14 @@ class Solution {
         for (String directory : paths) {
             if (".".equals(directory) || directory.isEmpty()) {
                 continue;
-            } else if ("..".equals(directory)){
+            } 
+            if ("..".equals(directory) ){
                 if (!stack.isEmpty()) {
                     stack.pop();
                 }
-            } else {
-                stack.push(directory);
+                continue;
             }
+            stack.push(directory);
         }
         for (String dir : stack) {
             sb.append("/");
