@@ -1,3 +1,5 @@
+//Time: O(n)
+//Space: O(n)
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> res = new ArrayList<>();
