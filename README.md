@@ -237,7 +237,7 @@ LeetCode
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[:boom:](new/2021/12/04/yyf-lc77.java)|Medium||
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[:baby:](new/2021/10/06/jian-lc76.java )|Medium||
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors)|[:part_alternation_mark:](new/2021/10/27/wf-lc75.java)|Medium||
-|71|[Simplify Path](https://leetcode.com/problems/simplify-path)|[:carrot:](new/2021/11/28/wf-lc71.java)|Medium||
+|71|[Simplify Path](https://leetcode.com/problems/simplify-path)|[Stack](new/2021/11/28/wf-lc71.java)|Medium||
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|[:right_anger_bubble:](new/2021/10/30/wf-lc70.java)|Medium||
 |68|[Text Justification](https://leetcode.com/problems/text-justification)|[:couple_with_heart:](new/2022/01/12/yyf-lc68.java)|Medium||
 |67|[Add Binary](https://leetcode.com/problems/add-binary)|[:canada:](new/2021/12/05/yyf-lc67.java)|Medium||
