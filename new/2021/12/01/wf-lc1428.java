@@ -7,6 +7,8 @@
  * };
  */
 
+// T:O(row + col)
+// S:O(1)
 class Solution {
     public int leftMostColumnWithOne(BinaryMatrix binaryMatrix) {
         if (binaryMatrix == null) {
