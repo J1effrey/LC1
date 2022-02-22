@@ -1,3 +1,6 @@
+// T: O(N)
+// S: O(1) extra space
+
 class Solution {
     public String numberToWords(int num) {
         if (num < 0) {
@@ -211,13 +214,4 @@ class Solution {
         }
     }
 }
-*/
-
-
-/*
-12,345
-
-345
-twelve thousand three hundred forty five
-
 */
