@@ -1,3 +1,5 @@
+// T: O(N)
+// S: O(N)
 class SparseVector {
     Map<Integer, Integer> m = new HashMap<>();
     SparseVector(int[] nums) {
