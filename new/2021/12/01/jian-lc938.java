@@ -1,3 +1,5 @@
+//Time: O(n)
+//Space: O(1)
 class Solution {
     public int rangeSumBST(TreeNode root, int low, int high) {
         if (root == null) {
