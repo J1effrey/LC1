@@ -1,3 +1,5 @@
+// T:O(N) n is max(len1, len2)
+// S:O(N) n is max(len1, len2)
 class Solution {
     public String addStrings(String num1, String num2) {
         if (num1 == null || num2 == null || num1.length() == 0 || num2.length() == 0) {
