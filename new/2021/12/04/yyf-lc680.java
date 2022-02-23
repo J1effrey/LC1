@@ -1,3 +1,5 @@
+// T:O(N)
+// S:O(1)
 class Solution {
     public boolean validPalindrome(String s) {
         if (s == null || s.length() == 0) {
