@@ -1,26 +1,27 @@
+// T:O(N)
+// S:O(N)
 class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
-        if (nums == null || nums.length == 0) {
-            return true;
-        }
-        
-        Map<Integer, Integer> m = new HashMap<>();
-        m.put(0, -1);
-        
-        int runningSum = 0;
-        
-        for (int i = 0; i < nums.length; i++) {
-            runningSum = (runningSum + nums[i]) % k;  
-            if (m.containsKey(runningSum)) {
-                if (i - m.get(runningSum) >= 2) {
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, -1);
+        int n = nums.length;
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += nums[i];
+            int remainder = sum % k;
+            if (!map.containsKey(remainder)) {
+                map.put(remainder, i);
+            } else {
+                if (i - map.get(remainder) > 1) {
                     return true;
                 }
-            } else {
-                m.put(runningSum, i);
             }
         }
         
         return false;
-        
     }
 }
+
+// m * k + y
+// n * k + y
+// (m - n) * k
