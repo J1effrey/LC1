@@ -1,3 +1,5 @@
+//Time: O(n)
+//Space: O(n)
 class Solution {
     public int[] findBuildings(int[] heights) {
         if (heights == null || heights.length == 0) {
