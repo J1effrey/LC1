@@ -7,6 +7,7 @@ class WordDictionary {
             children = new TrieNode[26];
         }
     }
+    
     TrieNode root;
     public WordDictionary() {
         root = new TrieNode();
@@ -28,23 +29,24 @@ class WordDictionary {
     }
     
     public boolean searchWithDot(String word, TrieNode nextNode) {
+        if (nextNode == null) {
+            return false;
+        }
         TrieNode curr = nextNode;
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
             if (c == '.') {
                 for (int j = 0; j < 26; j++) {
-                    if (curr.children[j] != null) {
-                        if (searchWithDot(word.substring(i+1), curr.children[j])) {
-                            return true;
-                        }
+                    if (searchWithDot(word.substring(i + 1), curr.children[j])) {
+                        return true;
                     }
                 }
                 return false;
-            } else if (curr.children[c - 'a'] == null){
+            } 
+            if (curr.children[c - 'a'] == null){
                 return false;
-            } else {
-                curr = curr.children[c - 'a'];
-            }
+            } 
+            curr = curr.children[c - 'a'];
         }
         return curr.isEnd;
     }
