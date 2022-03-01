@@ -27,13 +27,13 @@ class Solution {
             Log log = new Log(content);
             if (log.isStart) {
                 stack.push(log);
-            } else {
-                Log top = stack.pop();
-                result[top.id] += (log.time - top.time + 1);
-                if (!stack.isEmpty()) {
-                    // very good
-                    result[stack.peek().id] -= (log.time - top.time + 1);
-                }
+                continue;
+            }
+            Log top = stack.pop();
+            result[top.id] += (log.time - top.time + 1);
+            if (!stack.isEmpty()) {
+                // very good
+                result[stack.peek().id] -= (log.time - top.time + 1);
             }
         }
         
