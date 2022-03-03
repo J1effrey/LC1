@@ -1,3 +1,5 @@
+//Time: O(mn)
+//Space: O(mn)
 class Solution {
     class UnionFind {
         private int[] pa;
