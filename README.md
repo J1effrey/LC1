@@ -117,7 +117,7 @@ LeetCode
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz)|[:arrow_down:](new/2021/10/17/yyf-lc412.java)|Medium||
 |407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii)|[:central_african_republic:](new/2021/12/19/jian-lc407.java)|Medium||
 |403|[Frog Jump](https://leetcode.com/problems/frog-jump)|[DFS](new/2021/11/27/yyf-lc403.java)|Medium|[BFS](new/2021/11/27/jian-lc403-bfs.java)|
-|398|[Random Pick Index](https://leetcode.com/problems/random-pick-index)|[:canary_islands:](new/2021/12/06/yyf-lc398.java)|Medium||
+|398|[Random Pick Index](https://leetcode.com/problems/random-pick-index)|[Reservoir Sampling](new/2021/12/06/yyf-lc398.java)|Medium|[HashMap](new/2021/12/06/yyf-lc398-map.java)|
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[HashMap](new/2021/11/03/wf-lc395.java)|Medium|[Array](new/2021/12/08/yyf-lc395.java)|
 |394|[Decode String](https://leetcode.com/problems/decode-string)|[:bicyclist:](new/2021/11/20/jian-lc394.java)|Medium||
 |391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle)|[:scream_cat:](new/2021/12/12/jian-lc391.java )|Medium||
