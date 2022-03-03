@@ -1,5 +1,12 @@
 // T: O(N)  
 // No extra space complexity
+/*
+1,2,3,3,3
+
+i = 2  1*1/2*2/3
+i = 3  1/2*2/3
+i = 4  1/3
+*/
 class Solution {
     Random random;
     int[] arr;
@@ -30,23 +37,3 @@ class Solution {
  * int param_1 = obj.pick(target);
  */
 
-/*
-class Solution {
-    Random random;
-    Map<Integer, List<Integer>> map = new HashMap<>();
-    public Solution(int[] nums) {
-        random = new Random();
-        for (int i = 0; i < nums.length; i++) {
-            int num = nums[i];
-            List<Integer> list = map.getOrDefault(num, new ArrayList<>());
-            list.add(i);
-            map.put(num, list);
-        }
-    }
-    
-    public int pick(int target) {
-        List<Integer> list = map.getOrDefault(target, new ArrayList<>());
-        return list.get(random.nextInt(list.size()));
-    }
-}
-*/
