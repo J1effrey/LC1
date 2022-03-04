@@ -1,3 +1,6 @@
+// T: O(n)
+// S: O(n)
+
 public class Solution {
     /*
         利用单调栈来维护一个严格递减序列
@@ -24,7 +27,7 @@ public class Solution {
             stack.push(i);
         }
 
-        // max swap exists
+        // max swap must exist
         if (left != Integer.MAX_VALUE) {
             int right = Integer.MIN_VALUE;
             char max = digits[left];
