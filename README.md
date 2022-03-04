@@ -88,7 +88,7 @@ LeetCode
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)|[:blossom:](new/2021/11/06/jian-lc692.java)|Medium||
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance)|[:cherry_blossom:](new/2021/12/20/jian-lc690.java)|Medium||
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)|[:calendar:](new/2021/12/04/yyf-lc680.java)|Medium||
-|670|[Maximum Swap](https://leetcode.com/problems/maximum-swap)|[:capricorn:](new/2021/12/08/wf-lc670.java)|Medium||
+|670|[Maximum Swap](https://leetcode.com/problems/maximum-swap)|[stack](new/2021/12/08/wf-lc670.java)|Medium|[one pass](new/2021/12/08/wf-670-1pass.java)|
 |666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv)|[:cold_sweat:](new/2022/01/01/yyf-lc666.java)|Medium||
 |659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[:card_index:](new/2021/12/12/wf-lc659.java)|Medium||
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)|[:blowfish:](new/2021/11/27/jian-lc658.java)|Medium||
