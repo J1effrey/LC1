@@ -5,11 +5,15 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(') {
                 right++;
-            } else if (right > 0) {
+                continue;
+            } 
+            
+            if (right > 0) {
                 right--;
-            } else {
-                left++;
+                continue;
             }
+            
+            left++;
         }
         return left + right;
     }
