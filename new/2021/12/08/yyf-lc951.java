@@ -13,7 +13,8 @@
  *     }
  * }
  */
-
+// T:O(min{N1,N2)) n is length
+// S:O(min{h1,h2}) h is height
 class Solution {
     public boolean flipEquiv(TreeNode root1, TreeNode root2) {
         if (root1 == null && root2 == null) {
