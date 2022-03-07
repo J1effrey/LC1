@@ -1,53 +1,58 @@
+// O(26 * N) -> O(N)
+// O(26) -> O(1)
 class Solution {
-    /*
-    n: 1 - total unique letters in s
-    */
     public int longestSubstring(String s, int k) {
-        if (s.length() == 0 || k == 0) {
+        if (s == null || s.length() == 0 || k < 0) {
             return 0;
         }
+
+        Set<Character> uniqueChars = new HashSet<>();
         
-        Set<Character> set = new HashSet<>();
-        
-        for (char ch: s.toCharArray()) {
-            set.add(ch);
+        for (int i = 0; i < s.length(); i++) {
+            uniqueChars.add(s.charAt(i));
         }
         
+        int uniqueCount = uniqueChars.size();
         int res = 0;
-        for (int i = 1; i <= set.size(); i++) {
-            int start = 0;
-            int end = 0;
-            int uniqueCount = 0;
-            int countK = 0;
-            HashMap<Character, Integer> map = new HashMap<>();
-            while (end < s.length()) {
-                if (uniqueCount <= i) {
-                    char cur = s.charAt(end);
-                    if (map.getOrDefault(cur, 0) == 0) {
-                        uniqueCount++;
+ 
+        for (int i = 1; i <= uniqueCount; i++) {
+            int left = 0;
+            int right = 0;
+            Map<Character, Integer> window = new HashMap<>();
+            int uniqueCountMatchedKTimes = 0;
+            int nonZeroCount = 0;
+            
+            while (right < s.length()) {
+                if (nonZeroCount <= i) {
+                    char cur = s.charAt(right);
+                    int curCount = window.getOrDefault(cur, 0);
+                    if (curCount == 0) {
+                        nonZeroCount++;
                     }
-                    map.put(cur, map.getOrDefault(cur, 0) + 1);
-                    if (map.get(cur) == k) {
-                        countK++;
+                    window.put(cur, curCount + 1);
+                    if (window.get(cur) == k) {
+                        uniqueCountMatchedKTimes++;
                     }
-                    end++;
+                    right++;
                 } else {
-                    char cur = s.charAt(start);
-                    if (map.get(cur) == k) {
-                        countK--;
+                    char curLeft = s.charAt(left);
+                    int curLeftCount = window.get(curLeft);
+                    if (curLeftCount == 1) {
+                        nonZeroCount--;
                     }
-                    map.put(cur, map.get(cur) - 1);
-                    if (map.get(cur) == 0) {
-                        uniqueCount--;
+                    if (curLeftCount == k) {
+                        uniqueCountMatchedKTimes--;
                     }
-                    start++;
+                    window.put(curLeft, window.get(curLeft) - 1);
+                    left++;
                 }
                 
-                if (uniqueCount == i && countK == i) {
-                    res = Math.max(res, end - start);
+                if (nonZeroCount == i && uniqueCountMatchedKTimes == i) {
+                    res = Math.max(res, right - left);
                 }
             }
         }
+        
         return res;
     }
 }
