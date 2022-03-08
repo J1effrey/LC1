@@ -1,11 +1,20 @@
+// Intuition: Approach 2 has constant space complexity, but we can simplify the code further when we consider that the problem really is asking for detecting intersection of two linked lists
+// Time complexity: O(h1 + h2) where h1 and h2 are heights of the two given nodes
+// Space complexity: O(1)
+
 class Solution {
     public Node lowestCommonAncestor(Node p, Node q) {
-        Node a = p, b = q;
-        while (a != b) {
-            a = a == null? q : a.parent;
-            b = b == null? p : b.parent;    
+        Node runner1 = p, runner2 = q;
+        
+        while (runner1 != runner2) { // Guaranteed to complete since both nodes belong to same tree
+            // We are simulating a cycle when any of the conditions below is satisfied 
+            // by pointing runner to the head of the other "list"  to make sure 
+            // intersection is found before either of the below conditions are satisfied again
+            runner1 = (runner1 == null)?q:runner1.parent;
+            runner2 = (runner2 == null)?p:runner2.parent;
         }
-        return a;
+        
+        return runner1;
     }
 }
 
