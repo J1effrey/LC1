@@ -1,3 +1,6 @@
+// O(N)
+// O(N)
+
 class Solution {
     public String findReplaceString(String s, int[] indices, String[] sources, String[] targets) {
         if (s == null || s.length() == 0) {
