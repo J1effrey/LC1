@@ -13,6 +13,8 @@
  *     }
  * }
  */
+//Time: O(h)
+//Space: O(1)
 class Solution {
     public int closestValue(TreeNode root, double target) {
         if (root == null) {
