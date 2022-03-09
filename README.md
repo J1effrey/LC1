@@ -90,7 +90,7 @@ LeetCode
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)|[:calendar:](new/2021/12/04/yyf-lc680.java)|Medium||
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap)|[stack](new/2021/12/08/wf-lc670.java)|Medium|[one pass](new/2021/12/08/wf-670-1pass.java)|
 |666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv)|[:cold_sweat:](new/2022/01/01/yyf-lc666.java)|Medium||
-|659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[:card_index:](new/2021/12/12/wf-lc659.java)|Medium||
+|659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[HashMap(greedy)](new/2021/12/12/wf-lc659.java)|Medium||
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)|[:blowfish:](new/2021/11/27/jian-lc658.java)|Medium||
 |642|[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system)|[:banana:](new/2021/11/07/jian-lc642.java)|Medium||
 |636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions)|[自定义class](new/2021/11/08/wf-lc636.java)|Medium|[Array](new/2021/12/05/wf-lc636.java ) |
