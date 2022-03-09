@@ -4,27 +4,26 @@ class Solution {
             return 0;
         }
         
-        int m = nums.length - k;    
-        
-        return partition(nums, 0, nums.length - 1, m);
+        partition(nums, 0, nums.length - 1, k - 1);
+        return nums[k - 1];
     }
     
-    private int partition(int[] nums, int start, int end, int m) {
+    private void partition(int[] nums, int start, int end, int k) {
+        if (start == end) {
+            return;
+        }
+        
         int left = start;
         int right = end;
-        
-        if (left == right) {
-            return nums[m];
-        }
         
         int pivot = nums[left + (end - left) / 2];
         
         while (left <= right) {
-            while (left <= right && nums[left] < pivot) {
+            while (left <= right && nums[left] > pivot) {
                 left++;
             }
             
-            while (left <= right && nums[right] > pivot) {
+            while (left <= right && nums[right] < pivot) {
                 right--;
             }
             
@@ -35,11 +34,12 @@ class Solution {
             }
         }
         
-        if (m <= right) {
-            return partition(nums, start, right, m);
+        if (k <= right) {
+            partition(nums, start, right, k);
+            return;
         }
         
-        return partition(nums, left, end, m);
+        partition(nums, left, end, k);
     }
     
     private void swap(int[] nums, int left, int right) {
