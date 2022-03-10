@@ -1,4 +1,36 @@
 class Solution {
+    List<List<Integer>> res = new ArrayList<>();
+    
+    public List<List<Integer>> subsetsWithDup(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return res;
+        }
+        Arrays.sort(nums);
+        
+        dfs(nums, new ArrayList<Integer>(), 0);
+        return res;
+    }
+    
+    private void dfs(int[] nums, List<Integer> temp, int position) {
+        res.add(new ArrayList<>(temp));
+        if (position >= nums.length) {
+            return;
+        }
+        
+        for (int i = position; i < nums.length; i++) {
+            if (i > position && nums[i] == nums[i - 1]) {
+                continue;
+            }
+            temp.add(nums[i]);
+            dfs(nums, temp, i + 1);
+            temp.remove(temp.size() - 1);
+        }
+    }
+}
+
+===
+
+class Solution {
     boolean[] visited;
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
