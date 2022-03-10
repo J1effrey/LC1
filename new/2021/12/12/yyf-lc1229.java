@@ -1,3 +1,5 @@
+// T:O(NlogN) N is the longer one
+// S:O(1)
 class Solution {
     public List<Integer> minAvailableDuration(int[][] slots1, int[][] slots2, int duration) {
         //TODO:adding input check
@@ -17,9 +19,9 @@ class Solution {
             // always move the one that ends earlier
             if (slots1[pointer1][1] < slots2[pointer2][1]) {
                 pointer1++;
-            } else {
-                pointer2++;
-            }
+                continue;
+            } 
+            pointer2++;
         }
         return new ArrayList<Integer>();
     }
