@@ -1,3 +1,5 @@
+//Time: O(1)
+//Space: O(n)
 class HitCounter {
     
     Queue<Integer> queue;
