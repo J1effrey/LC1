@@ -9,41 +9,52 @@
  * N = Total number of email addresses in the input. Here assuming the length of
  * each email and owner string is a fixed constant.
  */
-class Solution {
-    class UnionFind {
-        private int[] pa;
-        private int[] sz;
-        public UnionFind(int N) {
-            pa = new int[N];
-            sz = new int[N];
-            for (int i = 0; i < N; i++) {
-                pa[i] = i;
-                sz[i] = 1;
-            }
-        }
-        public void union(int p, int q) {
-            int pParent = find(p);
-            int qParent = find(q);
-            if (pParent == qParent) {
-                return;
-            }
-            if (sz[pParent] < sz[qParent]) {
-                pa[pParent] = qParent;
-                sz[qParent] += sz[pParent];
-            } else {
-                pa[qParent] = pParent;
-                sz[pParent] += sz[qParent];
-            }
-        }
-        public int find(int x) {
-            while (x != pa[x]) {
-                // 重新挂在它爸爸的爸爸也就是爷爷下面 path compression
-                pa[x] = pa[pa[x]];
-                x = pa[x];
-            }
-            return x;
+
+class UnionFind {
+    int[] parents;
+    int[] size;
+    int count;
+    public UnionFind(int n) {
+        this.parents = new int[n];
+        this.size = new int[n];
+        this.count = n;
+        for (int i = 0; i < n; i++) {
+            parents[i] = i;
+            size[i] = 1;
         }
     }
+
+    public int find(int x) {
+        while (x != parents[x]) {
+            parents[x] = parents[parents[x]];
+            x = parents[x];
+        }
+        return x;
+    }
+
+    public void union(int p, int q) {
+        int rootP = find(p);
+        int rootQ = find(q);
+        if (rootP == rootQ) {
+            return;
+        } 
+
+        if (size[rootP] > size[rootQ]) {
+            parents[rootQ] = rootP;
+            size[rootP] += size[rootQ];
+        } else {
+            parents[rootP] = rootQ;
+            size[rootQ] += size[rootP];
+        }
+        count--;
+    }
+
+    public int getCount() {
+        return this.count;
+    }
+}
+
+class Solution {
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
         if (accounts == null || accounts.size() == 0) {
             return new ArrayList<>();
@@ -51,47 +62,49 @@ class Solution {
         
         UnionFind uf = new UnionFind(accounts.size());
         
-        Map<String, Integer> map = new HashMap<>();
+        // only used for union
+        Map<String, Integer> emailParentIndexes = new HashMap<>();
         
         for (int i = 0; i < accounts.size(); i++) {
             for (int j = 1; j < accounts.get(i).size(); j++) {
-                String st = accounts.get(i).get(j);
-                if (!map.containsKey(st)) {
-                    map.put(st, i);
-                } else {
-                    int tempIndex = map.get(st);
-                    uf.union(tempIndex, i);
-                }
+                String email = accounts.get(i).get(j);
+                if (!emailParentIndexes.containsKey(email)) {
+                    emailParentIndexes.put(email, i);
+                    continue;
+                } 
+                int parentIndexOfEmail = emailParentIndexes.get(email);
+                uf.union(parentIndexOfEmail, i);
             }
         }
         
-        Map<Integer, Set<String>> set = new HashMap<>();
+        // aggregate same accounts
+        Map<Integer, Set<String>> mergedAccounts = new HashMap<>();
         
         for (int i = 0; i < accounts.size(); i++) {
             int parentIndex = uf.find(i);
             
-            if (!set.containsKey(parentIndex)) {
-                set.put(parentIndex, new HashSet<>());
+            if (!mergedAccounts.containsKey(parentIndex)) {
+                mergedAccounts.put(parentIndex, new HashSet<>());
             }
             
-            Set<String> tempSet = set.get(parentIndex);
+            Set<String> currentAccounts = mergedAccounts.get(parentIndex);
             
             for (int j = 1; j < accounts.get(i).size(); j++) {
-                tempSet.add(accounts.get(i).get(j));
+                currentAccounts.add(accounts.get(i).get(j));
             }
-            set.put(parentIndex, tempSet);
         }
         
         List<List<String>> res = new ArrayList<>();
         
-        for (int key: set.keySet()) {
-            List<String> list = new ArrayList<>();
-            list.addAll(set.get(key));
-            Collections.sort(list);
-            list.add(0, accounts.get(key).get(0));
-            res.add(list);
+        for (int accountIndex: mergedAccounts.keySet()) {
+            List<String> emails = new ArrayList<>();
+            emails.addAll(mergedAccounts.get(accountIndex));
+            Collections.sort(emails);
+            emails.add(0, accounts.get(accountIndex).get(0));
+            res.add(emails);
         }
         
         return res;
+        
     }
 }
