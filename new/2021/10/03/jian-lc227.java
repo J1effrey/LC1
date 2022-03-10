@@ -1,90 +1,49 @@
+// O(N)
+// O(N)
 class Solution {
     public int calculate(String s) {
         if (s == null || s.length() == 0) {
             return 0;
         }
-        Stack<Integer> stack = new Stack<>();
         
-        int num = 0;
+        Stack<Integer> operands = new Stack<>();
+        
+        int operand = 0;
         char sign = '+';
         
-        for (int i =0; i < s.length(); i++) {
-            if (Character.isDigit(s.charAt(i))) {
-                num = num * 10 + s.charAt(i) - '0';
-            }
-            
-            if (!Character.isDigit(s.charAt(i)) && ' ' != s.charAt(i) || i == s.length() - 1) {
-                if (sign == '+') {
-                    stack.push(num);
-                }
-                if (sign == '-') {
-                    stack.push(-num);
-                }
-                if (sign == '*') {
-                    stack.push(stack.pop() * num);
-                }
-                if (sign == '/') {
-                    stack.push(stack.pop() / num);
-                }
-                sign = s.charAt(i);
-                num = 0;
-            }
-        }
-        int res = 0;
-        for (int i : stack) {
-            res += i;
-        }
-        return res;
-    }
-}
-
-------------------------------------------------------------------
-class Solution {
-    public int calculate(String s) {
-        if (s == null || s.length() == 0) {
-            return 0;
-        }
-        
-        Stack<Integer> stack = new Stack<Integer>();
-        char op = '+';
-        
         for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (c == ' ') {
-                continue;
+            char cur = s.charAt(i);
+            
+            if (Character.isDigit(cur)) {
+                operand = operand * 10 + cur - '0';
             }
             
-            if (Character.isDigit(c)) {
-                int start = i;
-                while (i < s.length() && Character.isDigit(s.charAt(i))) {
-                    i++;
+            if (i == s.length() - 1 || !Character.isDigit(cur) && cur != ' ') {
+                switch (sign) {
+                    case '+':
+                        operands.push(operand);
+                        break;
+                    case '-':
+                        operands.push(-operand);
+                        break;
+                    case '*':
+                        operands.push(operands.pop() * operand);
+                        break;
+                    case '/':
+                        operands.push(operands.pop() / operand);
+                        break;
                 }
-                
-                int cur = Integer.parseInt(s.substring(start, i));
-                
-                if (op == '+') {
-                    stack.push(cur);
-                } else if (op == '-') {
-                    stack.push(-cur);
-                } else if (op == '*') {
-                    stack.push(stack.pop() * cur);
-                } else if (op == '/') {
-                    stack.push(stack.pop() / cur);
-                }
-                    
-                i--;
-                
-            } else {
-                op = c;
+                operand = 0;
+                sign = cur;
             }
         }
         
         int res = 0;
-            
-        for (int i : stack) {
-            res += i;
+        
+        while (!operands.isEmpty()) {
+            res += operands.pop();
         }
-
+        
         return res;
     }
 }
