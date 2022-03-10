@@ -1,3 +1,5 @@
+// O(N)
+// O(N)
 class Solution {
     public boolean isRectangleCover(int[][] rectangles) {
 
