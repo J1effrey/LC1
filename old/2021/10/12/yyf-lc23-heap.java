@@ -16,8 +16,7 @@ class Solution {
         }
         
         while (!pq.isEmpty()) {
-            ListNode curr = pq.poll();
-            head.next = curr;
+            head.next = pq.poll();
             head = head.next; // curr
             if (head.next != null) {
                 pq.offer(head.next);
