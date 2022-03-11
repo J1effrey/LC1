@@ -269,7 +269,7 @@ LeetCode
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers)|[:bamboo:](new/2021/11/06/jian-lc29.java)|Medium||
 |26|[Remove Duplicates from Sorted Array ](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[:baby_symbol:](new/2021/10/31/wf-lc26.java )|Medium||
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)|[Recursion](new/2021/11/22/jian-lc25.java)|Medium||
-|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[:black_joker:](./old/2021/10/12/yyf-lc23.java)|Medium||
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[Divide and Conquer](./old/2021/10/12/yyf-lc23.java)|Hard|[heap](./old/2021/10/12/yyf-lc23-heap.java)|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[:bow_and_arrow:](new/2021/12/04/yyf-lc22.java)|Medium||
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[:airplane:](./new/2021/10/09/yyf-lc21.java)|Medium||
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[:fishing_pole_and_fish:](old/2021/10/05/yyf-lc20.java)|Medium||
