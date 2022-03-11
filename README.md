@@ -150,7 +150,7 @@ LeetCode
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[:cloud:](new/2021/12/30/wf-lc301.java)|Medium||
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[:nut_and_bolt:](new/2021/10/25/wf-lc300.java)|Medium||
 |298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence)|[:computer_mouse:](new/2022/01/02/jian-lc298.java )|Medium||
-|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[:alarm_clock:](./new/2021/10/10/wf-lc297.java)|Medium||
+|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[BFS](./new/2021/10/10/wf-lc297.java)|Hard||
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)|[:left_right_arrow:](old/2021/10/11/yyf-lc295.java)|Medium||
 |289|[Game of Life](https://leetcode.com/problems/game-of-life)|[:baby_bottle:](new/2021/10/08/jian-lc289.java )|Medium||
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|[:angry:](./new/2021/10/13/jian-lc287.java)|Medium||
@@ -162,7 +162,7 @@ LeetCode
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words)|[:cake:](new/2021/12/01/yyf-lc273.java)|Medium||
 |272|[Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii)|[:coffin:](new/2022/01/01/yyf-lc272.java)|Medium||
 |270|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value)|[:carrot:](new/2021/12/12/yyf-lc270.java)|Medium||
-|269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary)|[:asterisk:](old/2021/10/25/jian-lc269.java)|Medium||
+|269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary)|[Topological](old/2021/10/25/jian-lc269.java)|Hard||
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii)|[:city_sunset:](new/2021/12/25/yyf-lc264.java)|Medium||
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree)|[:cityscape:](new/2021/12/26/jian-lc261.java)|Medium||
 |254|[Factor Combinations](https://leetcode.com/problems/factor-combinations/)|[:bowling:](new/2021/12/04/yyf-lc254.java)|Medium||
