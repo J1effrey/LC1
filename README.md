@@ -162,7 +162,7 @@ LeetCode
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words)|[:cake:](new/2021/12/01/yyf-lc273.java)|Medium||
 |272|[Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii)|[:coffin:](new/2022/01/01/yyf-lc272.java)|Medium||
 |270|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value)|[:carrot:](new/2021/12/12/yyf-lc270.java)|Medium||
-|269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary)|[Topological](old/2021/10/25/jian-lc269.java)|Hard||
+|269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary)|[Topological1](old/2021/10/25/jian-lc269.java), [Topological2](old/2021/10/25/yyf-lc269.java)|Hard||
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii)|[:city_sunset:](new/2021/12/25/yyf-lc264.java)|Medium||
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree)|[:cityscape:](new/2021/12/26/jian-lc261.java)|Medium||
 |254|[Factor Combinations](https://leetcode.com/problems/factor-combinations/)|[:bowling:](new/2021/12/04/yyf-lc254.java)|Medium||
