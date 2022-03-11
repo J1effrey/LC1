@@ -45,7 +45,7 @@ LeetCode
 |1423|[Maximum Points You Can Obtain from Car](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards)|[:champagne:](new/2021/12/19/wf-lc1423.java )|Medium||
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv)|[:congratulations:](new/2022/01/07/yyf-lc1345.java)|Medium||
 |1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination)|[:crocodile:](new/2022/01/17/jian-lc1293.java )|Medium||
-|1277|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones)|[:chains:](new/2021/12/19/wf-lc1277.java)|Medium||
+|1277|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones)|[DP](new/2021/12/19/wf-lc1277.java)|Medium||
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)|[:blush:](new/2021/11/28/yyf-lc1249.java)|Medium||
 |1229|[Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler)|[:caribbean_netherlands:](new/2021/12/12/yyf-lc1229.java)|Medium||
 |1216|[Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)|[DP](new/2022/02/23/yyf-lc1216.java)|Hard||
