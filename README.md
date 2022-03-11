@@ -82,7 +82,7 @@ LeetCode
 |721|[Accounts Merge(Union Find)](https://leetcode.com/problems/accounts-merge)|[:blonde_woman:](new/2021/11/24/wf-lc721.java)|Medium||
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance)|[:closed_lock_with_key:](new/2021/12/29/yyf-lc719.java)|Medium||
 |716|[Max Stack](https://leetcode.com/problems/max-stack)|[:copyright:](new/2022/01/12/yyf-lc716.java)|Medium||
-|715|[Range Module](https://leetcode.com/problems/range-module)|[:checkered_flag:](new/2021/12/19/yyf-lc715.java )|Medium||
+|715|[Range Module](https://leetcode.com/problems/range-module)|[:checkered_flag:](new/2021/12/19/yyf-lc715.java )|Hard||
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island)|[DFS](new/2021/11/21/wf-lc695.java)|Medium|[UF](new/2021/11/24/wf-lc695.java)|
 |694|[Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands)|[:circus_tent:](new/2021/12/22/yyf-lc694.java   )|Medium||
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)|[:blossom:](new/2021/11/06/jian-lc692.java)|Medium||
