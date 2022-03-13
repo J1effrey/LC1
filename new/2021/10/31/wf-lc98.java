@@ -1,19 +1,21 @@
 // T: O(N)
 // S: O(N)
-
 class Solution {
-    public boolean isValidBST(TreeNode root) {
-        return isValidHelper(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    public boolean isValidBST(TreeNode root) {    
+        return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
     
-    private boolean isValidHelper(TreeNode node, long min,long max) {
+    private boolean isValidBST(TreeNode node, long lowBound, long upBound) {
         if (node == null) {
             return true;
         }
-        if (node.val <= min || node.val >= max) {
+        
+        if (node.val >= upBound || node.val <= lowBound) {
             return false;
         }
         
-        return isValidHelper(node.left, min, node.val) && isValidHelper(node.right, node.val, max);
+        boolean isLeftValid =  isValidBST(node.left, lowBound, node.val);
+        
+        return !isLeftValid ? false : isValidBST(node.right, node.val, upBound);
     }
 }
