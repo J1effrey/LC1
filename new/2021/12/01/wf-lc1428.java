@@ -1,34 +1,23 @@
-/**
- * // This is the BinaryMatrix's API interface.
- * // You should not implement it, or speculate about its implementation
- * interface BinaryMatrix {
- *     public int get(int row, int col) {}
- *     public List<Integer> dimensions {}
- * };
- */
-
 // T:O(row + col)
 // S:O(1)
 class Solution {
     public int leftMostColumnWithOne(BinaryMatrix binaryMatrix) {
-        if (binaryMatrix == null) {
-            return -1;
-        }
+        int row = binaryMatrix.dimensions().get(0);
+        int col = binaryMatrix.dimensions().get(1);
         
-        List<Integer> dimensions = binaryMatrix.dimensions();
-        int row = 0;
-        int col = dimensions.get(1) - 1;
-        
+        int startRow = 0;
+        int startCol = col - 1;
         int res = -1;
         
-        while (row < dimensions.get(0) && col >= 0) {
-            if (binaryMatrix.get(row, col) == 1) {
-                res = col;
-                col--;
-            } else {
-                row++;
+        while (startRow < row && startCol >= 0) {
+            if (binaryMatrix.get(startRow, startCol) == 1) {
+                res = startCol;
+                startCol--;
+                continue;
             }
+            startRow++;
         }
+        
         return res;
     }
 }
