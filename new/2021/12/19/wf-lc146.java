@@ -1,3 +1,79 @@
+class LRUCache {
+    class DNode{
+        int key;
+        int value;
+        DNode prev;
+        DNode next;
+        public DNode(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+    
+    Map<Integer, DNode> map = new HashMap<Integer, DNode>();
+    int capacity;
+    DNode head;
+    DNode tail;
+    
+    
+    public LRUCache(int capacity) {
+        this.capacity = capacity;
+        
+        head = new DNode(-1, -1);
+        tail = new DNode(-1, -1);
+        head.next = tail;
+        tail.prev = head;
+    }
+    
+    public int get(int key) {
+        if (!map.containsKey(key)) {
+            return -1;
+        }
+        
+        DNode n = map.get(key);
+        removeNode(n);
+        moveNodeToHead(n);
+        return n.value;
+    }
+    
+    public void put(int key, int value) {
+        if (get(key) != -1) {
+            DNode node = map.get(key);
+            node.value = value;
+            return;
+        } 
+        
+        DNode newNode = new DNode(key, value);
+        map.put(key, newNode);
+        moveNodeToHead(newNode);
+        
+        if (map.size() > capacity) {
+            map.remove(tail.prev.key);
+            removeNode(tail.prev);
+        }
+    }
+    
+    private void moveNodeToHead(DNode n) {
+        DNode nextOfHead = head.next;
+        head.next = n;
+        nextOfHead.prev = n;
+        n.prev = head;
+        n.next = nextOfHead;
+    }
+    
+    private void removeNode(DNode n) {
+        DNode nextOfNode = n.next;
+        DNode prevOfNode = n.prev;
+        prevOfNode.next = nextOfNode;
+        nextOfNode.prev = prevOfNode;
+    }
+    
+}
+
+
+
+
+--------------------------------------------------------------------------
 public class LRUCache {
     private class Node{
         Node prev;
