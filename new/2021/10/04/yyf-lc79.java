@@ -62,43 +62,5 @@ class Solution {
     private boolean isValid(int x, int y) {
         return x >= 0 && x < ROWS && y >= 0 && y < COLS;
     }
-    
-    
 }
 
-
-// class Solution {
-    
-//     public boolean exist(char[][] board, String word) {
-//         if (board == null || board.length == 0 || board[0].length == 0) {
-//             return false;
-//         }
-//         boolean[][] visited = new boolean[board.length][board[0].length];
-//         for (int i = 0; i < board.length; i++) {
-//             for (int j = 0; j < board[0].length; j++) {
-//                 if (dfs(i,j,board,visited,word, 0)) {
-//                     return true;
-//                 }
-//             }
-//         }
-//         return false;
-//     }
-    
-//     private boolean dfs(int row, int col, char[][] board, boolean[][] visited, String word, int index) {
-//         if (index == word.length()) {
-//             return true;
-//         }
-//         if (row < 0 || row >= board.length || col < 0 || col >= board[0].length || board[row][col] != word.charAt(index) || visited[row][col]) {
-//             return false;
-//         }
-//         visited[row][col] = true;
-//         if (dfs(row + 1, col, board, visited, word, index + 1) ||
-//            dfs(row - 1, col, board, visited, word, index + 1) ||
-//            dfs(row, col + 1, board, visited, word, index + 1) ||
-//            dfs(row, col - 1, board, visited, word, index + 1)) {
-//             return true;
-//         }
-//         visited[row][col] = false;
-//         return false;
-//     }
-// }
