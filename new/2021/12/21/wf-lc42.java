@@ -1,3 +1,5 @@
+//Time:O(n)
+//Space:O(1)
 class Solution {
     public int trap(int[] height) {
         if (height == null || height.length < 3) {
