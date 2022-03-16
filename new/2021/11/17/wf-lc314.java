@@ -13,45 +13,50 @@
  *     }
  * }
  */
-// T: O(N)
-// S: O(N)
+
+// O(N), N is number of nodes in tree
+// O(N)
 class Solution {
-  public List<List<Integer>> verticalOrder(TreeNode root) {
-    List<List<Integer>> output = new ArrayList();
-    if (root == null) {
-      return output;
-    }
+    public List<List<Integer>> verticalOrder(TreeNode root) {
+        List<List<Integer>> res = new ArrayList();
 
-    Map<Integer, ArrayList> columnTable = new HashMap();
-    // Pair of node and its column offset
-    Queue<Pair<TreeNode, Integer>> queue = new ArrayDeque();
-    int column = 0;
-    queue.offer(new Pair(root, column));
-
-    int minColumn = 0, maxColumn = 0;
-
-    while (!queue.isEmpty()) {
-      Pair<TreeNode, Integer> p = queue.poll();
-      root = p.getKey();
-      column = p.getValue();
-
-      if (root != null) {
-        if (!columnTable.containsKey(column)) {
-          columnTable.put(column, new ArrayList<Integer>());
+        if (root == null) {
+          return res;
         }
-        columnTable.get(column).add(root.val);
-        minColumn = Math.min(minColumn, column);
-        maxColumn = Math.max(maxColumn, column);
 
-        queue.offer(new Pair(root.left, column - 1));
-        queue.offer(new Pair(root.right, column + 1));
-      }
+        Map<Integer, ArrayList> columnTable = new HashMap<>();
+
+        Queue<Pair<TreeNode, Integer>> q = new LinkedList<>();
+        int startColumn = 0;
+        q.offer(new Pair(root, startColumn));
+
+        int minColumn = 0;
+        int maxColumn = 0;
+
+        while (!q.isEmpty()) { // O(N)
+            Pair<TreeNode, Integer> curPair = q.poll();
+            TreeNode curNode = curPair.getKey();
+            int curColumn = curPair.getValue();
+
+            columnTable.putIfAbsent(curColumn, new ArrayList<Integer>());
+            columnTable.get(curColumn).add(curNode.val);
+            
+            minColumn = Math.min(minColumn, curColumn);
+            maxColumn = Math.max(maxColumn, curColumn);
+            
+            if (curNode.left != null) {
+                q.offer(new Pair(curNode.left, curColumn - 1));
+            }
+            
+            if (curNode.right != null) {
+                q.offer(new Pair(curNode.right, curColumn + 1));
+            }
+        }
+
+        for (int i = minColumn; i < maxColumn + 1; i++) { // worst O(N)
+          res.add(columnTable.get(i));
+        }
+
+        return res;
     }
-
-    for(int i = minColumn; i < maxColumn + 1; ++i) {
-      output.add(columnTable.get(i));
-    }
-
-    return output;
-  }
 }
