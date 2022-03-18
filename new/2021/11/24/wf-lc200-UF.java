@@ -45,31 +45,35 @@ class UnionFind {
 // O(m * n)
 // O(m * n)
 class Solution {
+    int[] X_DIR = new int[]{1, -1, 0, 0};
+    int[] Y_DIR = new int[]{0, 0, 1, -1};
+    
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0) {
             return 0;
         }
-        int m = grid.length;
-        int n = grid[0].length;
+        
+        int row = grid.length;
+        int col = grid[0].length;
         int zeroCount = 0;
-        UnionFind uf = new UnionFind(m * n);
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
+        
+        UnionFind uf = new UnionFind(row * col);
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
                 if (grid[i][j] == '0') {
                     zeroCount++;
                     continue;
                 }
-                if (i > 0 && grid[i - 1][j] == '1') {
-                    uf.union(i * n + j, (i - 1) * n + j);
-                }
-                if (i < m - 1 && grid[i + 1][j] == '1') {
-                    uf.union(i * n + j, (i + 1) * n + j);
-                }
-                if (j > 0 && grid[i][j - 1] == '1') {
-                    uf.union(i * n + j, i * n + j - 1);
-                }
-                if (j < n - 1 && grid[i][j + 1] == '1') {
-                    uf.union(i * n + j, i * n + j + 1);
+                
+                for (int k = 0; k < 4; k++) {
+                    int newX = i + X_DIR[k];
+                    int newY = j + Y_DIR[k];
+                    
+                    if (newX < 0 || newX >= row || newY < 0 || newY >= col || grid[newX][newY] == '0') {
+                        continue;
+                    }
+                    
+                    uf.union(i * col + j, newX * col + newY);
                 }
             }
         }
