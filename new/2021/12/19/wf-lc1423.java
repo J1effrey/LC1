@@ -1,4 +1,5 @@
-// O(K)
+// Time: O(K)
+// Space; O(1)
 class Solution {
     public int maxScore(int[] cardPoints, int k) {
         int frontScore = 0;
