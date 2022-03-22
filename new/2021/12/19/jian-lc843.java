@@ -5,6 +5,8 @@
  *     public int guess(String word) {}
  * }
  */
+//Time:O(n)
+//Space:O(n)
 class Solution {
     public void findSecretWord(String[] wordlist, Master master) {
         if (wordlist == null || wordlist.length == 0) {
