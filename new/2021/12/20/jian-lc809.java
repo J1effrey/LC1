@@ -1,5 +1,5 @@
-// T: O(Math.max(n, m) * m), m is words.length, n is length of s
-// S: O(1)
+// T:O(L*Min{O(S), O(W)}) w is word's average length. L is words length. s is string length
+// S:O(1)
 class Solution {
     public int expressiveWords(String s, String[] words) {
         if (s == null || s.length() == 0) {
