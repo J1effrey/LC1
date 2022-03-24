@@ -1,3 +1,5 @@
+//Time:O(n)
+//Space:O(n)
 class Solution {
     Map<Integer, Employee> map = new HashMap<>();
     
