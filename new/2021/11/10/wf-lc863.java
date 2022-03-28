@@ -14,14 +14,13 @@ class Solution {
         if (root == null || target == null) {
             return new ArrayList<>();
         }
-        Map<TreeNode, TreeNode> map = new HashMap<>();
-        dfs(root, null, map);
+        Map<TreeNode, TreeNode> parents = new HashMap<>();
+        dfs(root, null, parents);
         
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(target);
         
         Set<TreeNode> set = new HashSet<>();
-        set.add(null);
         set.add(target);
         
         int distance = 0;
@@ -31,16 +30,16 @@ class Solution {
             distance++;
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
-                TreeNode temp = map.get(node);
-                if (!set.contains(temp)) {
+                TreeNode temp = parents.get(node);
+                if (temp != null && !set.contains(temp)) {
                     set.add(temp);
                     queue.offer(temp);
                 }
-                if (!set.contains(node.left)) {
+                if (node.left != null && !set.contains(node.left)) {
                     set.add(node.left);
                     queue.offer(node.left);
                 }
-                if (!set.contains(node.right)) {
+                if (node.right != null && !set.contains(node.right)) {
                     set.add(node.right);
                     queue.offer(node.right);
                 }
@@ -51,11 +50,11 @@ class Solution {
                     .collect(Collectors.toList());
     }
     
-    private void dfs(TreeNode node, TreeNode parent, Map<TreeNode, TreeNode> map) {
+    private void dfs(TreeNode node, TreeNode parent, Map<TreeNode, TreeNode> parents) {
         if (node != null) {
-            map.put(node, parent);
-            dfs(node.left, node, map);
-            dfs(node.right, node, map);
+            parents.put(node, parent);
+            dfs(node.left, node, parents);
+            dfs(node.right, node, parents);
         }
     }
 }
