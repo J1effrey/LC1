@@ -1,11 +1,12 @@
 // T:O(N^2)
 // S:O(N^2)
+
 class Solution {
     public boolean isValidPalindrome(String str, int k) {
         int n = str.length();
 
-        StringBuilder stringBuilder = new StringBuilder(str).reverse();
-        int lps = getLps(str, stringBuilder.toString(), n, n);
+        String reversedStr =  new StringBuilder(str).reverse().toString();
+        int lps = getLps(str, reversedStr, n, n);
 
         return (n - lps <= k);
     }
@@ -16,6 +17,7 @@ class Solution {
      */
     private int getLps(String X, String Y, int m, int n) {
         int[][] dp = new int[m + 1][n + 1];
+        
         for (int i = 0; i <= m; i++) {
             for (int j = 0; j <= n; j++) {
                 if (i == 0 || j == 0) {
@@ -30,7 +32,3 @@ class Solution {
         return dp[m][n];
     }
 }
-/*
-abcdeca acdca
-acedcba acdca
-*/
