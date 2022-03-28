@@ -13,6 +13,8 @@
  *     }
  * }
  */
+//Time: O(n)
+//Space: O(n)
 class Solution {
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
         List<TreeNode> res = new ArrayList<>();
