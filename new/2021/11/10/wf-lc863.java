@@ -7,6 +7,8 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+// T:O(N)
+// S:O(N)
 class Solution {
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
         if (root == null || target == null) {
