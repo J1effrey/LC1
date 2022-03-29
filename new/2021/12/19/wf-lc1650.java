@@ -4,8 +4,18 @@
 
 class Solution {
     /*
+    1 ->2 -> 3 -> 4  -> 5
+         8 -> 7 -> 6 -> 5
+    
     X + Y
     Y + X
+    
+    4 + 3
+    3 + 4  
+    meet at 5
+    
+    Y = 3
+    X = 4
     */
     public Node lowestCommonAncestor(Node p, Node q) {
         Node runner1 = p;
