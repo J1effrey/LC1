@@ -1,3 +1,5 @@
+//Time:O(N)average
+//Space: O(N)
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         if (nums == null || nums.length == 0 || k <= 0) {
