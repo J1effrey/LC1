@@ -1,15 +1,3 @@
-/**
- * Using union-find (Union by rank and path compression) to group all emails
- * belonging to same owner. And using TreeSet to sort each group of emails.
- *
- * Time Complexity: O(N + N * log(N) + N) = O(N * log(N))
- *
- * Space Complexity: O(N)
- *
- * N = Total number of email addresses in the input. Here assuming the length of
- * each email and owner string is a fixed constant.
- */
-
 class UnionFind {
     int[] parents;
     int[] size;
@@ -63,10 +51,12 @@ class Solution {
         UnionFind uf = new UnionFind(accounts.size());
         
         // only used for union
+        // O(NK)
         Map<String, Integer> emailParentIndexes = new HashMap<>();
         
-        for (int i = 0; i < accounts.size(); i++) {
-            for (int j = 1; j < accounts.get(i).size(); j++) {
+        // O(NK)
+        for (int i = 0; i < accounts.size(); i++) { // O(N), Here NN is the number of accounts
+            for (int j = 1; j < accounts.get(i).size(); j++) { // O(K), K is the maximum length of an account
                 String email = accounts.get(i).get(j);
                 if (!emailParentIndexes.containsKey(email)) {
                     emailParentIndexes.put(email, i);
@@ -80,7 +70,7 @@ class Solution {
         // aggregate same accounts
         Map<Integer, Set<String>> mergedAccounts = new HashMap<>();
         
-        for (int i = 0; i < accounts.size(); i++) {
+        for (int i = 0; i < accounts.size(); i++) {  // O(N)
             int parentIndex = uf.find(i);
             
             if (!mergedAccounts.containsKey(parentIndex)) {
@@ -89,18 +79,19 @@ class Solution {
             
             Set<String> currentAccounts = mergedAccounts.get(parentIndex);
             
-            for (int j = 1; j < accounts.get(i).size(); j++) {
+            for (int j = 1; j < accounts.get(i).size(); j++) { // O(K)
                 currentAccounts.add(accounts.get(i).get(j));
             }
         }
         
         List<List<String>> res = new ArrayList<>();
         
-        for (int accountIndex: mergedAccounts.keySet()) {
+        // O(NK logNK)
+        for (int accountIndex: mergedAccounts.keySet()) { // O(N)
             List<String> emails = new ArrayList<>();
             emails.addAll(mergedAccounts.get(accountIndex));
-            Collections.sort(emails);
-            emails.add(0, accounts.get(accountIndex).get(0));
+            Collections.sort(emails); // log(NK)
+            emails.add(0, accounts.get(accountIndex).get(0)); // O(K)
             res.add(emails);
         }
         
