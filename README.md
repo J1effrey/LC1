@@ -205,7 +205,7 @@ LeetCode
 |158|[Read N Characters Given read4 II - Call Multiple Times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times)|[:camping:](new/2021/12/05/yyf-lc158.java)|Medium||
 |156|[Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down)|[:couple: ](new/2022/01/12/yyf-lc156.java)|Medium||
 |155|[Min Stack](https://leetcode.com/problems/min-stack)|[:arrow_heading_up:](new/2021/10/18/yyf-lc155.java)|Medium||
-|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[:cloud_with_snow:](new/2021/12/31/jian-lc153.java )|Medium||
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[Binary Search](new/2021/12/31/jian-lc153.java )|Medium||
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|[:arrow_lower_right:](new/2021/10/20/jian-lc152.java)|Medium||
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|[:badminton:](new/2021/11/01/wf-lc150.java)|Medium||
 |149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line)|[:arrow_double_down:](new/2021/10/17/jian-lc149.java)|Medium||
