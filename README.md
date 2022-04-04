@@ -234,7 +234,7 @@ LeetCode
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle)|[:baseball:](new/2021/11/07/yyf-lc85.java)|Medium||
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)|[:artificial_satellite:](old/2021/10/22/jian-lc84.java)|Medium||
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)|[:collision:](new/2022/01/01/yyf-lc81.java)|Medium||
-|79|[Word Search](https://leetcode.com/problems/word-search)|[:diamond_shape_with_a_dot_inside:](new/2021/10/04/yyf-lc79.java)|Medium||
+|79|[Word Search](https://leetcode.com/problems/word-search)|[DFS(Backtrack)](new/2021/10/04/yyf-lc79.java)|Medium||
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[:boot:](new/2021/12/04/yyf-lc78.java)|Medium||
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[:boom:](new/2021/12/04/yyf-lc77.java)|Medium||
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[:baby:](new/2021/10/06/jian-lc76.java )|Medium||
