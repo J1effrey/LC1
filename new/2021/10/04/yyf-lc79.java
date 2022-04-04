@@ -1,5 +1,5 @@
 // Time: Time Complexity: O(Rows * Cols * 3^L) where Rows * Cols is the number of cells in the board and L is the length of the word to be matched
-// Space: O(Rows * Cols)
+// Space: O(Rows * Cols + L)
 
 class Solution { 
     int[] X_DIR = new int[] {1, -1, 0, 0};
