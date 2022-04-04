@@ -4,14 +4,16 @@ class Solution {
     public int maximumSwap(int num) {
         char[] digits = Integer.toString(num).toCharArray();
         
-        int[] buckets = new int[10];
+        int[] buckets = new int[10]; // S: O(1)
         for (int i = 0; i < digits.length; i++) { // O(N)
             buckets[digits[i] - '0'] = i;
         }
         
         for (int i = 0; i < digits.length; i++) { // O(N)
+            int curDigitVal = digits[i] - '0';
+            
             for (int j = 9; j >= 0; j--) { // O(1)
-                if (j <= digits[i] - '0') {
+                if (curDigitVal >= j) {
                     continue;
                 }
                 
