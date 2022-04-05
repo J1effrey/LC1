@@ -11,10 +11,10 @@ class Solution {
             int remainder = sum % k;
             if (!map.containsKey(remainder)) {
                 map.put(remainder, i);
-            } else {
-                if (i - map.get(remainder) > 1) {
-                    return true;
-                }
+                continue;
+            } 
+            if (i - map.get(remainder) > 1) {
+                return true;
             }
         }
         
