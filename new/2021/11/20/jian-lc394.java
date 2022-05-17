@@ -1,6 +1,7 @@
 /*
 Time: O(maxK*n) k[string]
-Space: O(m+n) m:a-z n:0-9
+Space: O(m+n) O(m+n), where mm is the number of letters(a-z) and nn is the number of digits(0-9) in string ss. 
+In worst case, the maximum size of stringStack and countStack could be mm and nn respectively.
 */
 class Solution {
     public String decodeString(String s) {
