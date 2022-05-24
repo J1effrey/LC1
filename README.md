@@ -257,7 +257,7 @@ LeetCode
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[:bookmark_tabs:](new/2021/12/04/yyf-lc46.java)|Medium||
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching)|[:anchor:](./new/2021/10/13/wf-lc44-dfs.java)|Medium||
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[:cl:](new/2021/12/26/jian-lc43.java)|Medium|[x's property](new/2021/12/26/yyf-lc43.java)|
-|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[:church:](new/2021/12/21/wf-lc42.java)|Medium|[Monotonic Stack](new/2022/05/23/yyf-lc42-stack.java)|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[Two pointer](new/2021/12/21/wf-lc42.java)|Medium|[Monotonic Stack](new/2022/05/23/yyf-lc42-stack.java)|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive)|[swap](./old/2021/10/12/wf-lc41.java)|Hard|[negative-marketing](./old/2021/10/12/wf-lc41.java)|
 |40|[Combination Sum II ](https://leetcode.com/problems/combination-sum-ii/)|[:bomb:](new/2021/12/04/yyf-lc40.java)|Medium||
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[:boat:](new/2021/12/04/yyf-lc39.java)|Medium||
