@@ -246,6 +246,7 @@ LeetCode
 |67|[Add Binary](https://leetcode.com/problems/add-binary)|[:canada:](new/2021/12/05/yyf-lc67.java)|Medium||
 |65|[Valid Number](https://leetcode.com/problems/valid-number)|[:cat2:](new/2021/12/06/wf-lc65.java)|Medium||
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths)|[:bacon:](new/2021/11/01/jian-lc62.java )|Medium||
+|57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[sweep line](new/2022/05/23/yyf-lc57.java)|Medium||
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[:construction_worker_woman:](new/2022/01/08/yyf-lc56.java)|Medium||
 |55|[Jump Game](https://leetcode.com/problems/jump-game)|[:star_and_crescent:](new/2021/10/31/jian-lc55.java)|Medium||
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[:angel:](./new/2021/10/11/yyf-lc54.java)|Medium||
@@ -258,7 +259,7 @@ LeetCode
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[:bookmark_tabs:](new/2021/12/04/yyf-lc46.java)|Medium||
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching)|[:anchor:](./new/2021/10/13/wf-lc44-dfs.java)|Medium||
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[:cl:](new/2021/12/26/jian-lc43.java)|Medium|[x's property](new/2021/12/26/yyf-lc43.java)|
-|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[Two pointer](new/2021/12/21/wf-lc42.java)|Medium|[Monotonic Stack](new/2022/05/23/yyf-lc42-stack.java)|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[Two pointer](new/2021/12/21/wf-lc42.java)|Hard|[Monotonic Stack](new/2022/05/23/yyf-lc42-stack.java)|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive)|[swap](./old/2021/10/12/wf-lc41.java)|Hard|[negative-marketing](./old/2021/10/12/wf-lc41.java)|
 |40|[Combination Sum II ](https://leetcode.com/problems/combination-sum-ii/)|[:bomb:](new/2021/12/04/yyf-lc40.java)|Medium||
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[:boat:](new/2021/12/04/yyf-lc39.java)|Medium||
