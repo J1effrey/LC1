@@ -60,7 +60,7 @@ LeetCode
 |1023|[Camelcase Matching](https://leetcode.com/problems/camelcase-matching)|[:construction_worker:](new/2022/01/08/yyf-lc1023.java )|Medium||
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges)|[:ballot_box_with_check:](new/2021/11/06/jian-lc994.java)|Medium||
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|[:bar_chart:](new/2021/11/08/jian-lc987.java)|Medium||
-|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections)|[:bellhop_bell:](new/2021/11/17/jian-lc986.java )|Medium||
+|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections)|[sweep line](new/2021/11/17/jian-lc986.java )|Medium||
 |981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store)|[:crayon:](new/2022/01/15/jian-lc981.java)|Medium||
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|[[jian]](new/2021/11/17/jian-lc973.java)|Medium|[[yyf]](new/2021/11/17/yyf-lc973.java)|
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees)|[recursion](new/2021/12/08/yyf-lc951.java)|Medium||
