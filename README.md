@@ -130,6 +130,7 @@ LeetCode
 |364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii)|[:building_construction:](new/2022/01/11/jian-lc364.java)|Medium||
 |362|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter)|[:blue_car:](new/2021/12/12/yyf-lc362.java)|Medium||
 |359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter)|[:bathtub:](new/2021/11/14/jian-lc359.java)|Medium||
+|352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|[TreeSet](new/2022/05/24/yyf-lc352.java)|Hard||
 |351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns)|[:construction:](new/2022/01/08/jian-lc351.java)|Medium||
 |348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe)|[:twisted_rightwards_arrows:](new/2021/10/31/yyf-lc348.java)|Medium||
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Quick Select[yang]](./new/2021/10/10/yyf-lc347.java)|Medium|[Quick Select[jian]](./new/2021/10/10/jian-lc347-quick-select.java)|
