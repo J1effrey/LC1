@@ -95,7 +95,8 @@ LeetCode
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)|[:blowfish:](new/2021/11/27/jian-lc658.java)|Medium||
 |642|[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system)|[:banana:](new/2021/11/07/jian-lc642.java)|Medium||
 |636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions)|[自定义class](new/2021/11/08/wf-lc636.java)|Medium|[Array](new/2021/12/05/wf-lc636.java ) |
-|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers)|[:cop:](new/2022/01/12/jian-lc605.java)|Medium||
+|628|[Can Place Flowers]([https://leetcode.com/problems/can-place-flowers](https://leetcode.com/problems/maximum-product-of-three-numbers/))|[:cop:](new/2022/01/12/jian-lc605.java)|Medium||
+|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers)|[:cop:](new/2022/06/jian-lc628.java)|Medium||
 |547|[Number of Provinces](https://leetcode.com/problems/number-of-provinces)|[UF](new/2021/11/22/yyf-lc547.java )|Medium||
 |545|[Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree)|[:no_bell:](new/2021/11/17/yyf-lc545.java)|Medium||
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)|[:black_large_square:](new/2021/11/22/wf-lc543.java)|Medium||
