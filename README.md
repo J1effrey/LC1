@@ -103,7 +103,7 @@ LeetCode
 |528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)|[:bangbang:](new/2021/11/07/wf-lc528.java)|Medium||
 |523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)|[:calling:](new/2021/12/04/jian-lc523.java)|Medium||
 |494|[Target Sum](https://leetcode.com/problems/target-sum)|[BFS](new/2021/11/28/yyf-lc494-bfs.java)|Medium|[DP](new/2021/11/28/yyf-lc494.java)|
-|490|[The Maze](https://leetcode.com/problems/the-maze)|[:crossed_flags:](new/2022/01/24/jian-lc490.java)|Medium||
+|490|[The Maze](https://leetcode.com/problems/the-maze)|[BFS](new/2022/01/24/jian-lc490.java)|Medium||
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median)|[:clown_face:](new/2021/12/31/yyf-lc480.java)|Medium||
 |471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length)|[:cancer:](new/2021/12/06/yyf-lc471.java)|Medium||
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address)|[:cowboy_hat_face:](new/2022/01/14/jian-lc468.java )|Medium||
