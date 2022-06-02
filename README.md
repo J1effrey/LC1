@@ -223,7 +223,8 @@ LeetCode
 |132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii)|[:confetti_ball:](new/2022/01/02/yyf-lc132.java )|Medium||
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions)|[:classical_building:](new/2021/12/27/yyf-lc130.java)|Medium||
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[Set](./new/2021/10/11/wf-lc128.java)|Medium|[UF](new/2021/11/24/wf-lc128.java)|
-|126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii)|[:battery:](new/2021/11/14/yyf-lc126.java)|Medium||
+|127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Bidirectional BFS](new/2022/06/01/yyf-lc127.java)|Hard|[BFS](new/2022/06/01/yyf-lc127-bfs.java)|
+|126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii)|[:battery:](new/2021/11/14/yyf-lc126.java)|Hard||
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome)|[:arrow_double_up:](new/2021/10/17/yyf-lc125.java)|Medium||
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[:small_airplane:](new/2021/10/04/jian-lc124.java)|Medium||
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|[:cinema:](new/2021/12/22/wf-lc123.java  )|Medium||
