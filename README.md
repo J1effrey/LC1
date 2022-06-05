@@ -242,7 +242,7 @@ LeetCode
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)|[:collision:](new/2022/01/01/yyf-lc81.java)|Medium||
 |79|[Word Search](https://leetcode.com/problems/word-search)|[DFS(Backtrack)](new/2021/10/04/yyf-lc79.java)|Medium||
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[BackTrack](new/2021/12/04/yyf-lc78.java)|Medium|[Bit mask](new/2022/06/04/yyf-lc78.java)|
-|77|[Combinations](https://leetcode.com/problems/combinations/)|[:boom:](new/2021/12/04/yyf-lc77.java)|Medium||
+|77|[Combinations](https://leetcode.com/problems/combinations/)|[Backtrack](new/2021/12/04/yyf-lc77.java)|Medium||
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[:baby:](new/2021/10/06/jian-lc76.java )|Medium||
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors)|[:part_alternation_mark:](new/2021/10/27/wf-lc75.java)|Medium||
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path)|[Stack](new/2021/11/28/wf-lc71.java)|Medium||
@@ -255,8 +255,8 @@ LeetCode
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[:construction_worker_woman:](new/2022/01/08/yyf-lc56.java)|Medium||
 |55|[Jump Game](https://leetcode.com/problems/jump-game)|[:star_and_crescent:](new/2021/10/31/jian-lc55.java)|Medium||
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[:angel:](./new/2021/10/11/yyf-lc54.java)|Medium||
-|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[:bowing_woman:](new/2021/12/04/yyf-lc52.java)|Medium||
-|51|[N-Queens](https://leetcode.com/problems/n-queens/)|[:bowing_man:](new/2021/12/04/yyf-lc51.java)|Medium||
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[Backtrack](new/2021/12/04/yyf-lc52.java)|Medium||
+|51|[N-Queens](https://leetcode.com/problems/n-queens/)|[Backtrack](new/2021/12/04/yyf-lc51.java)|Medium||
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[:earth_americas:](new/2021/10/08/yyf-lc50.java)|Medium||
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[:hammer_and_wrench:](old/2021/10/08/yyf-lc49.java)|Medium||
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[:pencil2:](./new/2021/10/10/yyf-lc48.java)|Medium||
@@ -266,10 +266,10 @@ LeetCode
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[:cl:](new/2021/12/26/jian-lc43.java)|Medium|[x's property](new/2021/12/26/yyf-lc43.java)|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[Two pointer](new/2021/12/21/wf-lc42.java)|Hard|[Monotonic Stack](new/2022/05/23/yyf-lc42-stack.java)|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive)|[swap](./old/2021/10/12/wf-lc41.java)|Hard|[negative-marketing](./old/2021/10/12/wf-lc41.java)|
-|40|[Combination Sum II ](https://leetcode.com/problems/combination-sum-ii/)|[:bomb:](new/2021/12/04/yyf-lc40.java)|Medium||
-|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[:boat:](new/2021/12/04/yyf-lc39.java)|Medium||
+|40|[Combination Sum II ](https://leetcode.com/problems/combination-sum-ii/)|[Backtrack](new/2021/12/04/yyf-lc40.java)|Medium||
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Backtrack](new/2021/12/04/yyf-lc39.java)|Medium||
 |38|[Count and Say](https://leetcode.com/problems/count-and-say)|[:arrow_right:](new/2021/10/20/wf-lc38.java)|Medium||
-|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver)|[:building_construction:](new/2022/01/09/jian-lc37.java)|Medium||
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver)|[Backtrack](new/2022/01/09/jian-lc37.java)|Medium||
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[:arrow_lower_left:](new/2021/10/18/jian-lc36.java)|Medium||
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[:arrow_forward:](new/2021/10/18/wf-lc34.java)|Medium||
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)||Medium||
