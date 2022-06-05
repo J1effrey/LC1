@@ -35,6 +35,7 @@ LeetCode
 |1901|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|[:crescent_moon:](new/2022/03/11/jian-lc1901.java)|Medium||
 |1804|[Implement Trie II (Prefix Tree)](https://leetcode.com/problems/implement-trie-ii-prefix-tree)|[:anguished:](./old/2021/10/14/yyf-lc1804.java)|Medium||
 |1762|[Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view)|[:camel:](new/2021/12/04/jian-lc1762.java)|Medium||
+|1723|[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)|[Backtrack](new/2022/06/04/yyf-lc1723.java)|Hard||
 |1650|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii)|[:chart:](new/2021/12/19/wf-lc1650.java )|Medium||
 |1611|[Minimum One Bit Operations to Make In](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero)|[:couch_and_lamp:](new/2022/01/12/jian-lc1611.java)|Medium||
 |1610|[Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points)|[:cd:](new/2021/12/19/jian-lc1610.java)|Medium||
