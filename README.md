@@ -235,7 +235,7 @@ LeetCode
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|[:woman_artist:](new/2021/10/31/wf-lc98.java )|Medium||
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)|[:crab:](new/2022/01/14/jian-lc93.java)|Medium||
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|[ :accept:](new/2021/10/09/jian-lc91.java)|Medium||
-|90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[:bouquet:](new/2021/12/04/yyf-lc90.java)|Medium||
+|90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Backtrack](new/2021/12/04/yyf-lc90.java)|Medium||
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|[:arrow_heading_down:](new/2021/10/18/wf-lc88.java)|Medium||
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle)|[:baseball:](new/2021/11/07/yyf-lc85.java)|Medium||
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)|[Monotonic Stack](old/2021/10/22/jian-lc84.java)|Medium||
