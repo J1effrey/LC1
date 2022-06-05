@@ -241,7 +241,7 @@ LeetCode
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)|[Monotonic Stack](old/2021/10/22/jian-lc84.java)|Medium||
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)|[:collision:](new/2022/01/01/yyf-lc81.java)|Medium||
 |79|[Word Search](https://leetcode.com/problems/word-search)|[DFS(Backtrack)](new/2021/10/04/yyf-lc79.java)|Medium||
-|78|[Subsets](https://leetcode.com/problems/subsets/)|[:boot:](new/2021/12/04/yyf-lc78.java)|Medium||
+|78|[Subsets](https://leetcode.com/problems/subsets/)|[BackTrack](new/2021/12/04/yyf-lc78.java)|Medium|[Bit mask](new/2022/06/04/yyf-lc78.java)|
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[:boom:](new/2021/12/04/yyf-lc77.java)|Medium||
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[:baby:](new/2021/10/06/jian-lc76.java )|Medium||
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors)|[:part_alternation_mark:](new/2021/10/27/wf-lc75.java)|Medium||
