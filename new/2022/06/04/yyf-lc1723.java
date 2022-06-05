@@ -1,3 +1,4 @@
+// T:O(N!)
 class Solution {
     int res = Integer.MAX_VALUE;
     public int minimumTimeRequired(int[] jobs, int k) {
