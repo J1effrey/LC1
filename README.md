@@ -260,8 +260,8 @@ LeetCode
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[:earth_americas:](new/2021/10/08/yyf-lc50.java)|Medium||
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[:hammer_and_wrench:](old/2021/10/08/yyf-lc49.java)|Medium||
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[:pencil2:](./new/2021/10/10/yyf-lc48.java)|Medium||
-|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[:books:](new/2021/12/04/yyf-lc47.java)|Medium||
-|46|[Permutations](https://leetcode.com/problems/permutations/)|[:bookmark_tabs:](new/2021/12/04/yyf-lc46.java)|Medium||
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Backtrack](new/2021/12/04/yyf-lc47.java)|Medium||
+|46|[Permutations](https://leetcode.com/problems/permutations/)|[Backtrack](new/2021/12/04/yyf-lc46.java)|Medium||
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching)|[:anchor:](./new/2021/10/13/wf-lc44-dfs.java)|Medium||
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[:cl:](new/2021/12/26/jian-lc43.java)|Medium|[x's property](new/2021/12/26/yyf-lc43.java)|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[Two pointer](new/2021/12/21/wf-lc42.java)|Hard|[Monotonic Stack](new/2022/05/23/yyf-lc42-stack.java)|
