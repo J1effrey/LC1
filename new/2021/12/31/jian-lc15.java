@@ -1,29 +1,21 @@
+// T: O(NlogN + N^2)
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> res = new ArrayList<List<Integer>>();
-        
-        if (nums == null || nums.length < 3) {
-            return res;
-        }
-        
+        List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
-        
-        for (int i = 0; i + 2 < nums.length; i++) { 
-            while (i > 0 && nums[i] == nums[i - 1] && i + 2 < nums.length) {
-                i++;
+        int n = nums.length;
+        for (int i = 0; i <= n - 3; i++) {
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                continue;
             }
-            
-            int cur = nums[i];
+            int pivot = nums[i];
             int left = i + 1;
-            int right = nums.length - 1;
-            
+            int right = n - 1;
             while (left < right) {
-                if (nums[left] + nums[right] == -cur) {
-                    List<Integer> l = new ArrayList<Integer>();
-                    l.add(cur);
-                    l.add(nums[left++]);
-                    l.add(nums[right--]);
-                    res.add(l);
+                if (nums[left] + nums[right] == -pivot) {
+                    res.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                    left++;
+                    right--;
                     while (left < right && nums[left] == nums[left - 1]) {
                         left++;
                     }
@@ -31,16 +23,20 @@ class Solution {
                     while (left < right && nums[right] == nums[right + 1]) {
                         right--;
                     }
-                } else if (nums[left] + nums[right] > -cur) {
+                    continue;
+                } 
+                
+                if (nums[left] + nums[right] > -pivot) {
                     right--;
-                } else {
-                    left++;
-                }
+                    continue;
+                } 
+                
+                left++;
             }
         }
-        
         return res;
     }
 }
+
     
     
