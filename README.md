@@ -76,7 +76,7 @@ LeetCode
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word)|[:chad:](new/2021/12/19/jian-lc843.java)|Medium||
 |833|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string)|[:candy:](new/2021/12/08/jian-lc833.java)|Medium||
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island)|[:canada:](new/2021/12/06/jian-lc827.java)|Medium||
-|815|[Bus Routes](https://leetcode.com/problems/bus-routes/)|[BFS](new/2022/06/jian-lc815.java)|Hard||
+|815|[Bus Routes](https://leetcode.com/problems/bus-routes/)|[BFS](new/2022/06/jian-lc815.java)|Hard||[BFS](new/2022/06/go-lc815.go)|
 |809|[Expressive Words](https://leetcode.com/problems/expressive-words)|[:chestnut:](new/2021/12/20/jian-lc809.java)|Medium||
 |772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii)|[:earth_africa:](new/2021/10/06/yyf-lc772.java)|Medium||
 |767|[Reorganize String](https://leetcode.com/problems/reorganize-string)|[:bank:](new/2021/11/08/yyf-lc767.java)|Medium||
