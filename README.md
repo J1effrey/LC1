@@ -26,12 +26,12 @@ LeetCode
 
 (Notes: "🔒" means you need to buy a book from Leetcode)
 
-| #    | Title                                                        | Solution                                                     | Difficulty | Other |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---------- |
-|2096|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another)|[:croissant:](new/2022/01/17/jian-lc2096.java)|Medium||
-|1986|[Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)|[DFS](new/2022/06/12/yyf-lc1986.java)|Medium||
-|1985|[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array)|[:cloud_with_lightning:](new/2021/11/21/jian-lc1985.java )|Medium||
-|1963|[Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced)|[:cloud_with_lightning:](new/2021/12/30/yyf-lc1963.java)|Medium||
+| #    | Title                                                        | Solution                                                     | Difficulty | Other |Go|
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---------- |-----|
+|2096|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another)|[:croissant:](new/2022/01/17/jian-lc2096.java)|Medium|||
+|1986|[Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)|[DFS](new/2022/06/12/yyf-lc1986.java)|Medium|||
+|1985|[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array)|[:cloud_with_lightning:](new/2021/11/21/jian-lc1985.java )|Medium|||
+|1963|[Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced)|[:cloud_with_lightning:](new/2021/12/30/yyf-lc1963.java)|Medium|||
 |1937|[Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost)|[:crescent_moon:](new/2022/01/16/jian-lc1937.java)|Medium||
 |1901|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|[:crescent_moon:](new/2022/03/11/jian-lc1901.java)|Medium||
 |1804|[Implement Trie II (Prefix Tree)](https://leetcode.com/problems/implement-trie-ii-prefix-tree)|[:anguished:](./old/2021/10/14/yyf-lc1804.java)|Medium||
@@ -76,6 +76,7 @@ LeetCode
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word)|[:chad:](new/2021/12/19/jian-lc843.java)|Medium||
 |833|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string)|[:candy:](new/2021/12/08/jian-lc833.java)|Medium||
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island)|[:canada:](new/2021/12/06/jian-lc827.java)|Medium||
+|815|[Bus Routes](https://leetcode.com/problems/bus-routes/)|[BFS](new/2022/06/jian-lc815.java)|Hard||
 |809|[Expressive Words](https://leetcode.com/problems/expressive-words)|[:chestnut:](new/2021/12/20/jian-lc809.java)|Medium||
 |772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii)|[:earth_africa:](new/2021/10/06/yyf-lc772.java)|Medium||
 |767|[Reorganize String](https://leetcode.com/problems/reorganize-string)|[:bank:](new/2021/11/08/yyf-lc767.java)|Medium||
