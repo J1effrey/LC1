@@ -58,3 +58,41 @@ class Solution {
         return newHead;
     }
 }
+
+
+-------------
+    public class Solution {
+    public Node copyRandomList(Node head) {
+        if (head == null) {
+            return null;
+        }
+
+        HashMap<Node, Node> map = new HashMap<Node, Node>();
+        Node dummy = new Node(0);
+        Node pre = dummy;
+        Node newNode = new Node(0);
+        while (head != null) {
+            if (map.containsKey(head)) {
+                newNode = map.get(head);
+            } else {
+                newNode = new Node(head.val);
+                map.put(head, newNode);
+            }
+            pre.next = newNode;
+
+            if (head.random != null) {
+                if (map.containsKey(head.random)) {
+                    newNode.random = map.get(head.random);
+                } else {
+                    newNode.random = new Node(head.random.val);
+                    map.put(head.random, newNode.random);
+                }
+            }
+
+            pre = newNode;
+            head = head.next;
+        }
+
+        return dummy.next;
+    }
+}
