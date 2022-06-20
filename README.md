@@ -258,7 +258,7 @@ LeetCode
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[:construction_worker_woman:](new/2022/01/08/yyf-lc56.java)|Medium||
 |55|[Jump Game](https://leetcode.com/problems/jump-game)|[:star_and_crescent:](new/2021/10/31/jian-lc55.java)|Medium||
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[:angel:](./new/2021/10/11/yyf-lc54.java)|Medium||
-|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[Backtrack](new/2021/12/04/yyf-lc52.java)|Medium||
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[Backtrack](new/2021/12/04/yyf-lc52.java)|Medium||[DFS](new/2022/06/yyf-lc52.go)|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/)|[Backtrack](new/2021/12/04/yyf-lc51.java)|Medium||
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[:earth_americas:](new/2021/10/08/yyf-lc50.java)|Medium||
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[:hammer_and_wrench:](old/2021/10/08/yyf-lc49.java)|Medium||
