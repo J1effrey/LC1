@@ -1,25 +1,16 @@
-
-func totalNQueens(n int) int {
-    count := 0
-    totalNQueensHelper(&count, n)
-    return count
-}
-
-
-func totalNQueensHelper(countAddr *int, n int) {
+func totalNQueens(n int) int{
     board := make([][]string, n)
     for i := 0; i < n; i++ {
         board[i] = make([]string, n)
     }
-    // var count int;
-    // count = 0;
+    count := 0
     for i := 0; i < n; i++ {
         for j := 0; j < n; j++ {
             board[i][j] = "."
         }
     }
-    dfs(board, 0, countAddr)
-    return 
+    dfs(board, 0, &count)
+    return count
     
 }
 
