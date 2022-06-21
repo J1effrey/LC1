@@ -296,5 +296,5 @@ LeetCode
 |4|[Median of Two Sorted Arrays-recrusive](https://leetcode.com/problems/median-of-two-sorted-arrays)|[Binary Search](new/2021/12/21/wf-lc4.java)|Hard||
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[sliding window](new/2022/03/10/yyf-lc3.java)|Medium||
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[:eight_spoked_asterisk:](old/2021/10/04/yyf-lc2.java)|Medium||
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[HashMap](new/2022/03/10/yyf-lc3.java)|Easy||
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[HashMap](new/2022/03/10/yyf-lc3.java)|Easy||[HashMap](new/2022/06/yyf-lc1.go)|
 
