@@ -139,7 +139,7 @@ LeetCode
 |352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|[TreeSet](new/2022/05/24/yyf-lc352.java)|Hard||
 |351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns)|[:construction:](new/2022/01/08/jian-lc351.java)|Medium||
 |348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe)|[:twisted_rightwards_arrows:](new/2021/10/31/yyf-lc348.java)|Medium||
-|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Quick Select[yang]](./new/2021/10/10/yyf-lc347.java)|Medium|[Quick Select[jian]](./new/2021/10/10/jian-lc347-quick-select.java)|
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Quick Select[yang]](./new/2021/10/10/yyf-lc347.java)|Medium|[Quick Select[jian]](./new/2021/10/10/jian-lc347-quick-select.java)|[Quick Select](new/2022/06/yyf-lc347.go)|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator)|[:aquarius:](new/2021/10/16/wf-lc341.java)|Medium||
 |340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)|[:back:](new/2021/10/31/yyf-lc340.java)|Medium||
 |339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum)|[:crying_cat_face:](new/2021/12/15/jian-lc339.java  )|Medium||
