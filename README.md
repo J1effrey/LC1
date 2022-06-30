@@ -212,7 +212,7 @@ LeetCode
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)|[:closed_umbrella:](new/2021/12/30/jian-lc160-naive.java)|Medium||
 |158|[Read N Characters Given read4 II - Call Multiple Times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times)|[:camping:](new/2021/12/05/yyf-lc158.java)|Medium||
 |156|[Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down)|[:couple: ](new/2022/01/12/yyf-lc156.java)|Medium||
-|155|[Min Stack](https://leetcode.com/problems/min-stack)|[:arrow_heading_up:](new/2021/10/18/yyf-lc155.java)|Medium||
+|155|[Min Stack](https://leetcode.com/problems/min-stack)|[One Stack](new/2021/10/18/yyf-lc155.java)|Medium||[One Stack](new/2022/06/yyf-lc155.go)|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[Binary Search](new/2021/12/31/jian-lc153.java )|Medium||
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|[:arrow_lower_right:](new/2021/10/20/jian-lc152.java)|Medium||
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|[:badminton:](new/2021/11/01/wf-lc150.java)|Medium||
