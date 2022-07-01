@@ -164,7 +164,7 @@ LeetCode
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|[:angry:](./new/2021/10/13/jian-lc287.java)|Medium||
 |286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates)|[:clapper:](new/2021/12/27/jian-lc286.java)|Medium||
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator)|[:black_heart:](new/2021/11/21/yyf-lc284.java)|Medium||
-|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes)|[:oncoming_automobile:](new/2021/10/27/jian-lc283.java)|Medium||
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes)|[Two pointer](new/2021/10/27/jian-lc283.java)|Medium||[Two pointer](new/2022/06/ywf-lc283.go)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators)|[:camera_flash:](new/2021/12/05/jian-lc282.java)|Medium||
 |274|[H-Index](https://leetcode.com/problems/h-index)|[:crossed_fingers:](new/2022/01/17/jian-lc274.java)|Medium||
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words)|[:cake:](new/2021/12/01/yyf-lc273.java)|Medium||
