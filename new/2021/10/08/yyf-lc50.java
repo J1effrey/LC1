@@ -1,5 +1,29 @@
 class Solution {
     public double myPow(double x, int n) {
+        if (x == 0 || x == 1) {
+            return x;
+        }
+        if (n < 0) {
+            return 1 / pow(x, -n);
+        }
+        return pow(x, n);
+    }
+    
+    private double pow(double x, int n) {
+        if (n == 0) {
+            return 1;
+        }
+        double y = pow(x, n / 2);
+        if (n % 2 == 0) {
+            return y * y;
+        }
+        return y * y * x;
+    }
+}
+
+-----------------------------------------------------------------------------------------------------------------------
+class Solution {
+    public double myPow(double x, int n) {
         double temp;
         if (n == 0) {
             return 1;
@@ -12,7 +36,7 @@ class Solution {
     }
 }
 
-----------------
+---------------------------------------------------------------------------------------------------------------------------------------
 class Solution {
     public double myPow(double x, int n) {
         boolean isNegative = false;
