@@ -21,3 +21,22 @@ class Solution {
         return res;
     }
 }
+
+------------------
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int N = s.length();
+        int left = 0;
+        int res = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        for (int i = 0; i < N; i++) {
+            char c = s.charAt(i);
+            if (map.containsKey(c)) {
+                left = Math.max(map.get(c), left);
+            }
+            map.put(c, i + 1);
+            res = Math.max(res, i - left + 1);
+        }
+        return res;
+    }
+}
