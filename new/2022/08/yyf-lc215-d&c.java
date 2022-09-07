@@ -35,6 +35,20 @@ class Solution {
         return wall;
     }
     
+    // two pointer
+    private int conquer(int[] nums, int left, int right) {
+        int pivot = nums[right];
+        int start = left;
+        int end = right - 1;
+        while (start <= end) {
+            if (nums[start] <= pivot) start++;
+            else if (nums[end] > pivot) end--;
+            else swap(nums, start++, end--);
+        }
+        swap(nums, start, right);
+        return start;
+    }
+    
     private void swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
