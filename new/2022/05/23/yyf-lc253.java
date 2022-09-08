@@ -17,3 +17,27 @@ class Solution {
         return res;
     }
 }
+
+
+
+// 变种扫描线
+public int minMeetingRooms(int[][] intervals) {
+    int[] starts = new int[intervals.length];
+    int[] ends = new int[intervals.length];
+    for (int i = 0; i < intervals.length; i++) {
+        starts[i] = intervals[i][0];
+        ends[i] = intervals[i][1];
+    }
+    Arrays.sort(starts);
+    Arrays.sort(ends);
+    int room = 0;
+    int end = 0;
+    for (int i = 0; i < starts.length; i++) {
+        room++;
+        if (ends[end] <= starts[i]) {
+            room--;
+            end++;
+        }
+    }
+    return room;
+}
