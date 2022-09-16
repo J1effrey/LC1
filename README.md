@@ -26,8 +26,8 @@ LeetCode
 
 (Notes: "🔒" means you need to buy a book from Leetcode)
 
-| #    | Title                                                        | Solution                                                     | Difficulty | Other |Go|
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---------- |-----|
+| #    | Title                                                        | Solution                                                     | Difficulty | Other |Go|Python|
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---------- |-----|-----|
 |2096|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another)|[:croissant:](new/2022/01/17/jian-lc2096.java)|Medium|||
 |1986|[Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)|[DFS](new/2022/06/12/yyf-lc1986.java)|Medium|||
 |1985|[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array)|[:cloud_with_lightning:](new/2021/11/21/jian-lc1985.java )|Medium|||
