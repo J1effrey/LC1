@@ -253,48 +253,48 @@ LeetCode
 |68|[Text Justification](https://leetcode.com/problems/text-justification)|[:couple_with_heart:](new/2022/01/12/yyf-lc68.java)|Medium||
 |67|[Add Binary](https://leetcode.com/problems/add-binary)|[:canada:](new/2021/12/05/yyf-lc67.java)|Medium||
 |65|[Valid Number](https://leetcode.com/problems/valid-number)|[:cat2:](new/2021/12/06/wf-lc65.java)|Medium||
-|62|[Unique Paths](https://leetcode.com/problems/unique-paths)|[:bacon:](new/2021/11/01/jian-lc62.java )|Medium||
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths)|[DP](new/2021/11/01/jian-lc62.java )|Medium||
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[sweep line](new/2022/05/23/yyf-lc57.java)|Medium||
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[:construction_worker_woman:](new/2022/01/08/yyf-lc56.java)|Medium||
 |55|[Jump Game](https://leetcode.com/problems/jump-game)|[:star_and_crescent:](new/2021/10/31/jian-lc55.java)|Medium||
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[:angel:](./new/2021/10/11/yyf-lc54.java)|Medium||
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[Backtrack](new/2021/12/04/yyf-lc52.java)|Medium||[DFS](new/2022/06/yyf-lc52.go)|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/)|[Backtrack](new/2021/12/04/yyf-lc51.java)|Medium||
-|50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[:earth_americas:](new/2021/10/08/yyf-lc50.java)|Medium||
-|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[:hammer_and_wrench:](old/2021/10/08/yyf-lc49.java)|Medium||
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[Divide and Conquer](new/2021/10/08/yyf-lc50.java)|Medium||
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[HashMap](old/2021/10/08/yyf-lc49.java)|Medium||
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[:pencil2:](./new/2021/10/10/yyf-lc48.java)|Medium||
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Backtrack](new/2021/12/04/yyf-lc47.java)|Medium||
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Backtrack](new/2021/12/04/yyf-lc46.java)|Medium||
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching)|[:anchor:](./new/2021/10/13/wf-lc44-dfs.java)|Medium||
-|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[:cl:](new/2021/12/26/jian-lc43.java)|Medium|[x's property](new/2021/12/26/yyf-lc43.java)|
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[DFS](new/2021/12/26/jian-lc43.java)|Medium|[x's property](new/2021/12/26/yyf-lc43.java)|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[Two pointer](new/2021/12/21/wf-lc42.java)|Hard|[Monotonic Stack](new/2022/05/23/yyf-lc42-stack.java)|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive)|[swap](./old/2021/10/12/wf-lc41.java)|Hard|[negative-marketing](./old/2021/10/12/wf-lc41.java)|
 |40|[Combination Sum II ](https://leetcode.com/problems/combination-sum-ii/)|[Backtrack](new/2021/12/04/yyf-lc40.java)|Medium||
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Backtrack](new/2021/12/04/yyf-lc39.java)|Medium||
 |38|[Count and Say](https://leetcode.com/problems/count-and-say)|[:arrow_right:](new/2021/10/20/wf-lc38.java)|Medium||
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver)|[Backtrack](new/2022/01/09/jian-lc37.java)|Medium||
-|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[:arrow_lower_left:](new/2021/10/18/jian-lc36.java)|Medium||
-|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[:arrow_forward:](new/2021/10/18/wf-lc34.java)|Medium||
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[DFS](new/2021/10/18/jian-lc36.java)|Medium||
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Binary Search](new/2021/10/18/wf-lc34.java)|Medium||
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)||Medium||
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation)|[:basketball:](new/2021/11/10/jian-lc31.java)|Medium||
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers)|[:bamboo:](new/2021/11/06/jian-lc29.java)|Medium||
 |26|[Remove Duplicates from Sorted Array ](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[:baby_symbol:](new/2021/10/31/wf-lc26.java )|Medium||
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)|[Recursion](new/2021/11/22/jian-lc25.java)|Medium||
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[Divide and Conquer](./old/2021/10/12/yyf-lc23.java)|Hard|[heap](./old/2021/10/12/yyf-lc23-heap.java)|
-|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[:bow_and_arrow:](new/2021/12/04/yyf-lc22.java)|Medium||
-|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[:airplane:](./new/2021/10/09/yyf-lc21.java)|Medium||
-|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[:fishing_pole_and_fish:](old/2021/10/05/yyf-lc20.java)|Medium||
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[BackTrack](new/2021/12/04/yyf-lc22.java)|Medium||
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[Two Pointer](./new/2021/10/09/yyf-lc21.java)|Medium||
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[Stack](old/2021/10/05/yyf-lc20.java)|Medium||
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[:construction_worker_man:](new/2022/01/08/yyf-lc19.java)|Medium||
-|17|[Letter Combinations of a Phone Number ](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[:bow:](new/2021/12/04/yyf-lc17.java)|Medium||
-|15|[3Sum](https://leetcode.com/problems/3sum)|[:cloud_with_rain:](new/2021/12/31/jian-lc15.java)|Medium||
+|17|[Letter Combinations of a Phone Number ](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[BackTrack](new/2021/12/04/yyf-lc17.java)|Medium||
+|15|[3Sum](https://leetcode.com/problems/3sum)|[Two Pointer](new/2021/12/31/jian-lc15.java)|Medium||
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|[:cloud_with_lightning_and_rain:](new/2021/10/03/yyf-lc13.java)|Medium||
-|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[:alembic:](./old/2021/10/13/jian-lc11.java)|Medium||
-|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)|[:alembic:](./new/2021/10/10/jian-lc10.java)|Medium||
+|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[Two Pointer](./old/2021/10/13/jian-lc11.java)|Medium||
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)|[DP](./new/2021/10/10/jian-lc10.java)|Medium||
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[:bow_and_arrow:](new/2021/10/27/jian-lc8.java)|Medium||
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[:fork_and_knife:](old/2021/10/07/yyf-lc7.java)|Medium||
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[DP](new/2022/03/10/yyf-lc5.java)|Medium||
 |4|[Median of Two Sorted Arrays-recrusive](https://leetcode.com/problems/median-of-two-sorted-arrays)|[Binary Search](new/2021/12/21/wf-lc4.java)|Hard||
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[sliding window](new/2022/03/10/yyf-lc3.java)|Medium||
-|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[:eight_spoked_asterisk:](old/2021/10/04/yyf-lc2.java)|Medium||
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[Two Pointer](old/2021/10/04/yyf-lc2.java)|Medium||
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[HashMap](new/2022/03/10/yyf-lc3.java)|Easy||[HashMap](new/2022/06/yyf-lc1.go)|
 
