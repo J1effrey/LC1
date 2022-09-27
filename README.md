@@ -293,7 +293,7 @@ LeetCode
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[:bow_and_arrow:](new/2021/10/27/jian-lc8.java)|Medium||
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[:fork_and_knife:](old/2021/10/07/yyf-lc7.java)|Medium||
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[DP](new/2022/03/10/yyf-lc5.java)|Medium||
-|4|[Median of Two Sorted Arrays-recrusive](https://leetcode.com/problems/median-of-two-sorted-arrays)|[Binary Search](new/2021/12/21/wf-lc4.java) [Solution2](new/2021/12/21/jian-lc4.java)|Hard||
+|4|[Median of Two Sorted Arrays-recrusive](https://leetcode.com/problems/median-of-two-sorted-arrays)|[Solution1](new/2021/12/21/wf-lc4.java) [Solution2](new/2021/12/21/jian-lc4.java)|Hard||
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[sliding window](new/2022/03/10/yyf-lc3.java)|Medium||
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[Two Pointer](old/2021/10/04/yyf-lc2.java)|Medium||
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[HashMap](new/2022/03/10/yyf-lc3.java)|Easy||[HashMap](new/2022/06/yyf-lc1.go)|
