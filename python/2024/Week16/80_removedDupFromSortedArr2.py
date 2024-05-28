@@ -5,7 +5,7 @@ def removeDuplicates(self, nums):
     j, count = 1, 1
 
     # Start from the second element of the array and process
-    # elements one by one.
+    # elements one by one
     for i in range(1, len(nums)):
 
         # If the current element is a duplicate,
