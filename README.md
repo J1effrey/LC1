@@ -133,6 +133,7 @@ LeetCode
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)|[:green_apple:](old/2021/10/08/yyf-lc380.java)|Medium||
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[Binary Search](new/2021/12/22/jian-lc378.java)|Medium|[Heap](new/2021/12/22/yyf-lc378.java)|
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)|[:bookmark:](new/2021/12/04/yyf-lc377.java)|Medium||
+|365|[water-and-jug-problem](https://leetcode.com/problems/water-and-jug-problem/)|[:bookmark:](new/2025/jian-365.java)|Medium||
 |364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii)|[:building_construction:](new/2022/01/11/jian-lc364.java)|Medium||
 |362|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter)|[:blue_car:](new/2021/12/12/yyf-lc362.java)|Medium||
 |359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter)|[:bathtub:](new/2021/11/14/jian-lc359.java)|Medium||
