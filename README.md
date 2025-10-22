@@ -116,7 +116,7 @@ LeetCode
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii)|[Stack](new/2021/11/21/wf-lc445.java)|Medium|[Reverse](new/2021/11/21/yyf-lc445.java)|
 |443|[String Compression](https://leetcode.com/problems/string-compression)|[:black_medium_square:](new/2021/11/24/yyf-lc443.java)|Medium||
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[:birthday:](new/2021/11/21/yyf-lc438.java)|Medium||
-|432|[minimum-genetic-mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[:cookie:](new/2025/10/jian-lc433.java)|Medium||
+|433|[minimum-genetic-mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[:cookie:](new/2025/10/jian-lc433.java)|Medium||
 |432|[All O one Data Structure](https://leetcode.com/problems/all-oone-data-structure)|[:cookie:](new/2022/01/11/jian-lc432.java)|Medium||
 |428|[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree)|[:beach_umbrella:](new/2021/11/14/wf-lc428.java)|Medium||
 |427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree)|[:cow:](new/2022/01/13/jian-lc427.java)|Medium||
