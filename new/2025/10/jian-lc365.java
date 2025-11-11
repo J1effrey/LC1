@@ -1,41 +1,60 @@
-import java.util.Set;
-
 class Solution {
-    public boolean canMeasureWater(int jug1, int jug2, int target) {
-        if (jug1 + jug2 < target) {
-            return false;
-        }
-    
-        Queue<int[]> q = new LinkedList<int[]>();
-
-        q.add(new int[]{0,0});
-
+    public boolean canMeasureWater(int x, int y, int target) {
         var visited = new HashSet<String>();
-
+        
+        var q = new ArrayDeque<int[]>();
+        q.offer(new int[]{0, 0});
+        
         while (!q.isEmpty()) {
-            int[] curr = q.poll();
-            int x = curr[0];
-            int y = curr[1];
+            int sz = q.size();
 
-            if (visited.contains(x + " ," + y)) {
-                continue;
+            for (int i = 0; i < sz; i++) {
+                int[] cur = q.poll();
+                int curX = cur[0];
+                int curY = cur[1];
+                visited.add(curX + "-" + curY);
+
+                if (curX == target || curY == target || curX + curY == target) {
+                    return true;
+                }
+
+                // fill x
+                if (!visited.contains(x + "-" + curY)) {
+                    q.offer(new int[]{x, curY});
+                }
+
+                // fill y
+                if (!visited.contains(curX + "-" + y)) {
+                    q.offer(new int[]{curX, y});
+                }
+
+                // empty x
+                if (!visited.contains(0 + "-" + curY)) {
+                    q.offer(new int[]{0, curY});
+                }
+
+                // empty y
+                if (!visited.contains(curX + "-" + 0)) {
+                    q.offer(new int[]{curX, 0});
+                }
+
+                int newX = 0;
+                int newY = 0;
+                
+                // move x to y
+                newX = (y - curY) > curX ? 0 : curX - (y - curY) ;
+                newY = (y - curY) > curX ? curX + curY  : y;
+                if (!visited.contains(newX + "-" + newY)) {
+                    q.offer(new int[] {newX, newY});
+                }
+
+                // move y to x 
+                newX = (x - curX) > curY ? curX + curY : x;
+                newY = (x - curX) > curY ? 0 : curY - (x - curX);
+                if (!visited.contains(newX + "-" + newY)) {
+                    q.offer(new int[] {newX, newY});
+                }
             }
-
-            if (x + y == target) {
-                return true;
-            }
-
-            visited.add(x + " ," + y);
-            q.add(new int[]{0, y}); // empty first
-            q.add(new int[]{x, 0}); // empty second
-            q.add(new int[]{jug1, y}); // fill first
-            q.add(new int[]{x, jug2}); // fill second
-            
-            // pour first into second
-            q.add(new int[]{x - Math.min(x, jug2 - y), y + Math.min(x, jug2 - y)}); 
-
-            // pour second into first
-            q.add(new int[]{x + Math.min(y, jug1 - x), y - Math.min(y, jug1 - x)});
         }
 
         return false;
