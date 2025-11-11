@@ -227,7 +227,7 @@ LeetCode
 |134|[Gas Station](https://leetcode.com/problems/gas-station)|[:amphora:](./new/2021/10/11/jian-lc134.java)|Medium||
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph)|[:bikini:](new/2021/11/20/yyf-lc133.java)|Medium||
 |132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii)|[:confetti_ball:](new/2022/01/02/yyf-lc132.java )|Medium||
-|130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions)|[:classical_building:](new/2021/12/27/yyf-lc130.java)|Medium||
+|130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions)|[:classical_building:](new/2021/12/27/yyf-lc130.java)|Medium|[UF](new/2025/11/jian-lc130.java)|
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[Set](./new/2021/10/11/wf-lc128.java)|Medium|[UF](new/2021/11/24/wf-lc128.java)|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Bidirectional BFS](new/2022/06/01/yyf-lc127.java)|Hard|[BFS](new/2022/06/01/yyf-lc127-bfs.java)|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii)|[:battery:](new/2021/11/14/yyf-lc126.java)|Hard||
