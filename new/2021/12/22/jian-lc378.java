@@ -2,17 +2,16 @@
 // S: O(1)
 
 class Solution {
-    private int n;
-    /*
-    k = 6
-    1 2 3 4 5 6 (7 8 9)  10 11 12 13
-              s  e       
-    */
     public int kthSmallest(int[][] matrix, int k) {
-        if (matrix == null || matrix.length == 0 || matrix[0] == null || matrix[0].length == 0) {
+        if (matrix == null || matrix.length == 0) {
+            return 0;
+        }
+        
+        if (matrix[0] == null || matrix[0].length == 0) {
            return 0;
         }
-        this.n = matrix.length;
+
+        int n = matrix.length;
         
         int start = matrix[0][0];
         int end = matrix[n - 1][n - 1];
@@ -33,7 +32,8 @@ class Solution {
         return end;
     }
 
-    private int getLessOrEqualCount(int target, int[][] matrix) { // O(row + col)
+    private int getLessOrEqualCount(int target, int[][] matrix) {
+        int n = matrix.length;
         int i = n - 1;
         int j = 0;
         int count = 0;
