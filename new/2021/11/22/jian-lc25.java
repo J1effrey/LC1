@@ -66,3 +66,56 @@ class Solution {
         return curr;
     }
 }
+
+------
+    
+class Solution {
+    // https://www.jiuzhang.com/problems/info/450
+    public ListNode reverseKGroup(ListNode head, int k) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+
+        ListNode pre = dummy;
+        ListNode end = dummy;
+
+        while (end != null) {
+            int step = 0;
+            while (step < k && end != null) {
+                end = end.next;
+                step++;
+            }
+            
+            if (end == null) {
+                break;
+            }
+
+            ListNode start = pre.next;
+            ListNode next = end.next;
+            end.next = null;
+
+            pre.next = reverse(start);
+            start.next = next;
+            
+            pre = start;
+            end = start;
+        }
+        return dummy.next;
+    }
+
+    private ListNode reverse(ListNode head) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+
+        ListNode cur = head;
+
+        while (cur != null) {
+            ListNode temp = dummy.next;
+            dummy.next = cur;
+            ListNode next = cur.next;
+            cur.next = temp;
+            cur = next;
+        }
+        return dummy.next;
+    }
+}
+    
