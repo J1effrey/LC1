@@ -1,5 +1,26 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+
+        int writeIdx = 1;
+
+        for (int readIdx = 1; readIdx < nums.length; readIdx++) {
+            if (nums[readIdx] != nums[writeIdx - 1]) {
+                nums[writeIdx++] = nums[readIdx];
+            }
+        }
+
+        return writeIdx;
+    }
+}
+
+
+====
+
+class Solution {
+    public int removeDuplicates(int[] nums) {
         if (nums.length == 0) {
             return 0;
         }
