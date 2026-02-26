@@ -17,3 +17,45 @@ class Solution {
         return res;
     }
 }
+
+class Solution {
+    public String longestPalindrome(String s) {
+        if (s == null || s.length() <= 1) {
+            return s;
+        }
+
+        int bestLeft = 0;
+        int bestRight = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            int[] singleExpand = expand(s, i, i);
+            if (singleExpand[1] - singleExpand[0] > bestRight - bestLeft) {
+                bestLeft = singleExpand[0];
+                bestRight = singleExpand[1];
+            }
+
+            if (i < s.length() - 1) {
+                int[] doubleExpand = expand(s, i, i + 1);
+                if (doubleExpand[1] - doubleExpand[0] > bestRight - bestLeft) {
+                    bestLeft = doubleExpand[0];
+                    bestRight = doubleExpand[1];
+                }
+            }
+        }
+
+        return s.substring(bestLeft, bestRight + 1);
+    }
+
+    private int[] expand(String s, int left, int right) {
+        while (left >= 0 && right < s.length()) {
+            if (s.charAt(left) != s.charAt(right)) {
+                break;
+            }
+
+            left--;
+            right++;
+        }
+
+        return new int[]{left + 1, right - 1};
+    }
+}
