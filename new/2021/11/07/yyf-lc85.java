@@ -2,6 +2,65 @@
 //Space: O(n)
 class Solution {
     public int maximalRectangle(char[][] matrix) {
+        if (matrix == null || matrix.length == 0) {
+            return 0;
+        }
+
+        if (matrix[0] == null || matrix[0].length == 0) {
+            return 0;
+        }
+
+        int m = matrix.length;
+        int n = matrix[0].length;
+
+        int[] heights = new int[n];
+        int res = 0;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                heights[j] = (matrix[i][j] == '0') ? 0 : heights[j] + 1;
+            }
+            res = Math.max(res, largestRectangleArea(heights));
+        }
+        return res;
+    }
+
+    public int largestRectangleArea(int[] heights) {
+        if (heights == null || heights.length == 0) {
+            return 0;
+        }
+
+        int res = 0;
+        var s = new ArrayDeque<Integer>();
+        
+        for (int i = 0; i <= heights.length; i++) {
+            int cur = (i == heights.length) ? 0 : heights[i];
+
+            if (s.isEmpty() || cur >= heights[s.peek()]) {
+                s.push(i);
+                continue;
+            }
+
+            int right = i;
+
+            while (!s.isEmpty() && cur < heights[s.peek()]) {
+                int mid = s.pop();
+                int midH = heights[mid];
+                int left = s.isEmpty() ? -1 : s.peek();
+
+                res = Math.max(res, (right - left - 1) * midH);
+            }
+
+            s.push(i);
+        }
+
+        return res;
+    }
+}
+
+
+class Solution {
+    public int maximalRectangle(char[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return 0;
         }
@@ -28,13 +87,3 @@ class Solution {
         return maxArea;
     }
 }
-
-/*
-1 0 1 0 0
-stack: 0 0 0 
-1 1 0 0 0 -> 1
-
-2 0 2 1 1 -> 3
-
-3 1 3 2 2 -> 6
-*/
